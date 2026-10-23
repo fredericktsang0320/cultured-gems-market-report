@@ -1,0 +1,1242 @@
+{
+  "site_url": "https://fredericktsang0320.github.io/cultured-gems-market-report/",
+  "provider": "GitHub Pages",
+  "checked_at": "2026-10-23T13:37:34.104837+08:00",
+  "method": "Globalping CN probes; HTTPS GET for actual report path; HTTPS HEAD for C08 image; Shanghai China Telecom homepage GET retried once after initial TCP timeout.",
+  "scope": "Six mainland China probes. Probe metadata comes from Globalping. A successful image HEAD verifies the endpoint, not a full browser rendering on the remote probe. WeChat embedded-browser access was not tested.",
+  "measurement_ids": {
+    "homepage": "2il3P38SJO6X8colo00021Mre",
+    "image": "2G8U2v0YvEs5mHMk500021Mrf",
+    "telecom_retry": "2YlOpNNYFhDf6p4p700021Mrf"
+  },
+  "summary": [
+    {
+      "city": "Shanghai",
+      "network": "China Telecom (Group)",
+      "asn": 4812,
+      "initial_http_status": null,
+      "initial_error": "Request timed out while establishing the TCP connection.",
+      "retry_http_status": 200,
+      "final_http_status": 200,
+      "final_total_ms": 1366,
+      "report_title_verified": true,
+      "image_http_status": 200
+    },
+    {
+      "city": "Wuhan",
+      "network": "CHINA UNICOM China169 Backbone",
+      "asn": 4837,
+      "initial_http_status": 200,
+      "initial_error": null,
+      "retry_http_status": null,
+      "final_http_status": 200,
+      "final_total_ms": 613,
+      "report_title_verified": true,
+      "image_http_status": 200
+    },
+    {
+      "city": "Changsha",
+      "network": "CHINA UNICOM China169 Backbone",
+      "asn": 4837,
+      "initial_http_status": 200,
+      "initial_error": null,
+      "retry_http_status": null,
+      "final_http_status": 200,
+      "final_total_ms": 620,
+      "report_title_verified": true,
+      "image_http_status": 200
+    },
+    {
+      "city": "Kunming",
+      "network": "China Mobile Communications Group",
+      "asn": 9808,
+      "initial_http_status": 200,
+      "initial_error": null,
+      "retry_http_status": null,
+      "final_http_status": 200,
+      "final_total_ms": 630,
+      "report_title_verified": true,
+      "image_http_status": 200
+    },
+    {
+      "city": "Taishan",
+      "network": "China Mobile Communications Group",
+      "asn": 9808,
+      "initial_http_status": 200,
+      "initial_error": null,
+      "retry_http_status": null,
+      "final_http_status": 200,
+      "final_total_ms": 546,
+      "report_title_verified": true,
+      "image_http_status": 200
+    },
+    {
+      "city": "Guangzhou",
+      "network": "Shenzhen Tencent Computer Systems Company",
+      "asn": 45090,
+      "initial_http_status": 200,
+      "initial_error": null,
+      "retry_http_status": null,
+      "final_http_status": 200,
+      "final_total_ms": 957,
+      "report_title_verified": true,
+      "image_http_status": 200
+    }
+  ],
+  "raw_results": {
+    "homepage": {
+      "id": "2il3P38SJO6X8colo00021Mre",
+      "type": "http",
+      "status": "finished",
+      "createdAt": "2026-10-23T05:34:20.774Z",
+      "updatedAt": "2026-10-23T05:34:36.083Z",
+      "target": "fredericktsang0320.github.io",
+      "probesCount": 6,
+      "locations": [
+        {
+          "country": "CN",
+          "asn": 4812
+        },
+        {
+          "country": "CN",
+          "asn": 4837,
+          "limit": 2
+        },
+        {
+          "country": "CN",
+          "asn": 9808,
+          "limit": 2
+        },
+        {
+          "country": "CN",
+          "city": "Guangzhou",
+          "asn": 45090
+        }
+      ],
+      "measurementOptions": {
+        "request": {
+          "method": "GET",
+          "path": "/cultured-gems-market-report/"
+        }
+      },
+      "results": [
+        {
+          "probe": {
+            "continent": "AS",
+            "region": "Eastern Asia",
+            "country": "CN",
+            "state": null,
+            "city": "Shanghai",
+            "asn": 4812,
+            "longitude": 121.46,
+            "latitude": 31.22,
+            "network": "China Telecom (Group)",
+            "tags": [
+              "eyeball-network"
+            ],
+            "resolvers": [
+              "private"
+            ]
+          },
+          "result": {
+            "status": "failed",
+            "failureSource": "target",
+            "resolvedAddress": "185.199.109.153",
+            "headers": {},
+            "rawHeaders": null,
+            "rawBody": null,
+            "rawOutput": "Request timed out while establishing the TCP connection.",
+            "truncated": false,
+            "statusCode": null,
+            "statusCodeName": null,
+            "timings": {
+              "total": 15002,
+              "dns": 38,
+              "tcp": null,
+              "tls": null,
+              "firstByte": null,
+              "download": null
+            },
+            "tls": null
+          }
+        },
+        {
+          "probe": {
+            "continent": "AS",
+            "region": "Eastern Asia",
+            "country": "CN",
+            "state": null,
+            "city": "Wuhan",
+            "asn": 4837,
+            "longitude": 114.27,
+            "latitude": 30.58,
+            "network": "CHINA UNICOM China169 Backbone",
+            "tags": [
+              "eyeball-network",
+              "u-tiandao360"
+            ],
+            "resolvers": [
+              "private"
+            ]
+          },
+          "result": {
+            "status": "finished",
+            "resolvedAddress": "185.199.108.153",
+            "headers": {
+              "connection": "close",
+              "content-length": "32438",
+              "server": "GitHub.com",
+              "content-type": "text/html; charset=utf-8",
+              "last-modified": "Fri, 23 Oct 2026 05:33:31 GMT",
+              "access-control-allow-origin": "*",
+              "strict-transport-security": "max-age=31556952",
+              "etag": "W/\"6adaf1ab-23c23\"",
+              "expires": "Fri, 23 Oct 2026 05:44:21 GMT",
+              "cache-control": "max-age=600",
+              "content-encoding": "gzip",
+              "x-proxy-cache": "MISS",
+              "x-github-request-id": "3DA0:12C66B:77A78:7C7DB:6ADAF1DD",
+              "x-github-edge-region": "japaneast",
+              "accept-ranges": "bytes",
+              "age": "0",
+              "date": "Fri, 23 Oct 2026 05:34:21 GMT",
+              "via": "1.1 varnish",
+              "x-served-by": "cache-itm1220064-ITM",
+              "x-cache": "MISS",
+              "x-cache-hits": "0",
+              "x-timer": "S1792733661.341568,VS0,VE184",
+              "vary": "Accept-Encoding",
+              "x-fastly-request-id": "2e9db4e98047a87585f489131211de46c7210b82"
+            },
+            "rawHeaders": "Connection: close\nContent-Length: 32438\nServer: GitHub.com\nContent-Type: text/html; charset=utf-8\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: W/\"6adaf1ab-23c23\"\nexpires: Fri, 23 Oct 2026 05:44:21 GMT\nCache-Control: max-age=600\nContent-Encoding: gzip\nx-proxy-cache: MISS\nX-GitHub-Request-Id: 3DA0:12C66B:77A78:7C7DB:6ADAF1DD\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nAge: 0\nDate: Fri, 23 Oct 2026 05:34:21 GMT\nVia: 1.1 varnish\nX-Served-By: cache-itm1220064-ITM\nX-Cache: MISS\nX-Cache-Hits: 0\nX-Timer: S1792733661.341568,VS0,VE184\nVary: Accept-Encoding\nX-Fastly-Request-ID: 2e9db4e98047a87585f489131211de46c7210b82",
+            "rawBody": "<!doctype html><html lang=\"zh-Hant\"><head><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"description\" content=\"培育彩寶市場研究：品牌、財務、商品實物卡片及公開資料原文。2026年10月23日。\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>培育彩寶市場研究｜去背卡片版｜2026-10-23</title><style>\n:root{--paper:#faf8f4;--ink:#272420;--muted:#635d55;--line:#ddd7cd;--accent:#775035;--red:#9a302b;--yellow:#785b16}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,\"PingFang HK\",\"Noto Sans CJK TC\",sans-serif}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}::selection{background:#e5d2be;color:#211a15}main,header,nav .nav-inner{max-width:1200px;margin:auto;padding:0 32px}header{padding-top:48px;padding-bottom:26px;border-bottom:1px solid var(--line)}h1,h2{font-family:\"Songti TC\",\"Noto Serif CJK TC\",serif;font-weight:600;line-height:1.25}h1{font-size:42px;margin:0 0 14px;letter-spacing:-.025em}h2{font-size:28px;margin:0 0 18px;letter-spacing:-.015em}h3{font-size:19px;line-height:1.45;margin:8px 0}p{margin:10px 0}.lede{font-size:18px;max-width:70ch}.meta,.caption,.code{font-size:12px;color:var(--muted)}.meta{margin-top:14px}nav{position:sticky;top:0;z-index:5;background:#faf8f4f5;border-bottom:1px solid var(--line)}nav .nav-inner{display:flex;gap:26px;align-items:center;min-height:54px;overflow:auto;white-space:nowrap}nav a{font-size:13px;text-decoration:none;color:var(--ink)}nav a:hover{color:var(--accent)}section{padding:44px 0;border-bottom:1px solid var(--line)}.intro{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:start}.intro p{font-size:17px}.decision{margin:0;padding-left:22px}.decision li{padding:0 0 14px 8px}.decision strong{display:block;font-size:17px}.refs{font-size:12px;white-space:normal}.refs a{text-decoration:none}.note{color:var(--muted);font-size:13px;max-width:85ch}.important{color:var(--red);font-weight:600}.caution{color:var(--yellow)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 24px}.product{min-width:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.photo{height:205px;display:block;overflow:hidden;background:#f6f6f6}.photo img{display:block;width:100%;height:100%;object-fit:contain}.photo.zoom img{transform:scale(1.9)}.product-copy{padding:16px 18px}.brandline{display:flex;gap:12px;justify-content:space-between;align-items:start;font-size:12px;font-weight:600}.brandline span{font-size:12px;font-weight:400;color:var(--muted);text-align:right}.product h3{font-size:18px}.code{margin:4px 0}.material,.sell{font-size:13px;line-height:1.55}.material{min-height:42px}.sell{color:var(--muted);min-height:40px}.price{font-size:19px;font-weight:600;display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-variant-numeric:tabular-nums}.price a{font-size:12px;font-weight:400}.caption{font-size:12px;line-height:1.55;margin-bottom:0}.brand-table{background:#fff;margin:18px 0}.brand-table th{width:175px;font-weight:400;padding:20px}.brand-table th strong{font-size:18px;font-family:serif}.brand-table th small{display:block;line-height:1.65;margin-top:12px;font-size:12px;color:var(--muted)}.brand-table td{padding:10px 16px}.brands{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px 8px}.brand{display:flex;align-items:center;gap:8px;min-height:52px;padding:5px 0;color:var(--ink);text-decoration:none;min-width:0}.brand img{width:42px;height:30px;object-fit:contain;background:#fff;flex-shrink:0}.brand span{font-size:12px;line-height:1.3;overflow-wrap:anywhere}.supp{display:flex;gap:26px;flex-wrap:wrap;align-items:center}.supp .brand{min-width:160px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:13px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}thead{background:#efeae1}th{font-weight:600}td strong{display:block}.table-wrap{overflow:auto}.finance td:first-child{width:150px}.finance td:nth-child(2){width:230px}.finance td:nth-child(3){width:285px}details{margin:20px 0 0;border-top:1px solid var(--line);padding-top:14px}summary{cursor:pointer;font-weight:600;line-height:1.7;padding:4px 0}details[open] summary{margin-bottom:20px}.proof{width:100%;height:auto;display:block}.local-feature{display:grid;grid-template-columns:1fr 1.3fr;gap:30px;align-items:center;margin:22px 0}.local-photo{height:300px;overflow:hidden;background:#fff;border:1px solid var(--line)}.local-photo img{width:300%;height:auto;max-width:none;position:relative;top:-215px}.local-feature h3{font-family:serif;font-size:25px}.local-feature .price{max-width:370px}.solution td:first-child{min-width:90px}.solution td{line-height:1.7}.steps{padding-left:22px}.steps li{padding:8px 0 8px 6px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.button{display:inline-block;padding:10px 18px;background:var(--ink);color:#fff;text-decoration:none;font-size:13px;border:0;cursor:pointer;border-radius:5px}.button:hover{background:var(--accent)}.sources{columns:2;column-gap:44px;list-style:none;padding:0;font-size:12px}.sources li{break-inside:avoid;margin:0 0 13px}.sources code{font:11px/1.4 monospace;color:var(--muted)}footer{max-width:1200px;margin:auto;padding:25px 32px 40px;font-size:12px;color:var(--muted)}.audit td:first-child{width:180px}pre{white-space:pre-wrap;word-break:break-word;background:#eee9e1;padding:16px;border-radius:5px;font-size:12px}button{font-family:inherit}.desktop-only{display:block}@media(max-width:950px){.brands{grid-template-columns:repeat(4,minmax(0,1fr))}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-table th{width:145px}.brand-table td{padding:8px}.intro{gap:24px}}@media(max-width:620px){header,main,nav .nav-inner{padding-left:20px;padding-right:20px}header{padding-top:32px}h1{font-size:32px}h2{font-size:25px}nav .nav-inner{gap:22px}.intro,.local-feature{grid-template-columns:1fr;gap:18px}.grid{grid-template-columns:1fr}.photo{height:250px}.brand-table th,.brand-table td{display:block;width:100%}.brand-table th{padding:15px 14px 5px;border-bottom:0}.brand-table th small{margin-top:5px}.brands{grid-template-columns:repeat(3,minmax(0,1fr))}.brand{gap:6px;min-height:54px}.brand img{width:30px;height:27px}.brand span{font-size:12px}.sources{columns:1}.local-photo{height:260px}.local-photo img{top:-145px}section{padding:32px 0}.material,.sell{min-height:0}.finance{min-width:770px}footer{padding:24px 20px}}@media print{nav,.print-hide{display:none}body{background:#fff}header{padding-top:0}section{padding:24px 0;break-inside:auto}.product{break-inside:avoid}.grid{grid-template-columns:repeat(3,1fr)}h1{font-size:34px}.sources{columns:2}a{color:#222}details[open]{break-inside:auto}.photo{height:150px}}\n</style><style>\nhtml{scroll-behavior:auto}body{font-size:16px}.product{display:flex;flex-direction:column;border-radius:16px;background:#fff;overflow:hidden;border:1px solid #dcd5ca}.product-stage{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:242px;padding:25px 26px;border:0;background:#f4f1eb;color:#5c5144;cursor:zoom-in;overflow:hidden;min-width:0}.product-stage svg{width:100%;height:100%;display:block;max-height:100%}.stage-action{position:absolute;right:14px;bottom:10px;font-size:12px;line-height:1.3;padding:4px 0;color:#5c5144}.product-copy{padding:19px 20px 17px;display:flex;flex-direction:column;flex:1}.product h3{font-size:20px;line-height:1.45;margin:9px 0 6px;min-height:58px;overflow-wrap:anywhere}.brandline{align-items:start;gap:12px}.maker{font-size:13px;font-weight:600}.brandline .evidence-label{font-size:12px;line-height:1.45;color:#655c51;font-weight:400;max-width:46%}.code{font-size:12px;line-height:1.5;min-height:36px;margin:0 0 12px;overflow-wrap:anywhere}.product-spec{font-size:13px;line-height:1.65;margin:0 0 12px;display:grid;gap:9px}.product-spec div{min-width:0}.product-spec dt{font-size:12px;font-weight:600;color:#6b6257;margin-bottom:2px}.product-spec dd{margin:0;overflow-wrap:anywhere}.product-bottom{margin-top:auto;padding-top:10px;border-top:1px solid #e7e1d8}.price{margin:0 0 12px;line-height:1.4;font-size:21px;font-weight:600;gap:12px}.price small{font-size:12px;font-weight:400;color:#655c51}.card-actions{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}.card-actions a,.card-actions button{font:500 13px/1.4 -apple-system,'PingFang HK',sans-serif;display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 13px;border-radius:7px;text-decoration:none;cursor:pointer;flex:1;min-width:110px}.primary-action{background:#69472f;color:#fff}.primary-action:hover{background:#4f3321}.compare-action{border:1px solid #cfc5b7;background:#fff;color:#45392d}.compare-action:hover{background:#f4f1eb}.product .caption{font-size:12px;margin:11px 0 0;line-height:1.55}.product .caption a{display:inline-block;min-height:24px;padding:2px 1px}.grid{gap:25px}.local-feature{background:#fff;border:1px solid #dcd5ca;border-radius:16px;overflow:hidden;gap:0;align-items:stretch}.local-feature>.product-stage{height:auto;min-height:365px;padding:40px}.local-feature>div{padding:27px 28px}.local-feature .price{font-size:24px;margin:17px 0}.local-feature h3{font-size:27px;margin:0 0 14px}.local-feature .card-actions{margin-top:17px}.local-feature .caption{font-size:12px}.local-photo{display:none}.image-dialog{padding:0;border:0;border-radius:16px;width:min(900px,calc(100vw - 40px));max-height:calc(100dvh - 40px);overflow:auto;color:#272420;background:#fff;box-shadow:0 18px 60px #211b1640}.image-dialog::backdrop{background:#211b16aa}.viewer-top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:19px 22px;border-bottom:1px solid #e2dacf}.viewer-top h3{font",
+            "rawOutput": "HTTP/1.1 200\nConnection: close\nContent-Length: 32438\nServer: GitHub.com\nContent-Type: text/html; charset=utf-8\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: W/\"6adaf1ab-23c23\"\nexpires: Fri, 23 Oct 2026 05:44:21 GMT\nCache-Control: max-age=600\nContent-Encoding: gzip\nx-proxy-cache: MISS\nX-GitHub-Request-Id: 3DA0:12C66B:77A78:7C7DB:6ADAF1DD\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nAge: 0\nDate: Fri, 23 Oct 2026 05:34:21 GMT\nVia: 1.1 varnish\nX-Served-By: cache-itm1220064-ITM\nX-Cache: MISS\nX-Cache-Hits: 0\nX-Timer: S1792733661.341568,VS0,VE184\nVary: Accept-Encoding\nX-Fastly-Request-ID: 2e9db4e98047a87585f489131211de46c7210b82\n\n<!doctype html><html lang=\"zh-Hant\"><head><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"description\" content=\"培育彩寶市場研究：品牌、財務、商品實物卡片及公開資料原文。2026年10月23日。\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>培育彩寶市場研究｜去背卡片版｜2026-10-23</title><style>\n:root{--paper:#faf8f4;--ink:#272420;--muted:#635d55;--line:#ddd7cd;--accent:#775035;--red:#9a302b;--yellow:#785b16}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,\"PingFang HK\",\"Noto Sans CJK TC\",sans-serif}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}::selection{background:#e5d2be;color:#211a15}main,header,nav .nav-inner{max-width:1200px;margin:auto;padding:0 32px}header{padding-top:48px;padding-bottom:26px;border-bottom:1px solid var(--line)}h1,h2{font-family:\"Songti TC\",\"Noto Serif CJK TC\",serif;font-weight:600;line-height:1.25}h1{font-size:42px;margin:0 0 14px;letter-spacing:-.025em}h2{font-size:28px;margin:0 0 18px;letter-spacing:-.015em}h3{font-size:19px;line-height:1.45;margin:8px 0}p{margin:10px 0}.lede{font-size:18px;max-width:70ch}.meta,.caption,.code{font-size:12px;color:var(--muted)}.meta{margin-top:14px}nav{position:sticky;top:0;z-index:5;background:#faf8f4f5;border-bottom:1px solid var(--line)}nav .nav-inner{display:flex;gap:26px;align-items:center;min-height:54px;overflow:auto;white-space:nowrap}nav a{font-size:13px;text-decoration:none;color:var(--ink)}nav a:hover{color:var(--accent)}section{padding:44px 0;border-bottom:1px solid var(--line)}.intro{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:start}.intro p{font-size:17px}.decision{margin:0;padding-left:22px}.decision li{padding:0 0 14px 8px}.decision strong{display:block;font-size:17px}.refs{font-size:12px;white-space:normal}.refs a{text-decoration:none}.note{color:var(--muted);font-size:13px;max-width:85ch}.important{color:var(--red);font-weight:600}.caution{color:var(--yellow)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 24px}.product{min-width:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.photo{height:205px;display:block;overflow:hidden;background:#f6f6f6}.photo img{display:block;width:100%;height:100%;object-fit:contain}.photo.zoom img{transform:scale(1.9)}.product-copy{padding:16px 18px}.brandline{display:flex;gap:12px;justify-content:space-between;align-items:start;font-size:12px;font-weight:600}.brandline span{font-size:12px;font-weight:400;color:var(--muted);text-align:right}.product h3{font-size:18px}.code{margin:4px 0}.material,.sell{font-size:13px;line-height:1.55}.material{min-height:42px}.sell{color:var(--muted);min-height:40px}.price{font-size:19px;font-weight:600;display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-variant-numeric:tabular-nums}.price a{font-size:12px;font-weight:400}.caption{font-size:12px;line-height:1.55;margin-bottom:0}.brand-table{background:#fff;margin:18px 0}.brand-table th{width:175px;font-weight:400;padding:20px}.brand-table th strong{font-size:18px;font-family:serif}.brand-table th small{display:block;line-height:1.65;margin-top:12px;font-size:12px;color:var(--muted)}.brand-table td{padding:10px 16px}.brands{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px 8px}.brand{display:flex;align-items:center;gap:8px;min-height:52px;padding:5px 0;color:var(--ink);text-decoration:none;min-width:0}.brand img{width:42px;height:30px;object-fit:contain;background:#fff;flex-shrink:0}.brand span{font-size:12px;line-height:1.3;overflow-wrap:anywhere}.supp{display:flex;gap:26px;flex-wrap:wrap;align-items:center}.supp .brand{min-width:160px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:13px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}thead{background:#efeae1}th{font-weight:600}td strong{display:block}.table-wrap{overflow:auto}.finance td:first-child{width:150px}.finance td:nth-child(2){width:230px}.finance td:nth-child(3){width:285px}details{margin:20px 0 0;border-top:1px solid var(--line);padding-top:14px}summary{cursor:pointer;font-weight:600;line-height:1.7;padding:4px 0}details[open] summary{margin-bottom:20px}.proof{width:100%;height:auto;display:block}.local-feature{display:grid;grid-template-columns:1fr 1.3fr;gap:30px;align-items:center;margin:22px 0}.local-photo{height:300px;overflow:hidden;background:#fff;border:1px solid var(--line)}.local-photo img{width:300%;height:auto;max-width:none;position:relative;top:-215px}.local-feature h3{font-family:serif;font-size:25px}.local-feature .price{max-width:370px}.solution td:first-child{min-width:90px}.solution td{line-height:1.7}.steps{padding-left:22px}.steps li{padding:8px 0 8px 6px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.button{display:inline-block;padding:10px 18px;background:var(--ink);color:#fff;text-decoration:none;font-size:13px;border:0;cursor:pointer;border-radius:5px}.button:hover{background:var(--accent)}.sources{columns:2;column-gap:44px;list-style:none;padding:0;font-size:12px}.sources li{break-inside:avoid;margin:0 0 13px}.sources code{font:11px/1.4 monospace;color:var(--muted)}footer{max-width:1200px;margin:auto;padding:25px 32px 40px;font-size:12px;color:var(--muted)}.audit td:first-child{width:180px}pre{white-space:pre-wrap;word-break:break-word;background:#eee9e1;padding:16px;border-radius:5px;font-size:12px}button{font-family:inherit}.desktop-only{display:block}@media(max-width:950px){.brands{grid-template-columns:repeat(4,minmax(0,1fr))}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-table th{width:145px}.brand-table td{padding:8px}.intro{gap:24px}}@media(max-width:620px){header,main,nav .nav-inner{padding-left:20px;padding-right:20px}header{padding-top:32px}h1{font-size:32px}h2{font-size:25px}nav .nav-inner{gap:22px}.intro,.local-feature{grid-template-columns:1fr;gap:18px}.grid{grid-template-columns:1fr}.photo{height:250px}.brand-table th,.brand-table td{display:block;width:100%}.brand-table th{padding:15px 14px 5px;border-bottom:0}.brand-table th small{margin-top:5px}.brands{grid-template-columns:repeat(3,minmax(0,1fr))}.brand{gap:6px;min-height:54px}.brand img{width:30px;height:27px}.brand span{font-size:12px}.sources{columns:1}.local-photo{height:260px}.local-photo img{top:-145px}section{padding:32px 0}.material,.sell{min-height:0}.finance{min-width:770px}footer{padding:24px 20px}}@media print{nav,.print-hide{display:none}body{background:#fff}header{padding-top:0}section{padding:24px 0;break-inside:auto}.product{break-inside:avoid}.grid{grid-template-columns:repeat(3,1fr)}h1{font-size:34px}.sources{columns:2}a{color:#222}details[open]{break-inside:auto}.photo{height:150px}}\n</style><style>\nhtml{scroll-behavior:auto}body{font-size:16px}.product{display:flex;flex-direction:column;border-radius:16px;background:#fff;overflow:hidden;border:1px solid #dcd5ca}.product-stage{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:242px;padding:25px 26px;border:0;background:#f4f1eb;color:#5c5144;cursor:zoom-in;overflow:hidden;min-width:0}.product-stage svg{width:100%;height:100%;display:block;max-height:100%}.stage-action{position:absolute;right:14px;bottom:10px;font-size:12px;line-height:1.3;padding:4px 0;color:#5c5144}.product-copy{padding:19px 20px 17px;display:flex;flex-direction:column;flex:1}.product h3{font-size:20px;line-height:1.45;margin:9px 0 6px;min-height:58px;overflow-wrap:anywhere}.brandline{align-items:start;gap:12px}.maker{font-size:13px;font-weight:600}.brandline .evidence-label{font-size:12px;line-height:1.45;color:#655c51;font-weight:400;max-width:46%}.code{font-size:12px;line-height:1.5;min-height:36px;margin:0 0 12px;overflow-wrap:anywhere}.product-spec{font-size:13px;line-height:1.65;margin:0 0 12px;display:grid;gap:9px}.product-spec div{min-width:0}.product-spec dt{font-size:12px;font-weight:600;color:#6b6257;margin-bottom:2px}.product-spec dd{margin:0;overflow-wrap:anywhere}.product-bottom{margin-top:auto;padding-top:10px;border-top:1px solid #e7e1d8}.price{margin:0 0 12px;line-height:1.4;font-size:21px;font-weight:600;gap:12px}.price small{font-size:12px;font-weight:400;color:#655c51}.card-actions{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}.card-actions a,.card-actions button{font:500 13px/1.4 -apple-system,'PingFang HK',sans-serif;display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 13px;border-radius:7px;text-decoration:none;cursor:pointer;flex:1;min-width:110px}.primary-action{background:#69472f;color:#fff}.primary-action:hover{background:#4f3321}.compare-action{border:1px solid #cfc5b7;background:#fff;color:#45392d}.compare-action:hover{background:#f4f1eb}.product .caption{font-size:12px;margin:11px 0 0;line-height:1.55}.product .caption a{display:inline-block;min-height:24px;padding:2px 1px}.grid{gap:25px}.local-feature{background:#fff;border:1px solid #dcd5ca;border-radius:16px;overflow:hidden;gap:0;align-items:stretch}.local-feature>.product-stage{height:auto;min-height:365px;padding:40px}.local-feature>div{padding:27px 28px}.local-feature .price{font-size:24px;margin:17px 0}.local-feature h3{font-size:27px;margin:0 0 14px}.local-feature .card-actions{margin-top:17px}.local-feature .caption{font-size:12px}.local-photo{display:none}.image-dialog{padding:0;border:0;border-radius:16px;width:min(900px,calc(100vw - 40px));max-height:calc(100dvh - 40px);overflow:auto;color:#272420;background:#fff;box-shadow:0 18px 60px #211b1640}.image-dialog::backdrop{background:#211b16aa}.viewer-top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:19px 22px;border-bottom:1px solid #e2dacf}.viewer-top h3{font",
+            "truncated": true,
+            "statusCode": 200,
+            "statusCodeName": "OK",
+            "timings": {
+              "total": 613,
+              "dns": 95,
+              "tcp": 111,
+              "tls": 122,
+              "firstByte": 283,
+              "download": 2
+            },
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "cipherName": "TLS_AES_128_GCM_SHA256",
+              "createdAt": "2026-09-30T23:44:46.000Z",
+              "expiresAt": "2026-12-29T23:44:45.000Z",
+              "issuer": {
+                "C": "US",
+                "O": "Let's Encrypt",
+                "CN": "YR1"
+              },
+              "subject": {
+                "CN": "*.github.io",
+                "alt": "DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+              },
+              "keyType": "RSA",
+              "keyBits": 2048,
+              "serialNumber": "06:A6:5E:5D:32:79:BA:56:4A:4D:E7:4E:B5:D6:44:78:DB:B8",
+              "fingerprint256": "F2:F9:A1:59:CE:50:A0:A1:68:B3:EA:EA:F2:FC:ED:5A:DD:D4:9B:A3:8E:2B:F6:32:48:F0:57:A1:39:FC:78:56",
+              "publicKey": "30:82:01:22:30:0D:06:09:2A:86:48:86:F7:0D:01:01:01:05:00:03:82:01:0F:00:30:82:01:0A:02:82:01:01:00:9E:6F:70:25:F7:88:C3:AC:BC:4F:CC:4B:6C:16:E0:58:54:E3:D9:B3:9D:09:59:93:72:56:A1:96:54:BD:2E:DE:04:42:66:4B:B5:A0:2F:41:A6:65:F4:5B:62:FA:62:E8:98:F7:B4:4B:B7:5C:CB:00:C2:C8:70:DD:50:F7:B0:60:55:17:BD:79:3F:D2:81:6F:33:9C:B2:9A:D5:FA:D1:DD:04:4E:96:D1:A2:01:79:78:74:6E:BD:B5:D4:30:00:28:B7:BA:C2:F5:25:F2:0B:27:34:05:FD:C3:64:44:3D:B1:51:95:2D:CE:2C:A7:07:29:30:A8:35:EF:6F:34:0D:47:E3:0A:AF:31:91:82:0B:18:92:7D:61:95:E9:A1:02:62:50:89:ED:A8:32:8D:F6:8C:64:37:20:46:68:7D:7A:D9:21:6B:53:2E:31:D8:2A:9A:16:72:37:87:4A:EB:CA:63:5E:08:94:96:0D:4F:59:71:93:7C:C9:D4:9A:DA:48:E9:22:8B:0B:2F:D6:4F:19:F8:13:01:07:A7:74:67:B8:7D:85:A1:13:AA:35:A4:FF:3D:20:7D:7E:02:51:75:EA:D7:88:B6:42:7C:05:D4:7A:F7:6A:1C:17:76:40:70:47:3E:D5:D8:B3:37:5A:E9:AB:D1:E1:42:37:E3:AC:E6:53:49:02:03:01:00:01"
+            }
+          }
+        },
+        {
+          "probe": {
+            "continent": "AS",
+            "region": "Eastern Asia",
+            "country": "CN",
+            "state": null,
+            "city": "Changsha",
+            "asn": 4837,
+            "longitude": 112.97,
+            "latitude": 28.2,
+            "network": "CHINA UNICOM China169 Backbone",
+            "tags": [
+              "eyeball-network",
+              "u-powerfullz"
+            ],
+            "resolvers": [
+              "private",
+              "private"
+            ]
+          },
+          "result": {
+            "status": "finished",
+            "resolvedAddress": "185.199.111.153",
+            "headers": {
+              "connection": "close",
+              "content-length": "32438",
+              "server": "GitHub.com",
+              "content-type": "text/html; charset=utf-8",
+              "last-modified": "Fri, 23 Oct 2026 05:33:31 GMT",
+              "access-control-allow-origin": "*",
+              "strict-transport-security": "max-age=31556952",
+              "etag": "W/\"6adaf1ab-23c23\"",
+              "expires": "Fri, 23 Oct 2026 05:44:21 GMT",
+              "cache-control": "max-age=600",
+              "content-encoding": "gzip",
+              "x-proxy-cache": "MISS",
+              "x-github-request-id": "3DA0:12C66B:77A78:7C7DB:6ADAF1DD",
+              "x-github-edge-region": "japaneast",
+              "accept-ranges": "bytes",
+              "date": "Fri, 23 Oct 2026 05:34:21 GMT",
+              "via": "1.1 varnish",
+              "age": "0",
+              "x-served-by": "cache-itm1220038-ITM",
+              "x-cache": "HIT",
+              "x-cache-hits": "1",
+              "x-timer": "S1792733661.363612,VS0,VE162",
+              "vary": "Accept-Encoding",
+              "x-fastly-request-id": "e3b931c19e874453c877c099ff8e6f47fb3e1996"
+            },
+            "rawHeaders": "Connection: close\nContent-Length: 32438\nServer: GitHub.com\nContent-Type: text/html; charset=utf-8\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: W/\"6adaf1ab-23c23\"\nexpires: Fri, 23 Oct 2026 05:44:21 GMT\nCache-Control: max-age=600\nContent-Encoding: gzip\nx-proxy-cache: MISS\nX-GitHub-Request-Id: 3DA0:12C66B:77A78:7C7DB:6ADAF1DD\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nDate: Fri, 23 Oct 2026 05:34:21 GMT\nVia: 1.1 varnish\nAge: 0\nX-Served-By: cache-itm1220038-ITM\nX-Cache: HIT\nX-Cache-Hits: 1\nX-Timer: S1792733661.363612,VS0,VE162\nVary: Accept-Encoding\nX-Fastly-Request-ID: e3b931c19e874453c877c099ff8e6f47fb3e1996",
+            "rawBody": "<!doctype html><html lang=\"zh-Hant\"><head><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"description\" content=\"培育彩寶市場研究：品牌、財務、商品實物卡片及公開資料原文。2026年10月23日。\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>培育彩寶市場研究｜去背卡片版｜2026-10-23</title><style>\n:root{--paper:#faf8f4;--ink:#272420;--muted:#635d55;--line:#ddd7cd;--accent:#775035;--red:#9a302b;--yellow:#785b16}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,\"PingFang HK\",\"Noto Sans CJK TC\",sans-serif}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}::selection{background:#e5d2be;color:#211a15}main,header,nav .nav-inner{max-width:1200px;margin:auto;padding:0 32px}header{padding-top:48px;padding-bottom:26px;border-bottom:1px solid var(--line)}h1,h2{font-family:\"Songti TC\",\"Noto Serif CJK TC\",serif;font-weight:600;line-height:1.25}h1{font-size:42px;margin:0 0 14px;letter-spacing:-.025em}h2{font-size:28px;margin:0 0 18px;letter-spacing:-.015em}h3{font-size:19px;line-height:1.45;margin:8px 0}p{margin:10px 0}.lede{font-size:18px;max-width:70ch}.meta,.caption,.code{font-size:12px;color:var(--muted)}.meta{margin-top:14px}nav{position:sticky;top:0;z-index:5;background:#faf8f4f5;border-bottom:1px solid var(--line)}nav .nav-inner{display:flex;gap:26px;align-items:center;min-height:54px;overflow:auto;white-space:nowrap}nav a{font-size:13px;text-decoration:none;color:var(--ink)}nav a:hover{color:var(--accent)}section{padding:44px 0;border-bottom:1px solid var(--line)}.intro{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:start}.intro p{font-size:17px}.decision{margin:0;padding-left:22px}.decision li{padding:0 0 14px 8px}.decision strong{display:block;font-size:17px}.refs{font-size:12px;white-space:normal}.refs a{text-decoration:none}.note{color:var(--muted);font-size:13px;max-width:85ch}.important{color:var(--red);font-weight:600}.caution{color:var(--yellow)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 24px}.product{min-width:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.photo{height:205px;display:block;overflow:hidden;background:#f6f6f6}.photo img{display:block;width:100%;height:100%;object-fit:contain}.photo.zoom img{transform:scale(1.9)}.product-copy{padding:16px 18px}.brandline{display:flex;gap:12px;justify-content:space-between;align-items:start;font-size:12px;font-weight:600}.brandline span{font-size:12px;font-weight:400;color:var(--muted);text-align:right}.product h3{font-size:18px}.code{margin:4px 0}.material,.sell{font-size:13px;line-height:1.55}.material{min-height:42px}.sell{color:var(--muted);min-height:40px}.price{font-size:19px;font-weight:600;display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-variant-numeric:tabular-nums}.price a{font-size:12px;font-weight:400}.caption{font-size:12px;line-height:1.55;margin-bottom:0}.brand-table{background:#fff;margin:18px 0}.brand-table th{width:175px;font-weight:400;padding:20px}.brand-table th strong{font-size:18px;font-family:serif}.brand-table th small{display:block;line-height:1.65;margin-top:12px;font-size:12px;color:var(--muted)}.brand-table td{padding:10px 16px}.brands{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px 8px}.brand{display:flex;align-items:center;gap:8px;min-height:52px;padding:5px 0;color:var(--ink);text-decoration:none;min-width:0}.brand img{width:42px;height:30px;object-fit:contain;background:#fff;flex-shrink:0}.brand span{font-size:12px;line-height:1.3;overflow-wrap:anywhere}.supp{display:flex;gap:26px;flex-wrap:wrap;align-items:center}.supp .brand{min-width:160px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:13px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}thead{background:#efeae1}th{font-weight:600}td strong{display:block}.table-wrap{overflow:auto}.finance td:first-child{width:150px}.finance td:nth-child(2){width:230px}.finance td:nth-child(3){width:285px}details{margin:20px 0 0;border-top:1px solid var(--line);padding-top:14px}summary{cursor:pointer;font-weight:600;line-height:1.7;padding:4px 0}details[open] summary{margin-bottom:20px}.proof{width:100%;height:auto;display:block}.local-feature{display:grid;grid-template-columns:1fr 1.3fr;gap:30px;align-items:center;margin:22px 0}.local-photo{height:300px;overflow:hidden;background:#fff;border:1px solid var(--line)}.local-photo img{width:300%;height:auto;max-width:none;position:relative;top:-215px}.local-feature h3{font-family:serif;font-size:25px}.local-feature .price{max-width:370px}.solution td:first-child{min-width:90px}.solution td{line-height:1.7}.steps{padding-left:22px}.steps li{padding:8px 0 8px 6px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.button{display:inline-block;padding:10px 18px;background:var(--ink);color:#fff;text-decoration:none;font-size:13px;border:0;cursor:pointer;border-radius:5px}.button:hover{background:var(--accent)}.sources{columns:2;column-gap:44px;list-style:none;padding:0;font-size:12px}.sources li{break-inside:avoid;margin:0 0 13px}.sources code{font:11px/1.4 monospace;color:var(--muted)}footer{max-width:1200px;margin:auto;padding:25px 32px 40px;font-size:12px;color:var(--muted)}.audit td:first-child{width:180px}pre{white-space:pre-wrap;word-break:break-word;background:#eee9e1;padding:16px;border-radius:5px;font-size:12px}button{font-family:inherit}.desktop-only{display:block}@media(max-width:950px){.brands{grid-template-columns:repeat(4,minmax(0,1fr))}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-table th{width:145px}.brand-table td{padding:8px}.intro{gap:24px}}@media(max-width:620px){header,main,nav .nav-inner{padding-left:20px;padding-right:20px}header{padding-top:32px}h1{font-size:32px}h2{font-size:25px}nav .nav-inner{gap:22px}.intro,.local-feature{grid-template-columns:1fr;gap:18px}.grid{grid-template-columns:1fr}.photo{height:250px}.brand-table th,.brand-table td{display:block;width:100%}.brand-table th{padding:15px 14px 5px;border-bottom:0}.brand-table th small{margin-top:5px}.brands{grid-template-columns:repeat(3,minmax(0,1fr))}.brand{gap:6px;min-height:54px}.brand img{width:30px;height:27px}.brand span{font-size:12px}.sources{columns:1}.local-photo{height:260px}.local-photo img{top:-145px}section{padding:32px 0}.material,.sell{min-height:0}.finance{min-width:770px}footer{padding:24px 20px}}@media print{nav,.print-hide{display:none}body{background:#fff}header{padding-top:0}section{padding:24px 0;break-inside:auto}.product{break-inside:avoid}.grid{grid-template-columns:repeat(3,1fr)}h1{font-size:34px}.sources{columns:2}a{color:#222}details[open]{break-inside:auto}.photo{height:150px}}\n</style><style>\nhtml{scroll-behavior:auto}body{font-size:16px}.product{display:flex;flex-direction:column;border-radius:16px;background:#fff;overflow:hidden;border:1px solid #dcd5ca}.product-stage{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:242px;padding:25px 26px;border:0;background:#f4f1eb;color:#5c5144;cursor:zoom-in;overflow:hidden;min-width:0}.product-stage svg{width:100%;height:100%;display:block;max-height:100%}.stage-action{position:absolute;right:14px;bottom:10px;font-size:12px;line-height:1.3;padding:4px 0;color:#5c5144}.product-copy{padding:19px 20px 17px;display:flex;flex-direction:column;flex:1}.product h3{font-size:20px;line-height:1.45;margin:9px 0 6px;min-height:58px;overflow-wrap:anywhere}.brandline{align-items:start;gap:12px}.maker{font-size:13px;font-weight:600}.brandline .evidence-label{font-size:12px;line-height:1.45;color:#655c51;font-weight:400;max-width:46%}.code{font-size:12px;line-height:1.5;min-height:36px;margin:0 0 12px;overflow-wrap:anywhere}.product-spec{font-size:13px;line-height:1.65;margin:0 0 12px;display:grid;gap:9px}.product-spec div{min-width:0}.product-spec dt{font-size:12px;font-weight:600;color:#6b6257;margin-bottom:2px}.product-spec dd{margin:0;overflow-wrap:anywhere}.product-bottom{margin-top:auto;padding-top:10px;border-top:1px solid #e7e1d8}.price{margin:0 0 12px;line-height:1.4;font-size:21px;font-weight:600;gap:12px}.price small{font-size:12px;font-weight:400;color:#655c51}.card-actions{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}.card-actions a,.card-actions button{font:500 13px/1.4 -apple-system,'PingFang HK',sans-serif;display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 13px;border-radius:7px;text-decoration:none;cursor:pointer;flex:1;min-width:110px}.primary-action{background:#69472f;color:#fff}.primary-action:hover{background:#4f3321}.compare-action{border:1px solid #cfc5b7;background:#fff;color:#45392d}.compare-action:hover{background:#f4f1eb}.product .caption{font-size:12px;margin:11px 0 0;line-height:1.55}.product .caption a{display:inline-block;min-height:24px;padding:2px 1px}.grid{gap:25px}.local-feature{background:#fff;border:1px solid #dcd5ca;border-radius:16px;overflow:hidden;gap:0;align-items:stretch}.local-feature>.product-stage{height:auto;min-height:365px;padding:40px}.local-feature>div{padding:27px 28px}.local-feature .price{font-size:24px;margin:17px 0}.local-feature h3{font-size:27px;margin:0 0 14px}.local-feature .card-actions{margin-top:17px}.local-feature .caption{font-size:12px}.local-photo{display:none}.image-dialog{padding:0;border:0;border-radius:16px;width:min(900px,calc(100vw - 40px));max-height:calc(100dvh - 40px);overflow:auto;color:#272420;background:#fff;box-shadow:0 18px 60px #211b1640}.image-dialog::backdrop{background:#211b16aa}.viewer-top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:19px 22px;border-bottom:1px solid #e2dacf}.viewer-top h3{font",
+            "rawOutput": "HTTP/1.1 200\nConnection: close\nContent-Length: 32438\nServer: GitHub.com\nContent-Type: text/html; charset=utf-8\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: W/\"6adaf1ab-23c23\"\nexpires: Fri, 23 Oct 2026 05:44:21 GMT\nCache-Control: max-age=600\nContent-Encoding: gzip\nx-proxy-cache: MISS\nX-GitHub-Request-Id: 3DA0:12C66B:77A78:7C7DB:6ADAF1DD\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nDate: Fri, 23 Oct 2026 05:34:21 GMT\nVia: 1.1 varnish\nAge: 0\nX-Served-By: cache-itm1220038-ITM\nX-Cache: HIT\nX-Cache-Hits: 1\nX-Timer: S1792733661.363612,VS0,VE162\nVary: Accept-Encoding\nX-Fastly-Request-ID: e3b931c19e874453c877c099ff8e6f47fb3e1996\n\n<!doctype html><html lang=\"zh-Hant\"><head><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"description\" content=\"培育彩寶市場研究：品牌、財務、商品實物卡片及公開資料原文。2026年10月23日。\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>培育彩寶市場研究｜去背卡片版｜2026-10-23</title><style>\n:root{--paper:#faf8f4;--ink:#272420;--muted:#635d55;--line:#ddd7cd;--accent:#775035;--red:#9a302b;--yellow:#785b16}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,\"PingFang HK\",\"Noto Sans CJK TC\",sans-serif}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}::selection{background:#e5d2be;color:#211a15}main,header,nav .nav-inner{max-width:1200px;margin:auto;padding:0 32px}header{padding-top:48px;padding-bottom:26px;border-bottom:1px solid var(--line)}h1,h2{font-family:\"Songti TC\",\"Noto Serif CJK TC\",serif;font-weight:600;line-height:1.25}h1{font-size:42px;margin:0 0 14px;letter-spacing:-.025em}h2{font-size:28px;margin:0 0 18px;letter-spacing:-.015em}h3{font-size:19px;line-height:1.45;margin:8px 0}p{margin:10px 0}.lede{font-size:18px;max-width:70ch}.meta,.caption,.code{font-size:12px;color:var(--muted)}.meta{margin-top:14px}nav{position:sticky;top:0;z-index:5;background:#faf8f4f5;border-bottom:1px solid var(--line)}nav .nav-inner{display:flex;gap:26px;align-items:center;min-height:54px;overflow:auto;white-space:nowrap}nav a{font-size:13px;text-decoration:none;color:var(--ink)}nav a:hover{color:var(--accent)}section{padding:44px 0;border-bottom:1px solid var(--line)}.intro{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:start}.intro p{font-size:17px}.decision{margin:0;padding-left:22px}.decision li{padding:0 0 14px 8px}.decision strong{display:block;font-size:17px}.refs{font-size:12px;white-space:normal}.refs a{text-decoration:none}.note{color:var(--muted);font-size:13px;max-width:85ch}.important{color:var(--red);font-weight:600}.caution{color:var(--yellow)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 24px}.product{min-width:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.photo{height:205px;display:block;overflow:hidden;background:#f6f6f6}.photo img{display:block;width:100%;height:100%;object-fit:contain}.photo.zoom img{transform:scale(1.9)}.product-copy{padding:16px 18px}.brandline{display:flex;gap:12px;justify-content:space-between;align-items:start;font-size:12px;font-weight:600}.brandline span{font-size:12px;font-weight:400;color:var(--muted);text-align:right}.product h3{font-size:18px}.code{margin:4px 0}.material,.sell{font-size:13px;line-height:1.55}.material{min-height:42px}.sell{color:var(--muted);min-height:40px}.price{font-size:19px;font-weight:600;display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-variant-numeric:tabular-nums}.price a{font-size:12px;font-weight:400}.caption{font-size:12px;line-height:1.55;margin-bottom:0}.brand-table{background:#fff;margin:18px 0}.brand-table th{width:175px;font-weight:400;padding:20px}.brand-table th strong{font-size:18px;font-family:serif}.brand-table th small{display:block;line-height:1.65;margin-top:12px;font-size:12px;color:var(--muted)}.brand-table td{padding:10px 16px}.brands{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px 8px}.brand{display:flex;align-items:center;gap:8px;min-height:52px;padding:5px 0;color:var(--ink);text-decoration:none;min-width:0}.brand img{width:42px;height:30px;object-fit:contain;background:#fff;flex-shrink:0}.brand span{font-size:12px;line-height:1.3;overflow-wrap:anywhere}.supp{display:flex;gap:26px;flex-wrap:wrap;align-items:center}.supp .brand{min-width:160px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:13px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}thead{background:#efeae1}th{font-weight:600}td strong{display:block}.table-wrap{overflow:auto}.finance td:first-child{width:150px}.finance td:nth-child(2){width:230px}.finance td:nth-child(3){width:285px}details{margin:20px 0 0;border-top:1px solid var(--line);padding-top:14px}summary{cursor:pointer;font-weight:600;line-height:1.7;padding:4px 0}details[open] summary{margin-bottom:20px}.proof{width:100%;height:auto;display:block}.local-feature{display:grid;grid-template-columns:1fr 1.3fr;gap:30px;align-items:center;margin:22px 0}.local-photo{height:300px;overflow:hidden;background:#fff;border:1px solid var(--line)}.local-photo img{width:300%;height:auto;max-width:none;position:relative;top:-215px}.local-feature h3{font-family:serif;font-size:25px}.local-feature .price{max-width:370px}.solution td:first-child{min-width:90px}.solution td{line-height:1.7}.steps{padding-left:22px}.steps li{padding:8px 0 8px 6px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.button{display:inline-block;padding:10px 18px;background:var(--ink);color:#fff;text-decoration:none;font-size:13px;border:0;cursor:pointer;border-radius:5px}.button:hover{background:var(--accent)}.sources{columns:2;column-gap:44px;list-style:none;padding:0;font-size:12px}.sources li{break-inside:avoid;margin:0 0 13px}.sources code{font:11px/1.4 monospace;color:var(--muted)}footer{max-width:1200px;margin:auto;padding:25px 32px 40px;font-size:12px;color:var(--muted)}.audit td:first-child{width:180px}pre{white-space:pre-wrap;word-break:break-word;background:#eee9e1;padding:16px;border-radius:5px;font-size:12px}button{font-family:inherit}.desktop-only{display:block}@media(max-width:950px){.brands{grid-template-columns:repeat(4,minmax(0,1fr))}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-table th{width:145px}.brand-table td{padding:8px}.intro{gap:24px}}@media(max-width:620px){header,main,nav .nav-inner{padding-left:20px;padding-right:20px}header{padding-top:32px}h1{font-size:32px}h2{font-size:25px}nav .nav-inner{gap:22px}.intro,.local-feature{grid-template-columns:1fr;gap:18px}.grid{grid-template-columns:1fr}.photo{height:250px}.brand-table th,.brand-table td{display:block;width:100%}.brand-table th{padding:15px 14px 5px;border-bottom:0}.brand-table th small{margin-top:5px}.brands{grid-template-columns:repeat(3,minmax(0,1fr))}.brand{gap:6px;min-height:54px}.brand img{width:30px;height:27px}.brand span{font-size:12px}.sources{columns:1}.local-photo{height:260px}.local-photo img{top:-145px}section{padding:32px 0}.material,.sell{min-height:0}.finance{min-width:770px}footer{padding:24px 20px}}@media print{nav,.print-hide{display:none}body{background:#fff}header{padding-top:0}section{padding:24px 0;break-inside:auto}.product{break-inside:avoid}.grid{grid-template-columns:repeat(3,1fr)}h1{font-size:34px}.sources{columns:2}a{color:#222}details[open]{break-inside:auto}.photo{height:150px}}\n</style><style>\nhtml{scroll-behavior:auto}body{font-size:16px}.product{display:flex;flex-direction:column;border-radius:16px;background:#fff;overflow:hidden;border:1px solid #dcd5ca}.product-stage{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:242px;padding:25px 26px;border:0;background:#f4f1eb;color:#5c5144;cursor:zoom-in;overflow:hidden;min-width:0}.product-stage svg{width:100%;height:100%;display:block;max-height:100%}.stage-action{position:absolute;right:14px;bottom:10px;font-size:12px;line-height:1.3;padding:4px 0;color:#5c5144}.product-copy{padding:19px 20px 17px;display:flex;flex-direction:column;flex:1}.product h3{font-size:20px;line-height:1.45;margin:9px 0 6px;min-height:58px;overflow-wrap:anywhere}.brandline{align-items:start;gap:12px}.maker{font-size:13px;font-weight:600}.brandline .evidence-label{font-size:12px;line-height:1.45;color:#655c51;font-weight:400;max-width:46%}.code{font-size:12px;line-height:1.5;min-height:36px;margin:0 0 12px;overflow-wrap:anywhere}.product-spec{font-size:13px;line-height:1.65;margin:0 0 12px;display:grid;gap:9px}.product-spec div{min-width:0}.product-spec dt{font-size:12px;font-weight:600;color:#6b6257;margin-bottom:2px}.product-spec dd{margin:0;overflow-wrap:anywhere}.product-bottom{margin-top:auto;padding-top:10px;border-top:1px solid #e7e1d8}.price{margin:0 0 12px;line-height:1.4;font-size:21px;font-weight:600;gap:12px}.price small{font-size:12px;font-weight:400;color:#655c51}.card-actions{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}.card-actions a,.card-actions button{font:500 13px/1.4 -apple-system,'PingFang HK',sans-serif;display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 13px;border-radius:7px;text-decoration:none;cursor:pointer;flex:1;min-width:110px}.primary-action{background:#69472f;color:#fff}.primary-action:hover{background:#4f3321}.compare-action{border:1px solid #cfc5b7;background:#fff;color:#45392d}.compare-action:hover{background:#f4f1eb}.product .caption{font-size:12px;margin:11px 0 0;line-height:1.55}.product .caption a{display:inline-block;min-height:24px;padding:2px 1px}.grid{gap:25px}.local-feature{background:#fff;border:1px solid #dcd5ca;border-radius:16px;overflow:hidden;gap:0;align-items:stretch}.local-feature>.product-stage{height:auto;min-height:365px;padding:40px}.local-feature>div{padding:27px 28px}.local-feature .price{font-size:24px;margin:17px 0}.local-feature h3{font-size:27px;margin:0 0 14px}.local-feature .card-actions{margin-top:17px}.local-feature .caption{font-size:12px}.local-photo{display:none}.image-dialog{padding:0;border:0;border-radius:16px;width:min(900px,calc(100vw - 40px));max-height:calc(100dvh - 40px);overflow:auto;color:#272420;background:#fff;box-shadow:0 18px 60px #211b1640}.image-dialog::backdrop{background:#211b16aa}.viewer-top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:19px 22px;border-bottom:1px solid #e2dacf}.viewer-top h3{font",
+            "truncated": true,
+            "statusCode": 200,
+            "statusCodeName": "OK",
+            "timings": {
+              "total": 620,
+              "dns": 77,
+              "tcp": 125,
+              "tls": 131,
+              "firstByte": 287,
+              "download": 0
+            },
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "cipherName": "TLS_AES_128_GCM_SHA256",
+              "createdAt": "2026-09-30T23:44:46.000Z",
+              "expiresAt": "2026-12-29T23:44:45.000Z",
+              "issuer": {
+                "C": "US",
+                "O": "Let's Encrypt",
+                "CN": "YR1"
+              },
+              "subject": {
+                "CN": "*.github.io",
+                "alt": "DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+              },
+              "keyType": "RSA",
+              "keyBits": 2048,
+              "serialNumber": "06:A6:5E:5D:32:79:BA:56:4A:4D:E7:4E:B5:D6:44:78:DB:B8",
+              "fingerprint256": "F2:F9:A1:59:CE:50:A0:A1:68:B3:EA:EA:F2:FC:ED:5A:DD:D4:9B:A3:8E:2B:F6:32:48:F0:57:A1:39:FC:78:56",
+              "publicKey": "30:82:01:22:30:0D:06:09:2A:86:48:86:F7:0D:01:01:01:05:00:03:82:01:0F:00:30:82:01:0A:02:82:01:01:00:9E:6F:70:25:F7:88:C3:AC:BC:4F:CC:4B:6C:16:E0:58:54:E3:D9:B3:9D:09:59:93:72:56:A1:96:54:BD:2E:DE:04:42:66:4B:B5:A0:2F:41:A6:65:F4:5B:62:FA:62:E8:98:F7:B4:4B:B7:5C:CB:00:C2:C8:70:DD:50:F7:B0:60:55:17:BD:79:3F:D2:81:6F:33:9C:B2:9A:D5:FA:D1:DD:04:4E:96:D1:A2:01:79:78:74:6E:BD:B5:D4:30:00:28:B7:BA:C2:F5:25:F2:0B:27:34:05:FD:C3:64:44:3D:B1:51:95:2D:CE:2C:A7:07:29:30:A8:35:EF:6F:34:0D:47:E3:0A:AF:31:91:82:0B:18:92:7D:61:95:E9:A1:02:62:50:89:ED:A8:32:8D:F6:8C:64:37:20:46:68:7D:7A:D9:21:6B:53:2E:31:D8:2A:9A:16:72:37:87:4A:EB:CA:63:5E:08:94:96:0D:4F:59:71:93:7C:C9:D4:9A:DA:48:E9:22:8B:0B:2F:D6:4F:19:F8:13:01:07:A7:74:67:B8:7D:85:A1:13:AA:35:A4:FF:3D:20:7D:7E:02:51:75:EA:D7:88:B6:42:7C:05:D4:7A:F7:6A:1C:17:76:40:70:47:3E:D5:D8:B3:37:5A:E9:AB:D1:E1:42:37:E3:AC:E6:53:49:02:03:01:00:01"
+            }
+          }
+        },
+        {
+          "probe": {
+            "continent": "AS",
+            "region": "Eastern Asia",
+            "country": "CN",
+            "state": null,
+            "city": "Kunming",
+            "asn": 9808,
+            "longitude": 102.72,
+            "latitude": 25.04,
+            "network": "China Mobile Communications Group",
+            "tags": [
+              "eyeball-network",
+              "u-ourines"
+            ],
+            "resolvers": [
+              "private"
+            ]
+          },
+          "result": {
+            "status": "finished",
+            "resolvedAddress": "185.199.108.153",
+            "headers": {
+              "connection": "close",
+              "content-length": "32438",
+              "server": "GitHub.com",
+              "content-type": "text/html; charset=utf-8",
+              "last-modified": "Fri, 23 Oct 2026 05:33:31 GMT",
+              "access-control-allow-origin": "*",
+              "strict-transport-security": "max-age=31556952",
+              "etag": "W/\"6adaf1ab-23c23\"",
+              "expires": "Fri, 23 Oct 2026 05:44:21 GMT",
+              "cache-control": "max-age=600",
+              "content-encoding": "gzip",
+              "x-proxy-cache": "MISS",
+              "x-github-request-id": "85BA:78B81:23E31:289FB:6ADAF1DD",
+              "x-github-edge-region": "koreacentral",
+              "accept-ranges": "bytes",
+              "age": "0",
+              "date": "Fri, 23 Oct 2026 05:34:21 GMT",
+              "via": "1.1 varnish",
+              "x-served-by": "cache-icn1450067-ICN",
+              "x-cache": "MISS",
+              "x-cache-hits": "0",
+              "x-timer": "S1792733661.288407,VS0,VE207",
+              "vary": "Accept-Encoding",
+              "x-fastly-request-id": "135e84cd50bd0ca605a1e8de36bd5036862adbc0"
+            },
+            "rawHeaders": "Connection: close\nContent-Length: 32438\nServer: GitHub.com\nContent-Type: text/html; charset=utf-8\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: W/\"6adaf1ab-23c23\"\nexpires: Fri, 23 Oct 2026 05:44:21 GMT\nCache-Control: max-age=600\nContent-Encoding: gzip\nx-proxy-cache: MISS\nX-GitHub-Request-Id: 85BA:78B81:23E31:289FB:6ADAF1DD\nx-github-edge-region: koreacentral\nAccept-Ranges: bytes\nAge: 0\nDate: Fri, 23 Oct 2026 05:34:21 GMT\nVia: 1.1 varnish\nX-Served-By: cache-icn1450067-ICN\nX-Cache: MISS\nX-Cache-Hits: 0\nX-Timer: S1792733661.288407,VS0,VE207\nVary: Accept-Encoding\nX-Fastly-Request-ID: 135e84cd50bd0ca605a1e8de36bd5036862adbc0",
+            "rawBody": "<!doctype html><html lang=\"zh-Hant\"><head><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"description\" content=\"培育彩寶市場研究：品牌、財務、商品實物卡片及公開資料原文。2026年10月23日。\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>培育彩寶市場研究｜去背卡片版｜2026-10-23</title><style>\n:root{--paper:#faf8f4;--ink:#272420;--muted:#635d55;--line:#ddd7cd;--accent:#775035;--red:#9a302b;--yellow:#785b16}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,\"PingFang HK\",\"Noto Sans CJK TC\",sans-serif}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}::selection{background:#e5d2be;color:#211a15}main,header,nav .nav-inner{max-width:1200px;margin:auto;padding:0 32px}header{padding-top:48px;padding-bottom:26px;border-bottom:1px solid var(--line)}h1,h2{font-family:\"Songti TC\",\"Noto Serif CJK TC\",serif;font-weight:600;line-height:1.25}h1{font-size:42px;margin:0 0 14px;letter-spacing:-.025em}h2{font-size:28px;margin:0 0 18px;letter-spacing:-.015em}h3{font-size:19px;line-height:1.45;margin:8px 0}p{margin:10px 0}.lede{font-size:18px;max-width:70ch}.meta,.caption,.code{font-size:12px;color:var(--muted)}.meta{margin-top:14px}nav{position:sticky;top:0;z-index:5;background:#faf8f4f5;border-bottom:1px solid var(--line)}nav .nav-inner{display:flex;gap:26px;align-items:center;min-height:54px;overflow:auto;white-space:nowrap}nav a{font-size:13px;text-decoration:none;color:var(--ink)}nav a:hover{color:var(--accent)}section{padding:44px 0;border-bottom:1px solid var(--line)}.intro{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:start}.intro p{font-size:17px}.decision{margin:0;padding-left:22px}.decision li{padding:0 0 14px 8px}.decision strong{display:block;font-size:17px}.refs{font-size:12px;white-space:normal}.refs a{text-decoration:none}.note{color:var(--muted);font-size:13px;max-width:85ch}.important{color:var(--red);font-weight:600}.caution{color:var(--yellow)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 24px}.product{min-width:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.photo{height:205px;display:block;overflow:hidden;background:#f6f6f6}.photo img{display:block;width:100%;height:100%;object-fit:contain}.photo.zoom img{transform:scale(1.9)}.product-copy{padding:16px 18px}.brandline{display:flex;gap:12px;justify-content:space-between;align-items:start;font-size:12px;font-weight:600}.brandline span{font-size:12px;font-weight:400;color:var(--muted);text-align:right}.product h3{font-size:18px}.code{margin:4px 0}.material,.sell{font-size:13px;line-height:1.55}.material{min-height:42px}.sell{color:var(--muted);min-height:40px}.price{font-size:19px;font-weight:600;display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-variant-numeric:tabular-nums}.price a{font-size:12px;font-weight:400}.caption{font-size:12px;line-height:1.55;margin-bottom:0}.brand-table{background:#fff;margin:18px 0}.brand-table th{width:175px;font-weight:400;padding:20px}.brand-table th strong{font-size:18px;font-family:serif}.brand-table th small{display:block;line-height:1.65;margin-top:12px;font-size:12px;color:var(--muted)}.brand-table td{padding:10px 16px}.brands{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px 8px}.brand{display:flex;align-items:center;gap:8px;min-height:52px;padding:5px 0;color:var(--ink);text-decoration:none;min-width:0}.brand img{width:42px;height:30px;object-fit:contain;background:#fff;flex-shrink:0}.brand span{font-size:12px;line-height:1.3;overflow-wrap:anywhere}.supp{display:flex;gap:26px;flex-wrap:wrap;align-items:center}.supp .brand{min-width:160px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:13px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}thead{background:#efeae1}th{font-weight:600}td strong{display:block}.table-wrap{overflow:auto}.finance td:first-child{width:150px}.finance td:nth-child(2){width:230px}.finance td:nth-child(3){width:285px}details{margin:20px 0 0;border-top:1px solid var(--line);padding-top:14px}summary{cursor:pointer;font-weight:600;line-height:1.7;padding:4px 0}details[open] summary{margin-bottom:20px}.proof{width:100%;height:auto;display:block}.local-feature{display:grid;grid-template-columns:1fr 1.3fr;gap:30px;align-items:center;margin:22px 0}.local-photo{height:300px;overflow:hidden;background:#fff;border:1px solid var(--line)}.local-photo img{width:300%;height:auto;max-width:none;position:relative;top:-215px}.local-feature h3{font-family:serif;font-size:25px}.local-feature .price{max-width:370px}.solution td:first-child{min-width:90px}.solution td{line-height:1.7}.steps{padding-left:22px}.steps li{padding:8px 0 8px 6px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.button{display:inline-block;padding:10px 18px;background:var(--ink);color:#fff;text-decoration:none;font-size:13px;border:0;cursor:pointer;border-radius:5px}.button:hover{background:var(--accent)}.sources{columns:2;column-gap:44px;list-style:none;padding:0;font-size:12px}.sources li{break-inside:avoid;margin:0 0 13px}.sources code{font:11px/1.4 monospace;color:var(--muted)}footer{max-width:1200px;margin:auto;padding:25px 32px 40px;font-size:12px;color:var(--muted)}.audit td:first-child{width:180px}pre{white-space:pre-wrap;word-break:break-word;background:#eee9e1;padding:16px;border-radius:5px;font-size:12px}button{font-family:inherit}.desktop-only{display:block}@media(max-width:950px){.brands{grid-template-columns:repeat(4,minmax(0,1fr))}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-table th{width:145px}.brand-table td{padding:8px}.intro{gap:24px}}@media(max-width:620px){header,main,nav .nav-inner{padding-left:20px;padding-right:20px}header{padding-top:32px}h1{font-size:32px}h2{font-size:25px}nav .nav-inner{gap:22px}.intro,.local-feature{grid-template-columns:1fr;gap:18px}.grid{grid-template-columns:1fr}.photo{height:250px}.brand-table th,.brand-table td{display:block;width:100%}.brand-table th{padding:15px 14px 5px;border-bottom:0}.brand-table th small{margin-top:5px}.brands{grid-template-columns:repeat(3,minmax(0,1fr))}.brand{gap:6px;min-height:54px}.brand img{width:30px;height:27px}.brand span{font-size:12px}.sources{columns:1}.local-photo{height:260px}.local-photo img{top:-145px}section{padding:32px 0}.material,.sell{min-height:0}.finance{min-width:770px}footer{padding:24px 20px}}@media print{nav,.print-hide{display:none}body{background:#fff}header{padding-top:0}section{padding:24px 0;break-inside:auto}.product{break-inside:avoid}.grid{grid-template-columns:repeat(3,1fr)}h1{font-size:34px}.sources{columns:2}a{color:#222}details[open]{break-inside:auto}.photo{height:150px}}\n</style><style>\nhtml{scroll-behavior:auto}body{font-size:16px}.product{display:flex;flex-direction:column;border-radius:16px;background:#fff;overflow:hidden;border:1px solid #dcd5ca}.product-stage{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:242px;padding:25px 26px;border:0;background:#f4f1eb;color:#5c5144;cursor:zoom-in;overflow:hidden;min-width:0}.product-stage svg{width:100%;height:100%;display:block;max-height:100%}.stage-action{position:absolute;right:14px;bottom:10px;font-size:12px;line-height:1.3;padding:4px 0;color:#5c5144}.product-copy{padding:19px 20px 17px;display:flex;flex-direction:column;flex:1}.product h3{font-size:20px;line-height:1.45;margin:9px 0 6px;min-height:58px;overflow-wrap:anywhere}.brandline{align-items:start;gap:12px}.maker{font-size:13px;font-weight:600}.brandline .evidence-label{font-size:12px;line-height:1.45;color:#655c51;font-weight:400;max-width:46%}.code{font-size:12px;line-height:1.5;min-height:36px;margin:0 0 12px;overflow-wrap:anywhere}.product-spec{font-size:13px;line-height:1.65;margin:0 0 12px;display:grid;gap:9px}.product-spec div{min-width:0}.product-spec dt{font-size:12px;font-weight:600;color:#6b6257;margin-bottom:2px}.product-spec dd{margin:0;overflow-wrap:anywhere}.product-bottom{margin-top:auto;padding-top:10px;border-top:1px solid #e7e1d8}.price{margin:0 0 12px;line-height:1.4;font-size:21px;font-weight:600;gap:12px}.price small{font-size:12px;font-weight:400;color:#655c51}.card-actions{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}.card-actions a,.card-actions button{font:500 13px/1.4 -apple-system,'PingFang HK',sans-serif;display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 13px;border-radius:7px;text-decoration:none;cursor:pointer;flex:1;min-width:110px}.primary-action{background:#69472f;color:#fff}.primary-action:hover{background:#4f3321}.compare-action{border:1px solid #cfc5b7;background:#fff;color:#45392d}.compare-action:hover{background:#f4f1eb}.product .caption{font-size:12px;margin:11px 0 0;line-height:1.55}.product .caption a{display:inline-block;min-height:24px;padding:2px 1px}.grid{gap:25px}.local-feature{background:#fff;border:1px solid #dcd5ca;border-radius:16px;overflow:hidden;gap:0;align-items:stretch}.local-feature>.product-stage{height:auto;min-height:365px;padding:40px}.local-feature>div{padding:27px 28px}.local-feature .price{font-size:24px;margin:17px 0}.local-feature h3{font-size:27px;margin:0 0 14px}.local-feature .card-actions{margin-top:17px}.local-feature .caption{font-size:12px}.local-photo{display:none}.image-dialog{padding:0;border:0;border-radius:16px;width:min(900px,calc(100vw - 40px));max-height:calc(100dvh - 40px);overflow:auto;color:#272420;background:#fff;box-shadow:0 18px 60px #211b1640}.image-dialog::backdrop{background:#211b16aa}.viewer-top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:19px 22px;border-bottom:1px solid #e2dacf}.viewer-top h3{font",
+            "rawOutput": "HTTP/1.1 200\nConnection: close\nContent-Length: 32438\nServer: GitHub.com\nContent-Type: text/html; charset=utf-8\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: W/\"6adaf1ab-23c23\"\nexpires: Fri, 23 Oct 2026 05:44:21 GMT\nCache-Control: max-age=600\nContent-Encoding: gzip\nx-proxy-cache: MISS\nX-GitHub-Request-Id: 85BA:78B81:23E31:289FB:6ADAF1DD\nx-github-edge-region: koreacentral\nAccept-Ranges: bytes\nAge: 0\nDate: Fri, 23 Oct 2026 05:34:21 GMT\nVia: 1.1 varnish\nX-Served-By: cache-icn1450067-ICN\nX-Cache: MISS\nX-Cache-Hits: 0\nX-Timer: S1792733661.288407,VS0,VE207\nVary: Accept-Encoding\nX-Fastly-Request-ID: 135e84cd50bd0ca605a1e8de36bd5036862adbc0\n\n<!doctype html><html lang=\"zh-Hant\"><head><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"description\" content=\"培育彩寶市場研究：品牌、財務、商品實物卡片及公開資料原文。2026年10月23日。\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>培育彩寶市場研究｜去背卡片版｜2026-10-23</title><style>\n:root{--paper:#faf8f4;--ink:#272420;--muted:#635d55;--line:#ddd7cd;--accent:#775035;--red:#9a302b;--yellow:#785b16}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,\"PingFang HK\",\"Noto Sans CJK TC\",sans-serif}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}::selection{background:#e5d2be;color:#211a15}main,header,nav .nav-inner{max-width:1200px;margin:auto;padding:0 32px}header{padding-top:48px;padding-bottom:26px;border-bottom:1px solid var(--line)}h1,h2{font-family:\"Songti TC\",\"Noto Serif CJK TC\",serif;font-weight:600;line-height:1.25}h1{font-size:42px;margin:0 0 14px;letter-spacing:-.025em}h2{font-size:28px;margin:0 0 18px;letter-spacing:-.015em}h3{font-size:19px;line-height:1.45;margin:8px 0}p{margin:10px 0}.lede{font-size:18px;max-width:70ch}.meta,.caption,.code{font-size:12px;color:var(--muted)}.meta{margin-top:14px}nav{position:sticky;top:0;z-index:5;background:#faf8f4f5;border-bottom:1px solid var(--line)}nav .nav-inner{display:flex;gap:26px;align-items:center;min-height:54px;overflow:auto;white-space:nowrap}nav a{font-size:13px;text-decoration:none;color:var(--ink)}nav a:hover{color:var(--accent)}section{padding:44px 0;border-bottom:1px solid var(--line)}.intro{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:start}.intro p{font-size:17px}.decision{margin:0;padding-left:22px}.decision li{padding:0 0 14px 8px}.decision strong{display:block;font-size:17px}.refs{font-size:12px;white-space:normal}.refs a{text-decoration:none}.note{color:var(--muted);font-size:13px;max-width:85ch}.important{color:var(--red);font-weight:600}.caution{color:var(--yellow)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 24px}.product{min-width:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.photo{height:205px;display:block;overflow:hidden;background:#f6f6f6}.photo img{display:block;width:100%;height:100%;object-fit:contain}.photo.zoom img{transform:scale(1.9)}.product-copy{padding:16px 18px}.brandline{display:flex;gap:12px;justify-content:space-between;align-items:start;font-size:12px;font-weight:600}.brandline span{font-size:12px;font-weight:400;color:var(--muted);text-align:right}.product h3{font-size:18px}.code{margin:4px 0}.material,.sell{font-size:13px;line-height:1.55}.material{min-height:42px}.sell{color:var(--muted);min-height:40px}.price{font-size:19px;font-weight:600;display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-variant-numeric:tabular-nums}.price a{font-size:12px;font-weight:400}.caption{font-size:12px;line-height:1.55;margin-bottom:0}.brand-table{background:#fff;margin:18px 0}.brand-table th{width:175px;font-weight:400;padding:20px}.brand-table th strong{font-size:18px;font-family:serif}.brand-table th small{display:block;line-height:1.65;margin-top:12px;font-size:12px;color:var(--muted)}.brand-table td{padding:10px 16px}.brands{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px 8px}.brand{display:flex;align-items:center;gap:8px;min-height:52px;padding:5px 0;color:var(--ink);text-decoration:none;min-width:0}.brand img{width:42px;height:30px;object-fit:contain;background:#fff;flex-shrink:0}.brand span{font-size:12px;line-height:1.3;overflow-wrap:anywhere}.supp{display:flex;gap:26px;flex-wrap:wrap;align-items:center}.supp .brand{min-width:160px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:13px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}thead{background:#efeae1}th{font-weight:600}td strong{display:block}.table-wrap{overflow:auto}.finance td:first-child{width:150px}.finance td:nth-child(2){width:230px}.finance td:nth-child(3){width:285px}details{margin:20px 0 0;border-top:1px solid var(--line);padding-top:14px}summary{cursor:pointer;font-weight:600;line-height:1.7;padding:4px 0}details[open] summary{margin-bottom:20px}.proof{width:100%;height:auto;display:block}.local-feature{display:grid;grid-template-columns:1fr 1.3fr;gap:30px;align-items:center;margin:22px 0}.local-photo{height:300px;overflow:hidden;background:#fff;border:1px solid var(--line)}.local-photo img{width:300%;height:auto;max-width:none;position:relative;top:-215px}.local-feature h3{font-family:serif;font-size:25px}.local-feature .price{max-width:370px}.solution td:first-child{min-width:90px}.solution td{line-height:1.7}.steps{padding-left:22px}.steps li{padding:8px 0 8px 6px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.button{display:inline-block;padding:10px 18px;background:var(--ink);color:#fff;text-decoration:none;font-size:13px;border:0;cursor:pointer;border-radius:5px}.button:hover{background:var(--accent)}.sources{columns:2;column-gap:44px;list-style:none;padding:0;font-size:12px}.sources li{break-inside:avoid;margin:0 0 13px}.sources code{font:11px/1.4 monospace;color:var(--muted)}footer{max-width:1200px;margin:auto;padding:25px 32px 40px;font-size:12px;color:var(--muted)}.audit td:first-child{width:180px}pre{white-space:pre-wrap;word-break:break-word;background:#eee9e1;padding:16px;border-radius:5px;font-size:12px}button{font-family:inherit}.desktop-only{display:block}@media(max-width:950px){.brands{grid-template-columns:repeat(4,minmax(0,1fr))}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-table th{width:145px}.brand-table td{padding:8px}.intro{gap:24px}}@media(max-width:620px){header,main,nav .nav-inner{padding-left:20px;padding-right:20px}header{padding-top:32px}h1{font-size:32px}h2{font-size:25px}nav .nav-inner{gap:22px}.intro,.local-feature{grid-template-columns:1fr;gap:18px}.grid{grid-template-columns:1fr}.photo{height:250px}.brand-table th,.brand-table td{display:block;width:100%}.brand-table th{padding:15px 14px 5px;border-bottom:0}.brand-table th small{margin-top:5px}.brands{grid-template-columns:repeat(3,minmax(0,1fr))}.brand{gap:6px;min-height:54px}.brand img{width:30px;height:27px}.brand span{font-size:12px}.sources{columns:1}.local-photo{height:260px}.local-photo img{top:-145px}section{padding:32px 0}.material,.sell{min-height:0}.finance{min-width:770px}footer{padding:24px 20px}}@media print{nav,.print-hide{display:none}body{background:#fff}header{padding-top:0}section{padding:24px 0;break-inside:auto}.product{break-inside:avoid}.grid{grid-template-columns:repeat(3,1fr)}h1{font-size:34px}.sources{columns:2}a{color:#222}details[open]{break-inside:auto}.photo{height:150px}}\n</style><style>\nhtml{scroll-behavior:auto}body{font-size:16px}.product{display:flex;flex-direction:column;border-radius:16px;background:#fff;overflow:hidden;border:1px solid #dcd5ca}.product-stage{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:242px;padding:25px 26px;border:0;background:#f4f1eb;color:#5c5144;cursor:zoom-in;overflow:hidden;min-width:0}.product-stage svg{width:100%;height:100%;display:block;max-height:100%}.stage-action{position:absolute;right:14px;bottom:10px;font-size:12px;line-height:1.3;padding:4px 0;color:#5c5144}.product-copy{padding:19px 20px 17px;display:flex;flex-direction:column;flex:1}.product h3{font-size:20px;line-height:1.45;margin:9px 0 6px;min-height:58px;overflow-wrap:anywhere}.brandline{align-items:start;gap:12px}.maker{font-size:13px;font-weight:600}.brandline .evidence-label{font-size:12px;line-height:1.45;color:#655c51;font-weight:400;max-width:46%}.code{font-size:12px;line-height:1.5;min-height:36px;margin:0 0 12px;overflow-wrap:anywhere}.product-spec{font-size:13px;line-height:1.65;margin:0 0 12px;display:grid;gap:9px}.product-spec div{min-width:0}.product-spec dt{font-size:12px;font-weight:600;color:#6b6257;margin-bottom:2px}.product-spec dd{margin:0;overflow-wrap:anywhere}.product-bottom{margin-top:auto;padding-top:10px;border-top:1px solid #e7e1d8}.price{margin:0 0 12px;line-height:1.4;font-size:21px;font-weight:600;gap:12px}.price small{font-size:12px;font-weight:400;color:#655c51}.card-actions{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}.card-actions a,.card-actions button{font:500 13px/1.4 -apple-system,'PingFang HK',sans-serif;display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 13px;border-radius:7px;text-decoration:none;cursor:pointer;flex:1;min-width:110px}.primary-action{background:#69472f;color:#fff}.primary-action:hover{background:#4f3321}.compare-action{border:1px solid #cfc5b7;background:#fff;color:#45392d}.compare-action:hover{background:#f4f1eb}.product .caption{font-size:12px;margin:11px 0 0;line-height:1.55}.product .caption a{display:inline-block;min-height:24px;padding:2px 1px}.grid{gap:25px}.local-feature{background:#fff;border:1px solid #dcd5ca;border-radius:16px;overflow:hidden;gap:0;align-items:stretch}.local-feature>.product-stage{height:auto;min-height:365px;padding:40px}.local-feature>div{padding:27px 28px}.local-feature .price{font-size:24px;margin:17px 0}.local-feature h3{font-size:27px;margin:0 0 14px}.local-feature .card-actions{margin-top:17px}.local-feature .caption{font-size:12px}.local-photo{display:none}.image-dialog{padding:0;border:0;border-radius:16px;width:min(900px,calc(100vw - 40px));max-height:calc(100dvh - 40px);overflow:auto;color:#272420;background:#fff;box-shadow:0 18px 60px #211b1640}.image-dialog::backdrop{background:#211b16aa}.viewer-top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:19px 22px;border-bottom:1px solid #e2dacf}.viewer-top h3{font",
+            "truncated": true,
+            "statusCode": 200,
+            "statusCodeName": "OK",
+            "timings": {
+              "total": 630,
+              "dns": 87,
+              "tcp": 110,
+              "tls": 115,
+              "firstByte": 317,
+              "download": 1
+            },
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "cipherName": "TLS_AES_128_GCM_SHA256",
+              "createdAt": "2026-09-30T23:44:46.000Z",
+              "expiresAt": "2026-12-29T23:44:45.000Z",
+              "issuer": {
+                "C": "US",
+                "O": "Let's Encrypt",
+                "CN": "YR1"
+              },
+              "subject": {
+                "CN": "*.github.io",
+                "alt": "DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+              },
+              "keyType": "RSA",
+              "keyBits": 2048,
+              "serialNumber": "06:A6:5E:5D:32:79:BA:56:4A:4D:E7:4E:B5:D6:44:78:DB:B8",
+              "fingerprint256": "F2:F9:A1:59:CE:50:A0:A1:68:B3:EA:EA:F2:FC:ED:5A:DD:D4:9B:A3:8E:2B:F6:32:48:F0:57:A1:39:FC:78:56",
+              "publicKey": "30:82:01:22:30:0D:06:09:2A:86:48:86:F7:0D:01:01:01:05:00:03:82:01:0F:00:30:82:01:0A:02:82:01:01:00:9E:6F:70:25:F7:88:C3:AC:BC:4F:CC:4B:6C:16:E0:58:54:E3:D9:B3:9D:09:59:93:72:56:A1:96:54:BD:2E:DE:04:42:66:4B:B5:A0:2F:41:A6:65:F4:5B:62:FA:62:E8:98:F7:B4:4B:B7:5C:CB:00:C2:C8:70:DD:50:F7:B0:60:55:17:BD:79:3F:D2:81:6F:33:9C:B2:9A:D5:FA:D1:DD:04:4E:96:D1:A2:01:79:78:74:6E:BD:B5:D4:30:00:28:B7:BA:C2:F5:25:F2:0B:27:34:05:FD:C3:64:44:3D:B1:51:95:2D:CE:2C:A7:07:29:30:A8:35:EF:6F:34:0D:47:E3:0A:AF:31:91:82:0B:18:92:7D:61:95:E9:A1:02:62:50:89:ED:A8:32:8D:F6:8C:64:37:20:46:68:7D:7A:D9:21:6B:53:2E:31:D8:2A:9A:16:72:37:87:4A:EB:CA:63:5E:08:94:96:0D:4F:59:71:93:7C:C9:D4:9A:DA:48:E9:22:8B:0B:2F:D6:4F:19:F8:13:01:07:A7:74:67:B8:7D:85:A1:13:AA:35:A4:FF:3D:20:7D:7E:02:51:75:EA:D7:88:B6:42:7C:05:D4:7A:F7:6A:1C:17:76:40:70:47:3E:D5:D8:B3:37:5A:E9:AB:D1:E1:42:37:E3:AC:E6:53:49:02:03:01:00:01"
+            }
+          }
+        },
+        {
+          "probe": {
+            "continent": "AS",
+            "region": "Eastern Asia",
+            "country": "CN",
+            "state": null,
+            "city": "Taishan",
+            "asn": 9808,
+            "longitude": 112.78,
+            "latitude": 22.25,
+            "network": "China Mobile Communications Group",
+            "tags": [
+              "eyeball-network"
+            ],
+            "resolvers": [
+              "private"
+            ]
+          },
+          "result": {
+            "status": "finished",
+            "resolvedAddress": "185.199.108.153",
+            "headers": {
+              "connection": "close",
+              "content-length": "32438",
+              "server": "GitHub.com",
+              "content-type": "text/html; charset=utf-8",
+              "last-modified": "Fri, 23 Oct 2026 05:33:31 GMT",
+              "access-control-allow-origin": "*",
+              "strict-transport-security": "max-age=31556952",
+              "etag": "W/\"6adaf1ab-23c23\"",
+              "expires": "Fri, 23 Oct 2026 05:44:21 GMT",
+              "cache-control": "max-age=600",
+              "content-encoding": "gzip",
+              "x-proxy-cache": "MISS",
+              "x-github-request-id": "DD82:1D9026:5A6AA:5F95B:6ADAF1DC",
+              "x-github-edge-region": "southeastasia",
+              "accept-ranges": "bytes",
+              "age": "0",
+              "date": "Fri, 23 Oct 2026 05:34:21 GMT",
+              "via": "1.1 varnish",
+              "x-served-by": "cache-sin-wsss1830052-SIN",
+              "x-cache": "MISS",
+              "x-cache-hits": "0",
+              "x-timer": "S1792733661.161958,VS0,VE260",
+              "vary": "Accept-Encoding",
+              "x-fastly-request-id": "f9f50fcfc5145ddd49c23b5b60b3a226c23cb6b9"
+            },
+            "rawHeaders": "Connection: close\nContent-Length: 32438\nServer: GitHub.com\nContent-Type: text/html; charset=utf-8\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: W/\"6adaf1ab-23c23\"\nexpires: Fri, 23 Oct 2026 05:44:21 GMT\nCache-Control: max-age=600\nContent-Encoding: gzip\nx-proxy-cache: MISS\nX-GitHub-Request-Id: DD82:1D9026:5A6AA:5F95B:6ADAF1DC\nx-github-edge-region: southeastasia\nAccept-Ranges: bytes\nAge: 0\nDate: Fri, 23 Oct 2026 05:34:21 GMT\nVia: 1.1 varnish\nX-Served-By: cache-sin-wsss1830052-SIN\nX-Cache: MISS\nX-Cache-Hits: 0\nX-Timer: S1792733661.161958,VS0,VE260\nVary: Accept-Encoding\nX-Fastly-Request-ID: f9f50fcfc5145ddd49c23b5b60b3a226c23cb6b9",
+            "rawBody": "<!doctype html><html lang=\"zh-Hant\"><head><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"description\" content=\"培育彩寶市場研究：品牌、財務、商品實物卡片及公開資料原文。2026年10月23日。\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>培育彩寶市場研究｜去背卡片版｜2026-10-23</title><style>\n:root{--paper:#faf8f4;--ink:#272420;--muted:#635d55;--line:#ddd7cd;--accent:#775035;--red:#9a302b;--yellow:#785b16}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,\"PingFang HK\",\"Noto Sans CJK TC\",sans-serif}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}::selection{background:#e5d2be;color:#211a15}main,header,nav .nav-inner{max-width:1200px;margin:auto;padding:0 32px}header{padding-top:48px;padding-bottom:26px;border-bottom:1px solid var(--line)}h1,h2{font-family:\"Songti TC\",\"Noto Serif CJK TC\",serif;font-weight:600;line-height:1.25}h1{font-size:42px;margin:0 0 14px;letter-spacing:-.025em}h2{font-size:28px;margin:0 0 18px;letter-spacing:-.015em}h3{font-size:19px;line-height:1.45;margin:8px 0}p{margin:10px 0}.lede{font-size:18px;max-width:70ch}.meta,.caption,.code{font-size:12px;color:var(--muted)}.meta{margin-top:14px}nav{position:sticky;top:0;z-index:5;background:#faf8f4f5;border-bottom:1px solid var(--line)}nav .nav-inner{display:flex;gap:26px;align-items:center;min-height:54px;overflow:auto;white-space:nowrap}nav a{font-size:13px;text-decoration:none;color:var(--ink)}nav a:hover{color:var(--accent)}section{padding:44px 0;border-bottom:1px solid var(--line)}.intro{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:start}.intro p{font-size:17px}.decision{margin:0;padding-left:22px}.decision li{padding:0 0 14px 8px}.decision strong{display:block;font-size:17px}.refs{font-size:12px;white-space:normal}.refs a{text-decoration:none}.note{color:var(--muted);font-size:13px;max-width:85ch}.important{color:var(--red);font-weight:600}.caution{color:var(--yellow)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 24px}.product{min-width:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.photo{height:205px;display:block;overflow:hidden;background:#f6f6f6}.photo img{display:block;width:100%;height:100%;object-fit:contain}.photo.zoom img{transform:scale(1.9)}.product-copy{padding:16px 18px}.brandline{display:flex;gap:12px;justify-content:space-between;align-items:start;font-size:12px;font-weight:600}.brandline span{font-size:12px;font-weight:400;color:var(--muted);text-align:right}.product h3{font-size:18px}.code{margin:4px 0}.material,.sell{font-size:13px;line-height:1.55}.material{min-height:42px}.sell{color:var(--muted);min-height:40px}.price{font-size:19px;font-weight:600;display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-variant-numeric:tabular-nums}.price a{font-size:12px;font-weight:400}.caption{font-size:12px;line-height:1.55;margin-bottom:0}.brand-table{background:#fff;margin:18px 0}.brand-table th{width:175px;font-weight:400;padding:20px}.brand-table th strong{font-size:18px;font-family:serif}.brand-table th small{display:block;line-height:1.65;margin-top:12px;font-size:12px;color:var(--muted)}.brand-table td{padding:10px 16px}.brands{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px 8px}.brand{display:flex;align-items:center;gap:8px;min-height:52px;padding:5px 0;color:var(--ink);text-decoration:none;min-width:0}.brand img{width:42px;height:30px;object-fit:contain;background:#fff;flex-shrink:0}.brand span{font-size:12px;line-height:1.3;overflow-wrap:anywhere}.supp{display:flex;gap:26px;flex-wrap:wrap;align-items:center}.supp .brand{min-width:160px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:13px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}thead{background:#efeae1}th{font-weight:600}td strong{display:block}.table-wrap{overflow:auto}.finance td:first-child{width:150px}.finance td:nth-child(2){width:230px}.finance td:nth-child(3){width:285px}details{margin:20px 0 0;border-top:1px solid var(--line);padding-top:14px}summary{cursor:pointer;font-weight:600;line-height:1.7;padding:4px 0}details[open] summary{margin-bottom:20px}.proof{width:100%;height:auto;display:block}.local-feature{display:grid;grid-template-columns:1fr 1.3fr;gap:30px;align-items:center;margin:22px 0}.local-photo{height:300px;overflow:hidden;background:#fff;border:1px solid var(--line)}.local-photo img{width:300%;height:auto;max-width:none;position:relative;top:-215px}.local-feature h3{font-family:serif;font-size:25px}.local-feature .price{max-width:370px}.solution td:first-child{min-width:90px}.solution td{line-height:1.7}.steps{padding-left:22px}.steps li{padding:8px 0 8px 6px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.button{display:inline-block;padding:10px 18px;background:var(--ink);color:#fff;text-decoration:none;font-size:13px;border:0;cursor:pointer;border-radius:5px}.button:hover{background:var(--accent)}.sources{columns:2;column-gap:44px;list-style:none;padding:0;font-size:12px}.sources li{break-inside:avoid;margin:0 0 13px}.sources code{font:11px/1.4 monospace;color:var(--muted)}footer{max-width:1200px;margin:auto;padding:25px 32px 40px;font-size:12px;color:var(--muted)}.audit td:first-child{width:180px}pre{white-space:pre-wrap;word-break:break-word;background:#eee9e1;padding:16px;border-radius:5px;font-size:12px}button{font-family:inherit}.desktop-only{display:block}@media(max-width:950px){.brands{grid-template-columns:repeat(4,minmax(0,1fr))}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-table th{width:145px}.brand-table td{padding:8px}.intro{gap:24px}}@media(max-width:620px){header,main,nav .nav-inner{padding-left:20px;padding-right:20px}header{padding-top:32px}h1{font-size:32px}h2{font-size:25px}nav .nav-inner{gap:22px}.intro,.local-feature{grid-template-columns:1fr;gap:18px}.grid{grid-template-columns:1fr}.photo{height:250px}.brand-table th,.brand-table td{display:block;width:100%}.brand-table th{padding:15px 14px 5px;border-bottom:0}.brand-table th small{margin-top:5px}.brands{grid-template-columns:repeat(3,minmax(0,1fr))}.brand{gap:6px;min-height:54px}.brand img{width:30px;height:27px}.brand span{font-size:12px}.sources{columns:1}.local-photo{height:260px}.local-photo img{top:-145px}section{padding:32px 0}.material,.sell{min-height:0}.finance{min-width:770px}footer{padding:24px 20px}}@media print{nav,.print-hide{display:none}body{background:#fff}header{padding-top:0}section{padding:24px 0;break-inside:auto}.product{break-inside:avoid}.grid{grid-template-columns:repeat(3,1fr)}h1{font-size:34px}.sources{columns:2}a{color:#222}details[open]{break-inside:auto}.photo{height:150px}}\n</style><style>\nhtml{scroll-behavior:auto}body{font-size:16px}.product{display:flex;flex-direction:column;border-radius:16px;background:#fff;overflow:hidden;border:1px solid #dcd5ca}.product-stage{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:242px;padding:25px 26px;border:0;background:#f4f1eb;color:#5c5144;cursor:zoom-in;overflow:hidden;min-width:0}.product-stage svg{width:100%;height:100%;display:block;max-height:100%}.stage-action{position:absolute;right:14px;bottom:10px;font-size:12px;line-height:1.3;padding:4px 0;color:#5c5144}.product-copy{padding:19px 20px 17px;display:flex;flex-direction:column;flex:1}.product h3{font-size:20px;line-height:1.45;margin:9px 0 6px;min-height:58px;overflow-wrap:anywhere}.brandline{align-items:start;gap:12px}.maker{font-size:13px;font-weight:600}.brandline .evidence-label{font-size:12px;line-height:1.45;color:#655c51;font-weight:400;max-width:46%}.code{font-size:12px;line-height:1.5;min-height:36px;margin:0 0 12px;overflow-wrap:anywhere}.product-spec{font-size:13px;line-height:1.65;margin:0 0 12px;display:grid;gap:9px}.product-spec div{min-width:0}.product-spec dt{font-size:12px;font-weight:600;color:#6b6257;margin-bottom:2px}.product-spec dd{margin:0;overflow-wrap:anywhere}.product-bottom{margin-top:auto;padding-top:10px;border-top:1px solid #e7e1d8}.price{margin:0 0 12px;line-height:1.4;font-size:21px;font-weight:600;gap:12px}.price small{font-size:12px;font-weight:400;color:#655c51}.card-actions{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}.card-actions a,.card-actions button{font:500 13px/1.4 -apple-system,'PingFang HK',sans-serif;display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 13px;border-radius:7px;text-decoration:none;cursor:pointer;flex:1;min-width:110px}.primary-action{background:#69472f;color:#fff}.primary-action:hover{background:#4f3321}.compare-action{border:1px solid #cfc5b7;background:#fff;color:#45392d}.compare-action:hover{background:#f4f1eb}.product .caption{font-size:12px;margin:11px 0 0;line-height:1.55}.product .caption a{display:inline-block;min-height:24px;padding:2px 1px}.grid{gap:25px}.local-feature{background:#fff;border:1px solid #dcd5ca;border-radius:16px;overflow:hidden;gap:0;align-items:stretch}.local-feature>.product-stage{height:auto;min-height:365px;padding:40px}.local-feature>div{padding:27px 28px}.local-feature .price{font-size:24px;margin:17px 0}.local-feature h3{font-size:27px;margin:0 0 14px}.local-feature .card-actions{margin-top:17px}.local-feature .caption{font-size:12px}.local-photo{display:none}.image-dialog{padding:0;border:0;border-radius:16px;width:min(900px,calc(100vw - 40px));max-height:calc(100dvh - 40px);overflow:auto;color:#272420;background:#fff;box-shadow:0 18px 60px #211b1640}.image-dialog::backdrop{background:#211b16aa}.viewer-top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:19px 22px;border-bottom:1px solid #e2dacf}.viewer-top h3{font",
+            "rawOutput": "HTTP/1.1 200\nConnection: close\nContent-Length: 32438\nServer: GitHub.com\nContent-Type: text/html; charset=utf-8\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: W/\"6adaf1ab-23c23\"\nexpires: Fri, 23 Oct 2026 05:44:21 GMT\nCache-Control: max-age=600\nContent-Encoding: gzip\nx-proxy-cache: MISS\nX-GitHub-Request-Id: DD82:1D9026:5A6AA:5F95B:6ADAF1DC\nx-github-edge-region: southeastasia\nAccept-Ranges: bytes\nAge: 0\nDate: Fri, 23 Oct 2026 05:34:21 GMT\nVia: 1.1 varnish\nX-Served-By: cache-sin-wsss1830052-SIN\nX-Cache: MISS\nX-Cache-Hits: 0\nX-Timer: S1792733661.161958,VS0,VE260\nVary: Accept-Encoding\nX-Fastly-Request-ID: f9f50fcfc5145ddd49c23b5b60b3a226c23cb6b9\n\n<!doctype html><html lang=\"zh-Hant\"><head><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"description\" content=\"培育彩寶市場研究：品牌、財務、商品實物卡片及公開資料原文。2026年10月23日。\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>培育彩寶市場研究｜去背卡片版｜2026-10-23</title><style>\n:root{--paper:#faf8f4;--ink:#272420;--muted:#635d55;--line:#ddd7cd;--accent:#775035;--red:#9a302b;--yellow:#785b16}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,\"PingFang HK\",\"Noto Sans CJK TC\",sans-serif}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}::selection{background:#e5d2be;color:#211a15}main,header,nav .nav-inner{max-width:1200px;margin:auto;padding:0 32px}header{padding-top:48px;padding-bottom:26px;border-bottom:1px solid var(--line)}h1,h2{font-family:\"Songti TC\",\"Noto Serif CJK TC\",serif;font-weight:600;line-height:1.25}h1{font-size:42px;margin:0 0 14px;letter-spacing:-.025em}h2{font-size:28px;margin:0 0 18px;letter-spacing:-.015em}h3{font-size:19px;line-height:1.45;margin:8px 0}p{margin:10px 0}.lede{font-size:18px;max-width:70ch}.meta,.caption,.code{font-size:12px;color:var(--muted)}.meta{margin-top:14px}nav{position:sticky;top:0;z-index:5;background:#faf8f4f5;border-bottom:1px solid var(--line)}nav .nav-inner{display:flex;gap:26px;align-items:center;min-height:54px;overflow:auto;white-space:nowrap}nav a{font-size:13px;text-decoration:none;color:var(--ink)}nav a:hover{color:var(--accent)}section{padding:44px 0;border-bottom:1px solid var(--line)}.intro{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:start}.intro p{font-size:17px}.decision{margin:0;padding-left:22px}.decision li{padding:0 0 14px 8px}.decision strong{display:block;font-size:17px}.refs{font-size:12px;white-space:normal}.refs a{text-decoration:none}.note{color:var(--muted);font-size:13px;max-width:85ch}.important{color:var(--red);font-weight:600}.caution{color:var(--yellow)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 24px}.product{min-width:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.photo{height:205px;display:block;overflow:hidden;background:#f6f6f6}.photo img{display:block;width:100%;height:100%;object-fit:contain}.photo.zoom img{transform:scale(1.9)}.product-copy{padding:16px 18px}.brandline{display:flex;gap:12px;justify-content:space-between;align-items:start;font-size:12px;font-weight:600}.brandline span{font-size:12px;font-weight:400;color:var(--muted);text-align:right}.product h3{font-size:18px}.code{margin:4px 0}.material,.sell{font-size:13px;line-height:1.55}.material{min-height:42px}.sell{color:var(--muted);min-height:40px}.price{font-size:19px;font-weight:600;display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-variant-numeric:tabular-nums}.price a{font-size:12px;font-weight:400}.caption{font-size:12px;line-height:1.55;margin-bottom:0}.brand-table{background:#fff;margin:18px 0}.brand-table th{width:175px;font-weight:400;padding:20px}.brand-table th strong{font-size:18px;font-family:serif}.brand-table th small{display:block;line-height:1.65;margin-top:12px;font-size:12px;color:var(--muted)}.brand-table td{padding:10px 16px}.brands{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px 8px}.brand{display:flex;align-items:center;gap:8px;min-height:52px;padding:5px 0;color:var(--ink);text-decoration:none;min-width:0}.brand img{width:42px;height:30px;object-fit:contain;background:#fff;flex-shrink:0}.brand span{font-size:12px;line-height:1.3;overflow-wrap:anywhere}.supp{display:flex;gap:26px;flex-wrap:wrap;align-items:center}.supp .brand{min-width:160px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:13px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}thead{background:#efeae1}th{font-weight:600}td strong{display:block}.table-wrap{overflow:auto}.finance td:first-child{width:150px}.finance td:nth-child(2){width:230px}.finance td:nth-child(3){width:285px}details{margin:20px 0 0;border-top:1px solid var(--line);padding-top:14px}summary{cursor:pointer;font-weight:600;line-height:1.7;padding:4px 0}details[open] summary{margin-bottom:20px}.proof{width:100%;height:auto;display:block}.local-feature{display:grid;grid-template-columns:1fr 1.3fr;gap:30px;align-items:center;margin:22px 0}.local-photo{height:300px;overflow:hidden;background:#fff;border:1px solid var(--line)}.local-photo img{width:300%;height:auto;max-width:none;position:relative;top:-215px}.local-feature h3{font-family:serif;font-size:25px}.local-feature .price{max-width:370px}.solution td:first-child{min-width:90px}.solution td{line-height:1.7}.steps{padding-left:22px}.steps li{padding:8px 0 8px 6px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.button{display:inline-block;padding:10px 18px;background:var(--ink);color:#fff;text-decoration:none;font-size:13px;border:0;cursor:pointer;border-radius:5px}.button:hover{background:var(--accent)}.sources{columns:2;column-gap:44px;list-style:none;padding:0;font-size:12px}.sources li{break-inside:avoid;margin:0 0 13px}.sources code{font:11px/1.4 monospace;color:var(--muted)}footer{max-width:1200px;margin:auto;padding:25px 32px 40px;font-size:12px;color:var(--muted)}.audit td:first-child{width:180px}pre{white-space:pre-wrap;word-break:break-word;background:#eee9e1;padding:16px;border-radius:5px;font-size:12px}button{font-family:inherit}.desktop-only{display:block}@media(max-width:950px){.brands{grid-template-columns:repeat(4,minmax(0,1fr))}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-table th{width:145px}.brand-table td{padding:8px}.intro{gap:24px}}@media(max-width:620px){header,main,nav .nav-inner{padding-left:20px;padding-right:20px}header{padding-top:32px}h1{font-size:32px}h2{font-size:25px}nav .nav-inner{gap:22px}.intro,.local-feature{grid-template-columns:1fr;gap:18px}.grid{grid-template-columns:1fr}.photo{height:250px}.brand-table th,.brand-table td{display:block;width:100%}.brand-table th{padding:15px 14px 5px;border-bottom:0}.brand-table th small{margin-top:5px}.brands{grid-template-columns:repeat(3,minmax(0,1fr))}.brand{gap:6px;min-height:54px}.brand img{width:30px;height:27px}.brand span{font-size:12px}.sources{columns:1}.local-photo{height:260px}.local-photo img{top:-145px}section{padding:32px 0}.material,.sell{min-height:0}.finance{min-width:770px}footer{padding:24px 20px}}@media print{nav,.print-hide{display:none}body{background:#fff}header{padding-top:0}section{padding:24px 0;break-inside:auto}.product{break-inside:avoid}.grid{grid-template-columns:repeat(3,1fr)}h1{font-size:34px}.sources{columns:2}a{color:#222}details[open]{break-inside:auto}.photo{height:150px}}\n</style><style>\nhtml{scroll-behavior:auto}body{font-size:16px}.product{display:flex;flex-direction:column;border-radius:16px;background:#fff;overflow:hidden;border:1px solid #dcd5ca}.product-stage{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:242px;padding:25px 26px;border:0;background:#f4f1eb;color:#5c5144;cursor:zoom-in;overflow:hidden;min-width:0}.product-stage svg{width:100%;height:100%;display:block;max-height:100%}.stage-action{position:absolute;right:14px;bottom:10px;font-size:12px;line-height:1.3;padding:4px 0;color:#5c5144}.product-copy{padding:19px 20px 17px;display:flex;flex-direction:column;flex:1}.product h3{font-size:20px;line-height:1.45;margin:9px 0 6px;min-height:58px;overflow-wrap:anywhere}.brandline{align-items:start;gap:12px}.maker{font-size:13px;font-weight:600}.brandline .evidence-label{font-size:12px;line-height:1.45;color:#655c51;font-weight:400;max-width:46%}.code{font-size:12px;line-height:1.5;min-height:36px;margin:0 0 12px;overflow-wrap:anywhere}.product-spec{font-size:13px;line-height:1.65;margin:0 0 12px;display:grid;gap:9px}.product-spec div{min-width:0}.product-spec dt{font-size:12px;font-weight:600;color:#6b6257;margin-bottom:2px}.product-spec dd{margin:0;overflow-wrap:anywhere}.product-bottom{margin-top:auto;padding-top:10px;border-top:1px solid #e7e1d8}.price{margin:0 0 12px;line-height:1.4;font-size:21px;font-weight:600;gap:12px}.price small{font-size:12px;font-weight:400;color:#655c51}.card-actions{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}.card-actions a,.card-actions button{font:500 13px/1.4 -apple-system,'PingFang HK',sans-serif;display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 13px;border-radius:7px;text-decoration:none;cursor:pointer;flex:1;min-width:110px}.primary-action{background:#69472f;color:#fff}.primary-action:hover{background:#4f3321}.compare-action{border:1px solid #cfc5b7;background:#fff;color:#45392d}.compare-action:hover{background:#f4f1eb}.product .caption{font-size:12px;margin:11px 0 0;line-height:1.55}.product .caption a{display:inline-block;min-height:24px;padding:2px 1px}.grid{gap:25px}.local-feature{background:#fff;border:1px solid #dcd5ca;border-radius:16px;overflow:hidden;gap:0;align-items:stretch}.local-feature>.product-stage{height:auto;min-height:365px;padding:40px}.local-feature>div{padding:27px 28px}.local-feature .price{font-size:24px;margin:17px 0}.local-feature h3{font-size:27px;margin:0 0 14px}.local-feature .card-actions{margin-top:17px}.local-feature .caption{font-size:12px}.local-photo{display:none}.image-dialog{padding:0;border:0;border-radius:16px;width:min(900px,calc(100vw - 40px));max-height:calc(100dvh - 40px);overflow:auto;color:#272420;background:#fff;box-shadow:0 18px 60px #211b1640}.image-dialog::backdrop{background:#211b16aa}.viewer-top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:19px 22px;border-bottom:1px solid #e2dacf}.viewer-top h3{font",
+            "truncated": true,
+            "statusCode": 200,
+            "statusCodeName": "OK",
+            "timings": {
+              "total": 546,
+              "dns": 30,
+              "tcp": 82,
+              "tls": 91,
+              "firstByte": 342,
+              "download": 1
+            },
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "cipherName": "TLS_AES_128_GCM_SHA256",
+              "createdAt": "2026-09-30T23:44:46.000Z",
+              "expiresAt": "2026-12-29T23:44:45.000Z",
+              "issuer": {
+                "C": "US",
+                "O": "Let's Encrypt",
+                "CN": "YR1"
+              },
+              "subject": {
+                "CN": "*.github.io",
+                "alt": "DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+              },
+              "keyType": "RSA",
+              "keyBits": 2048,
+              "serialNumber": "06:A6:5E:5D:32:79:BA:56:4A:4D:E7:4E:B5:D6:44:78:DB:B8",
+              "fingerprint256": "F2:F9:A1:59:CE:50:A0:A1:68:B3:EA:EA:F2:FC:ED:5A:DD:D4:9B:A3:8E:2B:F6:32:48:F0:57:A1:39:FC:78:56",
+              "publicKey": "30:82:01:22:30:0D:06:09:2A:86:48:86:F7:0D:01:01:01:05:00:03:82:01:0F:00:30:82:01:0A:02:82:01:01:00:9E:6F:70:25:F7:88:C3:AC:BC:4F:CC:4B:6C:16:E0:58:54:E3:D9:B3:9D:09:59:93:72:56:A1:96:54:BD:2E:DE:04:42:66:4B:B5:A0:2F:41:A6:65:F4:5B:62:FA:62:E8:98:F7:B4:4B:B7:5C:CB:00:C2:C8:70:DD:50:F7:B0:60:55:17:BD:79:3F:D2:81:6F:33:9C:B2:9A:D5:FA:D1:DD:04:4E:96:D1:A2:01:79:78:74:6E:BD:B5:D4:30:00:28:B7:BA:C2:F5:25:F2:0B:27:34:05:FD:C3:64:44:3D:B1:51:95:2D:CE:2C:A7:07:29:30:A8:35:EF:6F:34:0D:47:E3:0A:AF:31:91:82:0B:18:92:7D:61:95:E9:A1:02:62:50:89:ED:A8:32:8D:F6:8C:64:37:20:46:68:7D:7A:D9:21:6B:53:2E:31:D8:2A:9A:16:72:37:87:4A:EB:CA:63:5E:08:94:96:0D:4F:59:71:93:7C:C9:D4:9A:DA:48:E9:22:8B:0B:2F:D6:4F:19:F8:13:01:07:A7:74:67:B8:7D:85:A1:13:AA:35:A4:FF:3D:20:7D:7E:02:51:75:EA:D7:88:B6:42:7C:05:D4:7A:F7:6A:1C:17:76:40:70:47:3E:D5:D8:B3:37:5A:E9:AB:D1:E1:42:37:E3:AC:E6:53:49:02:03:01:00:01"
+            }
+          }
+        },
+        {
+          "probe": {
+            "continent": "AS",
+            "region": "Eastern Asia",
+            "country": "CN",
+            "state": null,
+            "city": "Guangzhou",
+            "asn": 45090,
+            "longitude": 113.25,
+            "latitude": 23.12,
+            "network": "Shenzhen Tencent Computer Systems Company",
+            "tags": [
+              "datacenter-network",
+              "u-yanranxiaoxi"
+            ],
+            "resolvers": [
+              "private",
+              "private"
+            ]
+          },
+          "result": {
+            "status": "finished",
+            "resolvedAddress": "185.199.109.153",
+            "headers": {
+              "connection": "close",
+              "content-length": "32438",
+              "server": "GitHub.com",
+              "content-type": "text/html; charset=utf-8",
+              "last-modified": "Fri, 23 Oct 2026 05:33:31 GMT",
+              "access-control-allow-origin": "*",
+              "strict-transport-security": "max-age=31556952",
+              "etag": "W/\"6adaf1ab-23c23\"",
+              "expires": "Fri, 23 Oct 2026 05:43:50 GMT",
+              "cache-control": "max-age=600",
+              "content-encoding": "gzip",
+              "x-proxy-cache": "MISS",
+              "x-github-request-id": "D056:3CE84C:78D56:7DA06:6ADAF1BE",
+              "x-github-edge-region": "japaneast",
+              "accept-ranges": "bytes",
+              "date": "Fri, 23 Oct 2026 05:34:21 GMT",
+              "via": "1.1 varnish",
+              "age": "0",
+              "x-served-by": "cache-nrt-rjtf7700085-NRT",
+              "x-cache": "HIT",
+              "x-cache-hits": "1",
+              "x-timer": "S1792733662.689331,VS0,VE174",
+              "vary": "Accept-Encoding",
+              "x-fastly-request-id": "5d9d23444c89fc77b8e6d7b163792291cdb148d2"
+            },
+            "rawHeaders": "Connection: close\nContent-Length: 32438\nServer: GitHub.com\nContent-Type: text/html; charset=utf-8\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: W/\"6adaf1ab-23c23\"\nexpires: Fri, 23 Oct 2026 05:43:50 GMT\nCache-Control: max-age=600\nContent-Encoding: gzip\nx-proxy-cache: MISS\nX-GitHub-Request-Id: D056:3CE84C:78D56:7DA06:6ADAF1BE\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nDate: Fri, 23 Oct 2026 05:34:21 GMT\nVia: 1.1 varnish\nAge: 0\nX-Served-By: cache-nrt-rjtf7700085-NRT\nX-Cache: HIT\nX-Cache-Hits: 1\nX-Timer: S1792733662.689331,VS0,VE174\nVary: Accept-Encoding\nX-Fastly-Request-ID: 5d9d23444c89fc77b8e6d7b163792291cdb148d2",
+            "rawBody": "<!doctype html><html lang=\"zh-Hant\"><head><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"description\" content=\"培育彩寶市場研究：品牌、財務、商品實物卡片及公開資料原文。2026年10月23日。\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>培育彩寶市場研究｜去背卡片版｜2026-10-23</title><style>\n:root{--paper:#faf8f4;--ink:#272420;--muted:#635d55;--line:#ddd7cd;--accent:#775035;--red:#9a302b;--yellow:#785b16}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,\"PingFang HK\",\"Noto Sans CJK TC\",sans-serif}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}::selection{background:#e5d2be;color:#211a15}main,header,nav .nav-inner{max-width:1200px;margin:auto;padding:0 32px}header{padding-top:48px;padding-bottom:26px;border-bottom:1px solid var(--line)}h1,h2{font-family:\"Songti TC\",\"Noto Serif CJK TC\",serif;font-weight:600;line-height:1.25}h1{font-size:42px;margin:0 0 14px;letter-spacing:-.025em}h2{font-size:28px;margin:0 0 18px;letter-spacing:-.015em}h3{font-size:19px;line-height:1.45;margin:8px 0}p{margin:10px 0}.lede{font-size:18px;max-width:70ch}.meta,.caption,.code{font-size:12px;color:var(--muted)}.meta{margin-top:14px}nav{position:sticky;top:0;z-index:5;background:#faf8f4f5;border-bottom:1px solid var(--line)}nav .nav-inner{display:flex;gap:26px;align-items:center;min-height:54px;overflow:auto;white-space:nowrap}nav a{font-size:13px;text-decoration:none;color:var(--ink)}nav a:hover{color:var(--accent)}section{padding:44px 0;border-bottom:1px solid var(--line)}.intro{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:start}.intro p{font-size:17px}.decision{margin:0;padding-left:22px}.decision li{padding:0 0 14px 8px}.decision strong{display:block;font-size:17px}.refs{font-size:12px;white-space:normal}.refs a{text-decoration:none}.note{color:var(--muted);font-size:13px;max-width:85ch}.important{color:var(--red);font-weight:600}.caution{color:var(--yellow)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 24px}.product{min-width:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.photo{height:205px;display:block;overflow:hidden;background:#f6f6f6}.photo img{display:block;width:100%;height:100%;object-fit:contain}.photo.zoom img{transform:scale(1.9)}.product-copy{padding:16px 18px}.brandline{display:flex;gap:12px;justify-content:space-between;align-items:start;font-size:12px;font-weight:600}.brandline span{font-size:12px;font-weight:400;color:var(--muted);text-align:right}.product h3{font-size:18px}.code{margin:4px 0}.material,.sell{font-size:13px;line-height:1.55}.material{min-height:42px}.sell{color:var(--muted);min-height:40px}.price{font-size:19px;font-weight:600;display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-variant-numeric:tabular-nums}.price a{font-size:12px;font-weight:400}.caption{font-size:12px;line-height:1.55;margin-bottom:0}.brand-table{background:#fff;margin:18px 0}.brand-table th{width:175px;font-weight:400;padding:20px}.brand-table th strong{font-size:18px;font-family:serif}.brand-table th small{display:block;line-height:1.65;margin-top:12px;font-size:12px;color:var(--muted)}.brand-table td{padding:10px 16px}.brands{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px 8px}.brand{display:flex;align-items:center;gap:8px;min-height:52px;padding:5px 0;color:var(--ink);text-decoration:none;min-width:0}.brand img{width:42px;height:30px;object-fit:contain;background:#fff;flex-shrink:0}.brand span{font-size:12px;line-height:1.3;overflow-wrap:anywhere}.supp{display:flex;gap:26px;flex-wrap:wrap;align-items:center}.supp .brand{min-width:160px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:13px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}thead{background:#efeae1}th{font-weight:600}td strong{display:block}.table-wrap{overflow:auto}.finance td:first-child{width:150px}.finance td:nth-child(2){width:230px}.finance td:nth-child(3){width:285px}details{margin:20px 0 0;border-top:1px solid var(--line);padding-top:14px}summary{cursor:pointer;font-weight:600;line-height:1.7;padding:4px 0}details[open] summary{margin-bottom:20px}.proof{width:100%;height:auto;display:block}.local-feature{display:grid;grid-template-columns:1fr 1.3fr;gap:30px;align-items:center;margin:22px 0}.local-photo{height:300px;overflow:hidden;background:#fff;border:1px solid var(--line)}.local-photo img{width:300%;height:auto;max-width:none;position:relative;top:-215px}.local-feature h3{font-family:serif;font-size:25px}.local-feature .price{max-width:370px}.solution td:first-child{min-width:90px}.solution td{line-height:1.7}.steps{padding-left:22px}.steps li{padding:8px 0 8px 6px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.button{display:inline-block;padding:10px 18px;background:var(--ink);color:#fff;text-decoration:none;font-size:13px;border:0;cursor:pointer;border-radius:5px}.button:hover{background:var(--accent)}.sources{columns:2;column-gap:44px;list-style:none;padding:0;font-size:12px}.sources li{break-inside:avoid;margin:0 0 13px}.sources code{font:11px/1.4 monospace;color:var(--muted)}footer{max-width:1200px;margin:auto;padding:25px 32px 40px;font-size:12px;color:var(--muted)}.audit td:first-child{width:180px}pre{white-space:pre-wrap;word-break:break-word;background:#eee9e1;padding:16px;border-radius:5px;font-size:12px}button{font-family:inherit}.desktop-only{display:block}@media(max-width:950px){.brands{grid-template-columns:repeat(4,minmax(0,1fr))}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-table th{width:145px}.brand-table td{padding:8px}.intro{gap:24px}}@media(max-width:620px){header,main,nav .nav-inner{padding-left:20px;padding-right:20px}header{padding-top:32px}h1{font-size:32px}h2{font-size:25px}nav .nav-inner{gap:22px}.intro,.local-feature{grid-template-columns:1fr;gap:18px}.grid{grid-template-columns:1fr}.photo{height:250px}.brand-table th,.brand-table td{display:block;width:100%}.brand-table th{padding:15px 14px 5px;border-bottom:0}.brand-table th small{margin-top:5px}.brands{grid-template-columns:repeat(3,minmax(0,1fr))}.brand{gap:6px;min-height:54px}.brand img{width:30px;height:27px}.brand span{font-size:12px}.sources{columns:1}.local-photo{height:260px}.local-photo img{top:-145px}section{padding:32px 0}.material,.sell{min-height:0}.finance{min-width:770px}footer{padding:24px 20px}}@media print{nav,.print-hide{display:none}body{background:#fff}header{padding-top:0}section{padding:24px 0;break-inside:auto}.product{break-inside:avoid}.grid{grid-template-columns:repeat(3,1fr)}h1{font-size:34px}.sources{columns:2}a{color:#222}details[open]{break-inside:auto}.photo{height:150px}}\n</style><style>\nhtml{scroll-behavior:auto}body{font-size:16px}.product{display:flex;flex-direction:column;border-radius:16px;background:#fff;overflow:hidden;border:1px solid #dcd5ca}.product-stage{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:242px;padding:25px 26px;border:0;background:#f4f1eb;color:#5c5144;cursor:zoom-in;overflow:hidden;min-width:0}.product-stage svg{width:100%;height:100%;display:block;max-height:100%}.stage-action{position:absolute;right:14px;bottom:10px;font-size:12px;line-height:1.3;padding:4px 0;color:#5c5144}.product-copy{padding:19px 20px 17px;display:flex;flex-direction:column;flex:1}.product h3{font-size:20px;line-height:1.45;margin:9px 0 6px;min-height:58px;overflow-wrap:anywhere}.brandline{align-items:start;gap:12px}.maker{font-size:13px;font-weight:600}.brandline .evidence-label{font-size:12px;line-height:1.45;color:#655c51;font-weight:400;max-width:46%}.code{font-size:12px;line-height:1.5;min-height:36px;margin:0 0 12px;overflow-wrap:anywhere}.product-spec{font-size:13px;line-height:1.65;margin:0 0 12px;display:grid;gap:9px}.product-spec div{min-width:0}.product-spec dt{font-size:12px;font-weight:600;color:#6b6257;margin-bottom:2px}.product-spec dd{margin:0;overflow-wrap:anywhere}.product-bottom{margin-top:auto;padding-top:10px;border-top:1px solid #e7e1d8}.price{margin:0 0 12px;line-height:1.4;font-size:21px;font-weight:600;gap:12px}.price small{font-size:12px;font-weight:400;color:#655c51}.card-actions{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}.card-actions a,.card-actions button{font:500 13px/1.4 -apple-system,'PingFang HK',sans-serif;display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 13px;border-radius:7px;text-decoration:none;cursor:pointer;flex:1;min-width:110px}.primary-action{background:#69472f;color:#fff}.primary-action:hover{background:#4f3321}.compare-action{border:1px solid #cfc5b7;background:#fff;color:#45392d}.compare-action:hover{background:#f4f1eb}.product .caption{font-size:12px;margin:11px 0 0;line-height:1.55}.product .caption a{display:inline-block;min-height:24px;padding:2px 1px}.grid{gap:25px}.local-feature{background:#fff;border:1px solid #dcd5ca;border-radius:16px;overflow:hidden;gap:0;align-items:stretch}.local-feature>.product-stage{height:auto;min-height:365px;padding:40px}.local-feature>div{padding:27px 28px}.local-feature .price{font-size:24px;margin:17px 0}.local-feature h3{font-size:27px;margin:0 0 14px}.local-feature .card-actions{margin-top:17px}.local-feature .caption{font-size:12px}.local-photo{display:none}.image-dialog{padding:0;border:0;border-radius:16px;width:min(900px,calc(100vw - 40px));max-height:calc(100dvh - 40px);overflow:auto;color:#272420;background:#fff;box-shadow:0 18px 60px #211b1640}.image-dialog::backdrop{background:#211b16aa}.viewer-top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:19px 22px;border-bottom:1px solid #e2dacf}.viewer-top h3{font",
+            "rawOutput": "HTTP/1.1 200\nConnection: close\nContent-Length: 32438\nServer: GitHub.com\nContent-Type: text/html; charset=utf-8\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: W/\"6adaf1ab-23c23\"\nexpires: Fri, 23 Oct 2026 05:43:50 GMT\nCache-Control: max-age=600\nContent-Encoding: gzip\nx-proxy-cache: MISS\nX-GitHub-Request-Id: D056:3CE84C:78D56:7DA06:6ADAF1BE\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nDate: Fri, 23 Oct 2026 05:34:21 GMT\nVia: 1.1 varnish\nAge: 0\nX-Served-By: cache-nrt-rjtf7700085-NRT\nX-Cache: HIT\nX-Cache-Hits: 1\nX-Timer: S1792733662.689331,VS0,VE174\nVary: Accept-Encoding\nX-Fastly-Request-ID: 5d9d23444c89fc77b8e6d7b163792291cdb148d2\n\n<!doctype html><html lang=\"zh-Hant\"><head><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"description\" content=\"培育彩寶市場研究：品牌、財務、商品實物卡片及公開資料原文。2026年10月23日。\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>培育彩寶市場研究｜去背卡片版｜2026-10-23</title><style>\n:root{--paper:#faf8f4;--ink:#272420;--muted:#635d55;--line:#ddd7cd;--accent:#775035;--red:#9a302b;--yellow:#785b16}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,\"PingFang HK\",\"Noto Sans CJK TC\",sans-serif}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}::selection{background:#e5d2be;color:#211a15}main,header,nav .nav-inner{max-width:1200px;margin:auto;padding:0 32px}header{padding-top:48px;padding-bottom:26px;border-bottom:1px solid var(--line)}h1,h2{font-family:\"Songti TC\",\"Noto Serif CJK TC\",serif;font-weight:600;line-height:1.25}h1{font-size:42px;margin:0 0 14px;letter-spacing:-.025em}h2{font-size:28px;margin:0 0 18px;letter-spacing:-.015em}h3{font-size:19px;line-height:1.45;margin:8px 0}p{margin:10px 0}.lede{font-size:18px;max-width:70ch}.meta,.caption,.code{font-size:12px;color:var(--muted)}.meta{margin-top:14px}nav{position:sticky;top:0;z-index:5;background:#faf8f4f5;border-bottom:1px solid var(--line)}nav .nav-inner{display:flex;gap:26px;align-items:center;min-height:54px;overflow:auto;white-space:nowrap}nav a{font-size:13px;text-decoration:none;color:var(--ink)}nav a:hover{color:var(--accent)}section{padding:44px 0;border-bottom:1px solid var(--line)}.intro{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:start}.intro p{font-size:17px}.decision{margin:0;padding-left:22px}.decision li{padding:0 0 14px 8px}.decision strong{display:block;font-size:17px}.refs{font-size:12px;white-space:normal}.refs a{text-decoration:none}.note{color:var(--muted);font-size:13px;max-width:85ch}.important{color:var(--red);font-weight:600}.caution{color:var(--yellow)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 24px}.product{min-width:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.photo{height:205px;display:block;overflow:hidden;background:#f6f6f6}.photo img{display:block;width:100%;height:100%;object-fit:contain}.photo.zoom img{transform:scale(1.9)}.product-copy{padding:16px 18px}.brandline{display:flex;gap:12px;justify-content:space-between;align-items:start;font-size:12px;font-weight:600}.brandline span{font-size:12px;font-weight:400;color:var(--muted);text-align:right}.product h3{font-size:18px}.code{margin:4px 0}.material,.sell{font-size:13px;line-height:1.55}.material{min-height:42px}.sell{color:var(--muted);min-height:40px}.price{font-size:19px;font-weight:600;display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-variant-numeric:tabular-nums}.price a{font-size:12px;font-weight:400}.caption{font-size:12px;line-height:1.55;margin-bottom:0}.brand-table{background:#fff;margin:18px 0}.brand-table th{width:175px;font-weight:400;padding:20px}.brand-table th strong{font-size:18px;font-family:serif}.brand-table th small{display:block;line-height:1.65;margin-top:12px;font-size:12px;color:var(--muted)}.brand-table td{padding:10px 16px}.brands{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px 8px}.brand{display:flex;align-items:center;gap:8px;min-height:52px;padding:5px 0;color:var(--ink);text-decoration:none;min-width:0}.brand img{width:42px;height:30px;object-fit:contain;background:#fff;flex-shrink:0}.brand span{font-size:12px;line-height:1.3;overflow-wrap:anywhere}.supp{display:flex;gap:26px;flex-wrap:wrap;align-items:center}.supp .brand{min-width:160px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:13px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}thead{background:#efeae1}th{font-weight:600}td strong{display:block}.table-wrap{overflow:auto}.finance td:first-child{width:150px}.finance td:nth-child(2){width:230px}.finance td:nth-child(3){width:285px}details{margin:20px 0 0;border-top:1px solid var(--line);padding-top:14px}summary{cursor:pointer;font-weight:600;line-height:1.7;padding:4px 0}details[open] summary{margin-bottom:20px}.proof{width:100%;height:auto;display:block}.local-feature{display:grid;grid-template-columns:1fr 1.3fr;gap:30px;align-items:center;margin:22px 0}.local-photo{height:300px;overflow:hidden;background:#fff;border:1px solid var(--line)}.local-photo img{width:300%;height:auto;max-width:none;position:relative;top:-215px}.local-feature h3{font-family:serif;font-size:25px}.local-feature .price{max-width:370px}.solution td:first-child{min-width:90px}.solution td{line-height:1.7}.steps{padding-left:22px}.steps li{padding:8px 0 8px 6px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.button{display:inline-block;padding:10px 18px;background:var(--ink);color:#fff;text-decoration:none;font-size:13px;border:0;cursor:pointer;border-radius:5px}.button:hover{background:var(--accent)}.sources{columns:2;column-gap:44px;list-style:none;padding:0;font-size:12px}.sources li{break-inside:avoid;margin:0 0 13px}.sources code{font:11px/1.4 monospace;color:var(--muted)}footer{max-width:1200px;margin:auto;padding:25px 32px 40px;font-size:12px;color:var(--muted)}.audit td:first-child{width:180px}pre{white-space:pre-wrap;word-break:break-word;background:#eee9e1;padding:16px;border-radius:5px;font-size:12px}button{font-family:inherit}.desktop-only{display:block}@media(max-width:950px){.brands{grid-template-columns:repeat(4,minmax(0,1fr))}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-table th{width:145px}.brand-table td{padding:8px}.intro{gap:24px}}@media(max-width:620px){header,main,nav .nav-inner{padding-left:20px;padding-right:20px}header{padding-top:32px}h1{font-size:32px}h2{font-size:25px}nav .nav-inner{gap:22px}.intro,.local-feature{grid-template-columns:1fr;gap:18px}.grid{grid-template-columns:1fr}.photo{height:250px}.brand-table th,.brand-table td{display:block;width:100%}.brand-table th{padding:15px 14px 5px;border-bottom:0}.brand-table th small{margin-top:5px}.brands{grid-template-columns:repeat(3,minmax(0,1fr))}.brand{gap:6px;min-height:54px}.brand img{width:30px;height:27px}.brand span{font-size:12px}.sources{columns:1}.local-photo{height:260px}.local-photo img{top:-145px}section{padding:32px 0}.material,.sell{min-height:0}.finance{min-width:770px}footer{padding:24px 20px}}@media print{nav,.print-hide{display:none}body{background:#fff}header{padding-top:0}section{padding:24px 0;break-inside:auto}.product{break-inside:avoid}.grid{grid-template-columns:repeat(3,1fr)}h1{font-size:34px}.sources{columns:2}a{color:#222}details[open]{break-inside:auto}.photo{height:150px}}\n</style><style>\nhtml{scroll-behavior:auto}body{font-size:16px}.product{display:flex;flex-direction:column;border-radius:16px;background:#fff;overflow:hidden;border:1px solid #dcd5ca}.product-stage{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:242px;padding:25px 26px;border:0;background:#f4f1eb;color:#5c5144;cursor:zoom-in;overflow:hidden;min-width:0}.product-stage svg{width:100%;height:100%;display:block;max-height:100%}.stage-action{position:absolute;right:14px;bottom:10px;font-size:12px;line-height:1.3;padding:4px 0;color:#5c5144}.product-copy{padding:19px 20px 17px;display:flex;flex-direction:column;flex:1}.product h3{font-size:20px;line-height:1.45;margin:9px 0 6px;min-height:58px;overflow-wrap:anywhere}.brandline{align-items:start;gap:12px}.maker{font-size:13px;font-weight:600}.brandline .evidence-label{font-size:12px;line-height:1.45;color:#655c51;font-weight:400;max-width:46%}.code{font-size:12px;line-height:1.5;min-height:36px;margin:0 0 12px;overflow-wrap:anywhere}.product-spec{font-size:13px;line-height:1.65;margin:0 0 12px;display:grid;gap:9px}.product-spec div{min-width:0}.product-spec dt{font-size:12px;font-weight:600;color:#6b6257;margin-bottom:2px}.product-spec dd{margin:0;overflow-wrap:anywhere}.product-bottom{margin-top:auto;padding-top:10px;border-top:1px solid #e7e1d8}.price{margin:0 0 12px;line-height:1.4;font-size:21px;font-weight:600;gap:12px}.price small{font-size:12px;font-weight:400;color:#655c51}.card-actions{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}.card-actions a,.card-actions button{font:500 13px/1.4 -apple-system,'PingFang HK',sans-serif;display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 13px;border-radius:7px;text-decoration:none;cursor:pointer;flex:1;min-width:110px}.primary-action{background:#69472f;color:#fff}.primary-action:hover{background:#4f3321}.compare-action{border:1px solid #cfc5b7;background:#fff;color:#45392d}.compare-action:hover{background:#f4f1eb}.product .caption{font-size:12px;margin:11px 0 0;line-height:1.55}.product .caption a{display:inline-block;min-height:24px;padding:2px 1px}.grid{gap:25px}.local-feature{background:#fff;border:1px solid #dcd5ca;border-radius:16px;overflow:hidden;gap:0;align-items:stretch}.local-feature>.product-stage{height:auto;min-height:365px;padding:40px}.local-feature>div{padding:27px 28px}.local-feature .price{font-size:24px;margin:17px 0}.local-feature h3{font-size:27px;margin:0 0 14px}.local-feature .card-actions{margin-top:17px}.local-feature .caption{font-size:12px}.local-photo{display:none}.image-dialog{padding:0;border:0;border-radius:16px;width:min(900px,calc(100vw - 40px));max-height:calc(100dvh - 40px);overflow:auto;color:#272420;background:#fff;box-shadow:0 18px 60px #211b1640}.image-dialog::backdrop{background:#211b16aa}.viewer-top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:19px 22px;border-bottom:1px solid #e2dacf}.viewer-top h3{font",
+            "truncated": true,
+            "statusCode": 200,
+            "statusCodeName": "OK",
+            "timings": {
+              "total": 957,
+              "dns": 14,
+              "tcp": 252,
+              "tls": 259,
+              "firstByte": 427,
+              "download": 5
+            },
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "cipherName": "TLS_AES_128_GCM_SHA256",
+              "createdAt": "2026-09-30T23:44:46.000Z",
+              "expiresAt": "2026-12-29T23:44:45.000Z",
+              "issuer": {
+                "C": "US",
+                "O": "Let's Encrypt",
+                "CN": "YR1"
+              },
+              "subject": {
+                "CN": "*.github.io",
+                "alt": "DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+              },
+              "keyType": "RSA",
+              "keyBits": 2048,
+              "serialNumber": "06:A6:5E:5D:32:79:BA:56:4A:4D:E7:4E:B5:D6:44:78:DB:B8",
+              "fingerprint256": "F2:F9:A1:59:CE:50:A0:A1:68:B3:EA:EA:F2:FC:ED:5A:DD:D4:9B:A3:8E:2B:F6:32:48:F0:57:A1:39:FC:78:56",
+              "publicKey": "30:82:01:22:30:0D:06:09:2A:86:48:86:F7:0D:01:01:01:05:00:03:82:01:0F:00:30:82:01:0A:02:82:01:01:00:9E:6F:70:25:F7:88:C3:AC:BC:4F:CC:4B:6C:16:E0:58:54:E3:D9:B3:9D:09:59:93:72:56:A1:96:54:BD:2E:DE:04:42:66:4B:B5:A0:2F:41:A6:65:F4:5B:62:FA:62:E8:98:F7:B4:4B:B7:5C:CB:00:C2:C8:70:DD:50:F7:B0:60:55:17:BD:79:3F:D2:81:6F:33:9C:B2:9A:D5:FA:D1:DD:04:4E:96:D1:A2:01:79:78:74:6E:BD:B5:D4:30:00:28:B7:BA:C2:F5:25:F2:0B:27:34:05:FD:C3:64:44:3D:B1:51:95:2D:CE:2C:A7:07:29:30:A8:35:EF:6F:34:0D:47:E3:0A:AF:31:91:82:0B:18:92:7D:61:95:E9:A1:02:62:50:89:ED:A8:32:8D:F6:8C:64:37:20:46:68:7D:7A:D9:21:6B:53:2E:31:D8:2A:9A:16:72:37:87:4A:EB:CA:63:5E:08:94:96:0D:4F:59:71:93:7C:C9:D4:9A:DA:48:E9:22:8B:0B:2F:D6:4F:19:F8:13:01:07:A7:74:67:B8:7D:85:A1:13:AA:35:A4:FF:3D:20:7D:7E:02:51:75:EA:D7:88:B6:42:7C:05:D4:7A:F7:6A:1C:17:76:40:70:47:3E:D5:D8:B3:37:5A:E9:AB:D1:E1:42:37:E3:AC:E6:53:49:02:03:01:00:01"
+            }
+          }
+        }
+      ]
+    },
+    "image": {
+      "id": "2G8U2v0YvEs5mHMk500021Mrf",
+      "type": "http",
+      "status": "finished",
+      "createdAt": "2026-10-23T05:35:47.913Z",
+      "updatedAt": "2026-10-23T05:35:50.240Z",
+      "target": "fredericktsang0320.github.io",
+      "probesCount": 6,
+      "locations": [
+        {
+          "country": "CN",
+          "asn": 4812
+        },
+        {
+          "country": "CN",
+          "asn": 4837,
+          "limit": 2
+        },
+        {
+          "country": "CN",
+          "asn": 9808,
+          "limit": 2
+        },
+        {
+          "country": "CN",
+          "city": "Guangzhou",
+          "asn": 45090
+        }
+      ],
+      "measurementOptions": {
+        "request": {
+          "path": "/cultured-gems-market-report/assets/img/bb3ec4d64bdd0582fe128b09.webp"
+        }
+      },
+      "results": [
+        {
+          "probe": {
+            "continent": "AS",
+            "region": "Eastern Asia",
+            "country": "CN",
+            "state": null,
+            "city": "Shanghai",
+            "asn": 4812,
+            "longitude": 121.46,
+            "latitude": 31.22,
+            "network": "China Telecom (Group)",
+            "tags": [
+              "eyeball-network"
+            ],
+            "resolvers": [
+              "private"
+            ]
+          },
+          "result": {
+            "status": "finished",
+            "resolvedAddress": "185.199.111.153",
+            "headers": {
+              "connection": "close",
+              "content-length": "393592",
+              "server": "GitHub.com",
+              "content-type": "image/webp",
+              "last-modified": "Fri, 23 Oct 2026 05:33:31 GMT",
+              "access-control-allow-origin": "*",
+              "strict-transport-security": "max-age=31556952",
+              "etag": "\"6adaf1ab-60178\"",
+              "expires": "Fri, 23 Oct 2026 05:44:30 GMT",
+              "cache-control": "max-age=600",
+              "x-proxy-cache": "MISS",
+              "x-github-request-id": "44DE:1D54DA:7664F:7B3AB:6ADAF1E6",
+              "x-github-edge-region": "japaneast",
+              "accept-ranges": "bytes",
+              "age": "0",
+              "date": "Fri, 23 Oct 2026 05:35:49 GMT",
+              "via": "1.1 varnish",
+              "x-served-by": "cache-nrt-rjaa8190051-NRT",
+              "x-cache": "HIT",
+              "x-cache-hits": "0",
+              "x-timer": "S1792733749.264817,VS0,VE180",
+              "vary": "Accept-Encoding",
+              "x-fastly-request-id": "98a1f30e9e10e9d24cd3a2621a2c3a79370269ea"
+            },
+            "rawHeaders": "Connection: close\nContent-Length: 393592\nServer: GitHub.com\nContent-Type: image/webp\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: \"6adaf1ab-60178\"\nexpires: Fri, 23 Oct 2026 05:44:30 GMT\nCache-Control: max-age=600\nx-proxy-cache: MISS\nX-GitHub-Request-Id: 44DE:1D54DA:7664F:7B3AB:6ADAF1E6\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nAge: 0\nDate: Fri, 23 Oct 2026 05:35:49 GMT\nVia: 1.1 varnish\nX-Served-By: cache-nrt-rjaa8190051-NRT\nX-Cache: HIT\nX-Cache-Hits: 0\nX-Timer: S1792733749.264817,VS0,VE180\nVary: Accept-Encoding\nX-Fastly-Request-ID: 98a1f30e9e10e9d24cd3a2621a2c3a79370269ea",
+            "rawBody": null,
+            "rawOutput": "HTTP/1.1 200\nConnection: close\nContent-Length: 393592\nServer: GitHub.com\nContent-Type: image/webp\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: \"6adaf1ab-60178\"\nexpires: Fri, 23 Oct 2026 05:44:30 GMT\nCache-Control: max-age=600\nx-proxy-cache: MISS\nX-GitHub-Request-Id: 44DE:1D54DA:7664F:7B3AB:6ADAF1E6\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nAge: 0\nDate: Fri, 23 Oct 2026 05:35:49 GMT\nVia: 1.1 varnish\nX-Served-By: cache-nrt-rjaa8190051-NRT\nX-Cache: HIT\nX-Cache-Hits: 0\nX-Timer: S1792733749.264817,VS0,VE180\nVary: Accept-Encoding\nX-Fastly-Request-ID: 98a1f30e9e10e9d24cd3a2621a2c3a79370269ea",
+            "truncated": false,
+            "statusCode": 200,
+            "statusCodeName": "OK",
+            "timings": {
+              "total": 1440,
+              "dns": 8,
+              "tcp": 237,
+              "tls": 544,
+              "firstByte": 651,
+              "download": 0
+            },
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "cipherName": "TLS_AES_128_GCM_SHA256",
+              "createdAt": "2026-09-30T23:44:46.000Z",
+              "expiresAt": "2026-12-29T23:44:45.000Z",
+              "issuer": {
+                "C": "US",
+                "O": "Let's Encrypt",
+                "CN": "YR1"
+              },
+              "subject": {
+                "CN": "*.github.io",
+                "alt": "DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+              },
+              "keyType": "RSA",
+              "keyBits": 2048,
+              "serialNumber": "06:A6:5E:5D:32:79:BA:56:4A:4D:E7:4E:B5:D6:44:78:DB:B8",
+              "fingerprint256": "F2:F9:A1:59:CE:50:A0:A1:68:B3:EA:EA:F2:FC:ED:5A:DD:D4:9B:A3:8E:2B:F6:32:48:F0:57:A1:39:FC:78:56",
+              "publicKey": "30:82:01:22:30:0D:06:09:2A:86:48:86:F7:0D:01:01:01:05:00:03:82:01:0F:00:30:82:01:0A:02:82:01:01:00:9E:6F:70:25:F7:88:C3:AC:BC:4F:CC:4B:6C:16:E0:58:54:E3:D9:B3:9D:09:59:93:72:56:A1:96:54:BD:2E:DE:04:42:66:4B:B5:A0:2F:41:A6:65:F4:5B:62:FA:62:E8:98:F7:B4:4B:B7:5C:CB:00:C2:C8:70:DD:50:F7:B0:60:55:17:BD:79:3F:D2:81:6F:33:9C:B2:9A:D5:FA:D1:DD:04:4E:96:D1:A2:01:79:78:74:6E:BD:B5:D4:30:00:28:B7:BA:C2:F5:25:F2:0B:27:34:05:FD:C3:64:44:3D:B1:51:95:2D:CE:2C:A7:07:29:30:A8:35:EF:6F:34:0D:47:E3:0A:AF:31:91:82:0B:18:92:7D:61:95:E9:A1:02:62:50:89:ED:A8:32:8D:F6:8C:64:37:20:46:68:7D:7A:D9:21:6B:53:2E:31:D8:2A:9A:16:72:37:87:4A:EB:CA:63:5E:08:94:96:0D:4F:59:71:93:7C:C9:D4:9A:DA:48:E9:22:8B:0B:2F:D6:4F:19:F8:13:01:07:A7:74:67:B8:7D:85:A1:13:AA:35:A4:FF:3D:20:7D:7E:02:51:75:EA:D7:88:B6:42:7C:05:D4:7A:F7:6A:1C:17:76:40:70:47:3E:D5:D8:B3:37:5A:E9:AB:D1:E1:42:37:E3:AC:E6:53:49:02:03:01:00:01"
+            }
+          }
+        },
+        {
+          "probe": {
+            "continent": "AS",
+            "region": "Eastern Asia",
+            "country": "CN",
+            "state": null,
+            "city": "Wuhan",
+            "asn": 4837,
+            "longitude": 114.27,
+            "latitude": 30.58,
+            "network": "CHINA UNICOM China169 Backbone",
+            "tags": [
+              "eyeball-network",
+              "u-tiandao360"
+            ],
+            "resolvers": [
+              "private"
+            ]
+          },
+          "result": {
+            "status": "finished",
+            "resolvedAddress": "185.199.108.153",
+            "headers": {
+              "connection": "close",
+              "content-length": "393592",
+              "server": "GitHub.com",
+              "content-type": "image/webp",
+              "x-origin-cache": "HIT",
+              "last-modified": "Fri, 23 Oct 2026 05:33:31 GMT",
+              "access-control-allow-origin": "*",
+              "strict-transport-security": "max-age=31556952",
+              "etag": "\"6adaf1ab-60178\"",
+              "expires": "Fri, 23 Oct 2026 05:45:48 GMT",
+              "cache-control": "max-age=600",
+              "x-proxy-cache": "MISS",
+              "x-github-request-id": "652A:1D54DA:77757:7C58A:6ADAF234",
+              "x-github-edge-region": "japaneast",
+              "accept-ranges": "bytes",
+              "age": "0",
+              "date": "Fri, 23 Oct 2026 05:35:48 GMT",
+              "via": "1.1 varnish",
+              "x-served-by": "cache-itm1220023-ITM",
+              "x-cache": "MISS",
+              "x-cache-hits": "0",
+              "x-timer": "S1792733748.463013,VS0,VE182",
+              "vary": "Accept-Encoding",
+              "x-fastly-request-id": "ebcc7222b9b00d60be7c70dee01bab7a8674246a"
+            },
+            "rawHeaders": "Connection: close\nContent-Length: 393592\nServer: GitHub.com\nContent-Type: image/webp\nx-origin-cache: HIT\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: \"6adaf1ab-60178\"\nexpires: Fri, 23 Oct 2026 05:45:48 GMT\nCache-Control: max-age=600\nx-proxy-cache: MISS\nX-GitHub-Request-Id: 652A:1D54DA:77757:7C58A:6ADAF234\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nAge: 0\nDate: Fri, 23 Oct 2026 05:35:48 GMT\nVia: 1.1 varnish\nX-Served-By: cache-itm1220023-ITM\nX-Cache: MISS\nX-Cache-Hits: 0\nX-Timer: S1792733748.463013,VS0,VE182\nVary: Accept-Encoding\nX-Fastly-Request-ID: ebcc7222b9b00d60be7c70dee01bab7a8674246a",
+            "rawBody": null,
+            "rawOutput": "HTTP/1.1 200\nConnection: close\nContent-Length: 393592\nServer: GitHub.com\nContent-Type: image/webp\nx-origin-cache: HIT\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: \"6adaf1ab-60178\"\nexpires: Fri, 23 Oct 2026 05:45:48 GMT\nCache-Control: max-age=600\nx-proxy-cache: MISS\nX-GitHub-Request-Id: 652A:1D54DA:77757:7C58A:6ADAF234\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nAge: 0\nDate: Fri, 23 Oct 2026 05:35:48 GMT\nVia: 1.1 varnish\nX-Served-By: cache-itm1220023-ITM\nX-Cache: MISS\nX-Cache-Hits: 0\nX-Timer: S1792733748.463013,VS0,VE182\nVary: Accept-Encoding\nX-Fastly-Request-ID: ebcc7222b9b00d60be7c70dee01bab7a8674246a",
+            "truncated": false,
+            "statusCode": 200,
+            "statusCodeName": "OK",
+            "timings": {
+              "total": 595,
+              "dns": 65,
+              "tcp": 115,
+              "tls": 114,
+              "firstByte": 300,
+              "download": 1
+            },
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "cipherName": "TLS_AES_128_GCM_SHA256",
+              "createdAt": "2026-09-30T23:44:46.000Z",
+              "expiresAt": "2026-12-29T23:44:45.000Z",
+              "issuer": {
+                "C": "US",
+                "O": "Let's Encrypt",
+                "CN": "YR1"
+              },
+              "subject": {
+                "CN": "*.github.io",
+                "alt": "DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+              },
+              "keyType": "RSA",
+              "keyBits": 2048,
+              "serialNumber": "06:A6:5E:5D:32:79:BA:56:4A:4D:E7:4E:B5:D6:44:78:DB:B8",
+              "fingerprint256": "F2:F9:A1:59:CE:50:A0:A1:68:B3:EA:EA:F2:FC:ED:5A:DD:D4:9B:A3:8E:2B:F6:32:48:F0:57:A1:39:FC:78:56",
+              "publicKey": "30:82:01:22:30:0D:06:09:2A:86:48:86:F7:0D:01:01:01:05:00:03:82:01:0F:00:30:82:01:0A:02:82:01:01:00:9E:6F:70:25:F7:88:C3:AC:BC:4F:CC:4B:6C:16:E0:58:54:E3:D9:B3:9D:09:59:93:72:56:A1:96:54:BD:2E:DE:04:42:66:4B:B5:A0:2F:41:A6:65:F4:5B:62:FA:62:E8:98:F7:B4:4B:B7:5C:CB:00:C2:C8:70:DD:50:F7:B0:60:55:17:BD:79:3F:D2:81:6F:33:9C:B2:9A:D5:FA:D1:DD:04:4E:96:D1:A2:01:79:78:74:6E:BD:B5:D4:30:00:28:B7:BA:C2:F5:25:F2:0B:27:34:05:FD:C3:64:44:3D:B1:51:95:2D:CE:2C:A7:07:29:30:A8:35:EF:6F:34:0D:47:E3:0A:AF:31:91:82:0B:18:92:7D:61:95:E9:A1:02:62:50:89:ED:A8:32:8D:F6:8C:64:37:20:46:68:7D:7A:D9:21:6B:53:2E:31:D8:2A:9A:16:72:37:87:4A:EB:CA:63:5E:08:94:96:0D:4F:59:71:93:7C:C9:D4:9A:DA:48:E9:22:8B:0B:2F:D6:4F:19:F8:13:01:07:A7:74:67:B8:7D:85:A1:13:AA:35:A4:FF:3D:20:7D:7E:02:51:75:EA:D7:88:B6:42:7C:05:D4:7A:F7:6A:1C:17:76:40:70:47:3E:D5:D8:B3:37:5A:E9:AB:D1:E1:42:37:E3:AC:E6:53:49:02:03:01:00:01"
+            }
+          }
+        },
+        {
+          "probe": {
+            "continent": "AS",
+            "region": "Eastern Asia",
+            "country": "CN",
+            "state": null,
+            "city": "Changsha",
+            "asn": 4837,
+            "longitude": 112.97,
+            "latitude": 28.2,
+            "network": "CHINA UNICOM China169 Backbone",
+            "tags": [
+              "eyeball-network",
+              "u-powerfullz"
+            ],
+            "resolvers": [
+              "private",
+              "private"
+            ]
+          },
+          "result": {
+            "status": "finished",
+            "resolvedAddress": "185.199.110.153",
+            "headers": {
+              "connection": "close",
+              "content-length": "393592",
+              "server": "GitHub.com",
+              "content-type": "image/webp",
+              "x-origin-cache": "HIT",
+              "last-modified": "Fri, 23 Oct 2026 05:33:31 GMT",
+              "access-control-allow-origin": "*",
+              "strict-transport-security": "max-age=31556952",
+              "etag": "\"6adaf1ab-60178\"",
+              "expires": "Fri, 23 Oct 2026 05:45:48 GMT",
+              "cache-control": "max-age=600",
+              "x-proxy-cache": "MISS",
+              "x-github-request-id": "652A:1D54DA:77757:7C58A:6ADAF234",
+              "x-github-edge-region": "japaneast",
+              "accept-ranges": "bytes",
+              "date": "Fri, 23 Oct 2026 05:35:49 GMT",
+              "via": "1.1 varnish",
+              "age": "1",
+              "x-served-by": "cache-itm1220052-ITM",
+              "x-cache": "HIT",
+              "x-cache-hits": "1",
+              "x-timer": "S1792733749.456704,VS0,VE1",
+              "vary": "Accept-Encoding",
+              "x-fastly-request-id": "479e607b94c66d45fed7284fb9ed8b3ff95aa217"
+            },
+            "rawHeaders": "Connection: close\nContent-Length: 393592\nServer: GitHub.com\nContent-Type: image/webp\nx-origin-cache: HIT\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: \"6adaf1ab-60178\"\nexpires: Fri, 23 Oct 2026 05:45:48 GMT\nCache-Control: max-age=600\nx-proxy-cache: MISS\nX-GitHub-Request-Id: 652A:1D54DA:77757:7C58A:6ADAF234\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nDate: Fri, 23 Oct 2026 05:35:49 GMT\nVia: 1.1 varnish\nAge: 1\nX-Served-By: cache-itm1220052-ITM\nX-Cache: HIT\nX-Cache-Hits: 1\nX-Timer: S1792733749.456704,VS0,VE1\nVary: Accept-Encoding\nX-Fastly-Request-ID: 479e607b94c66d45fed7284fb9ed8b3ff95aa217",
+            "rawBody": null,
+            "rawOutput": "HTTP/1.1 200\nConnection: close\nContent-Length: 393592\nServer: GitHub.com\nContent-Type: image/webp\nx-origin-cache: HIT\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: \"6adaf1ab-60178\"\nexpires: Fri, 23 Oct 2026 05:45:48 GMT\nCache-Control: max-age=600\nx-proxy-cache: MISS\nX-GitHub-Request-Id: 652A:1D54DA:77757:7C58A:6ADAF234\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nDate: Fri, 23 Oct 2026 05:35:49 GMT\nVia: 1.1 varnish\nAge: 1\nX-Served-By: cache-itm1220052-ITM\nX-Cache: HIT\nX-Cache-Hits: 1\nX-Timer: S1792733749.456704,VS0,VE1\nVary: Accept-Encoding\nX-Fastly-Request-ID: 479e607b94c66d45fed7284fb9ed8b3ff95aa217",
+            "truncated": false,
+            "statusCode": 200,
+            "statusCodeName": "OK",
+            "timings": {
+              "total": 1559,
+              "dns": 3,
+              "tcp": 1139,
+              "tls": 130,
+              "firstByte": 286,
+              "download": 1
+            },
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "cipherName": "TLS_AES_128_GCM_SHA256",
+              "createdAt": "2026-09-30T23:44:46.000Z",
+              "expiresAt": "2026-12-29T23:44:45.000Z",
+              "issuer": {
+                "C": "US",
+                "O": "Let's Encrypt",
+                "CN": "YR1"
+              },
+              "subject": {
+                "CN": "*.github.io",
+                "alt": "DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+              },
+              "keyType": "RSA",
+              "keyBits": 2048,
+              "serialNumber": "06:A6:5E:5D:32:79:BA:56:4A:4D:E7:4E:B5:D6:44:78:DB:B8",
+              "fingerprint256": "F2:F9:A1:59:CE:50:A0:A1:68:B3:EA:EA:F2:FC:ED:5A:DD:D4:9B:A3:8E:2B:F6:32:48:F0:57:A1:39:FC:78:56",
+              "publicKey": "30:82:01:22:30:0D:06:09:2A:86:48:86:F7:0D:01:01:01:05:00:03:82:01:0F:00:30:82:01:0A:02:82:01:01:00:9E:6F:70:25:F7:88:C3:AC:BC:4F:CC:4B:6C:16:E0:58:54:E3:D9:B3:9D:09:59:93:72:56:A1:96:54:BD:2E:DE:04:42:66:4B:B5:A0:2F:41:A6:65:F4:5B:62:FA:62:E8:98:F7:B4:4B:B7:5C:CB:00:C2:C8:70:DD:50:F7:B0:60:55:17:BD:79:3F:D2:81:6F:33:9C:B2:9A:D5:FA:D1:DD:04:4E:96:D1:A2:01:79:78:74:6E:BD:B5:D4:30:00:28:B7:BA:C2:F5:25:F2:0B:27:34:05:FD:C3:64:44:3D:B1:51:95:2D:CE:2C:A7:07:29:30:A8:35:EF:6F:34:0D:47:E3:0A:AF:31:91:82:0B:18:92:7D:61:95:E9:A1:02:62:50:89:ED:A8:32:8D:F6:8C:64:37:20:46:68:7D:7A:D9:21:6B:53:2E:31:D8:2A:9A:16:72:37:87:4A:EB:CA:63:5E:08:94:96:0D:4F:59:71:93:7C:C9:D4:9A:DA:48:E9:22:8B:0B:2F:D6:4F:19:F8:13:01:07:A7:74:67:B8:7D:85:A1:13:AA:35:A4:FF:3D:20:7D:7E:02:51:75:EA:D7:88:B6:42:7C:05:D4:7A:F7:6A:1C:17:76:40:70:47:3E:D5:D8:B3:37:5A:E9:AB:D1:E1:42:37:E3:AC:E6:53:49:02:03:01:00:01"
+            }
+          }
+        },
+        {
+          "probe": {
+            "continent": "AS",
+            "region": "Eastern Asia",
+            "country": "CN",
+            "state": null,
+            "city": "Kunming",
+            "asn": 9808,
+            "longitude": 102.72,
+            "latitude": 25.04,
+            "network": "China Mobile Communications Group",
+            "tags": [
+              "eyeball-network",
+              "u-ourines"
+            ],
+            "resolvers": [
+              "private"
+            ]
+          },
+          "result": {
+            "status": "finished",
+            "resolvedAddress": "185.199.108.153",
+            "headers": {
+              "connection": "close",
+              "content-length": "393592",
+              "server": "GitHub.com",
+              "content-type": "image/webp",
+              "last-modified": "Fri, 23 Oct 2026 05:33:31 GMT",
+              "access-control-allow-origin": "*",
+              "strict-transport-security": "max-age=31556952",
+              "etag": "\"6adaf1ab-60178\"",
+              "expires": "Fri, 23 Oct 2026 05:45:48 GMT",
+              "cache-control": "max-age=600",
+              "x-proxy-cache": "MISS",
+              "x-github-request-id": "D254:1D74B2:260BC:2AD11:6ADAF22F",
+              "x-github-edge-region": "koreacentral",
+              "accept-ranges": "bytes",
+              "age": "0",
+              "date": "Fri, 23 Oct 2026 05:35:48 GMT",
+              "via": "1.1 varnish",
+              "x-served-by": "cache-icn1450084-ICN",
+              "x-cache": "MISS",
+              "x-cache-hits": "0",
+              "x-timer": "S1792733748.334028,VS0,VE211",
+              "vary": "Accept-Encoding",
+              "x-fastly-request-id": "59527b4e0298a912267ee30035783071d425aaf7"
+            },
+            "rawHeaders": "Connection: close\nContent-Length: 393592\nServer: GitHub.com\nContent-Type: image/webp\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: \"6adaf1ab-60178\"\nexpires: Fri, 23 Oct 2026 05:45:48 GMT\nCache-Control: max-age=600\nx-proxy-cache: MISS\nX-GitHub-Request-Id: D254:1D74B2:260BC:2AD11:6ADAF22F\nx-github-edge-region: koreacentral\nAccept-Ranges: bytes\nAge: 0\nDate: Fri, 23 Oct 2026 05:35:48 GMT\nVia: 1.1 varnish\nX-Served-By: cache-icn1450084-ICN\nX-Cache: MISS\nX-Cache-Hits: 0\nX-Timer: S1792733748.334028,VS0,VE211\nVary: Accept-Encoding\nX-Fastly-Request-ID: 59527b4e0298a912267ee30035783071d425aaf7",
+            "rawBody": null,
+            "rawOutput": "HTTP/1.1 200\nConnection: close\nContent-Length: 393592\nServer: GitHub.com\nContent-Type: image/webp\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: \"6adaf1ab-60178\"\nexpires: Fri, 23 Oct 2026 05:45:48 GMT\nCache-Control: max-age=600\nx-proxy-cache: MISS\nX-GitHub-Request-Id: D254:1D74B2:260BC:2AD11:6ADAF22F\nx-github-edge-region: koreacentral\nAccept-Ranges: bytes\nAge: 0\nDate: Fri, 23 Oct 2026 05:35:48 GMT\nVia: 1.1 varnish\nX-Served-By: cache-icn1450084-ICN\nX-Cache: MISS\nX-Cache-Hits: 0\nX-Timer: S1792733748.334028,VS0,VE211\nVary: Accept-Encoding\nX-Fastly-Request-ID: 59527b4e0298a912267ee30035783071d425aaf7",
+            "truncated": false,
+            "statusCode": 200,
+            "statusCodeName": "OK",
+            "timings": {
+              "total": 547,
+              "dns": 2,
+              "tcp": 110,
+              "tls": 115,
+              "firstByte": 320,
+              "download": 0
+            },
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "cipherName": "TLS_AES_128_GCM_SHA256",
+              "createdAt": "2026-09-30T23:44:46.000Z",
+              "expiresAt": "2026-12-29T23:44:45.000Z",
+              "issuer": {
+                "C": "US",
+                "O": "Let's Encrypt",
+                "CN": "YR1"
+              },
+              "subject": {
+                "CN": "*.github.io",
+                "alt": "DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+              },
+              "keyType": "RSA",
+              "keyBits": 2048,
+              "serialNumber": "06:A6:5E:5D:32:79:BA:56:4A:4D:E7:4E:B5:D6:44:78:DB:B8",
+              "fingerprint256": "F2:F9:A1:59:CE:50:A0:A1:68:B3:EA:EA:F2:FC:ED:5A:DD:D4:9B:A3:8E:2B:F6:32:48:F0:57:A1:39:FC:78:56",
+              "publicKey": "30:82:01:22:30:0D:06:09:2A:86:48:86:F7:0D:01:01:01:05:00:03:82:01:0F:00:30:82:01:0A:02:82:01:01:00:9E:6F:70:25:F7:88:C3:AC:BC:4F:CC:4B:6C:16:E0:58:54:E3:D9:B3:9D:09:59:93:72:56:A1:96:54:BD:2E:DE:04:42:66:4B:B5:A0:2F:41:A6:65:F4:5B:62:FA:62:E8:98:F7:B4:4B:B7:5C:CB:00:C2:C8:70:DD:50:F7:B0:60:55:17:BD:79:3F:D2:81:6F:33:9C:B2:9A:D5:FA:D1:DD:04:4E:96:D1:A2:01:79:78:74:6E:BD:B5:D4:30:00:28:B7:BA:C2:F5:25:F2:0B:27:34:05:FD:C3:64:44:3D:B1:51:95:2D:CE:2C:A7:07:29:30:A8:35:EF:6F:34:0D:47:E3:0A:AF:31:91:82:0B:18:92:7D:61:95:E9:A1:02:62:50:89:ED:A8:32:8D:F6:8C:64:37:20:46:68:7D:7A:D9:21:6B:53:2E:31:D8:2A:9A:16:72:37:87:4A:EB:CA:63:5E:08:94:96:0D:4F:59:71:93:7C:C9:D4:9A:DA:48:E9:22:8B:0B:2F:D6:4F:19:F8:13:01:07:A7:74:67:B8:7D:85:A1:13:AA:35:A4:FF:3D:20:7D:7E:02:51:75:EA:D7:88:B6:42:7C:05:D4:7A:F7:6A:1C:17:76:40:70:47:3E:D5:D8:B3:37:5A:E9:AB:D1:E1:42:37:E3:AC:E6:53:49:02:03:01:00:01"
+            }
+          }
+        },
+        {
+          "probe": {
+            "continent": "AS",
+            "region": "Eastern Asia",
+            "country": "CN",
+            "state": null,
+            "city": "Taishan",
+            "asn": 9808,
+            "longitude": 112.78,
+            "latitude": 22.25,
+            "network": "China Mobile Communications Group",
+            "tags": [
+              "eyeball-network"
+            ],
+            "resolvers": [
+              "private"
+            ]
+          },
+          "result": {
+            "status": "finished",
+            "resolvedAddress": "185.199.108.153",
+            "headers": {
+              "connection": "close",
+              "content-length": "393592",
+              "server": "GitHub.com",
+              "content-type": "image/webp",
+              "last-modified": "Fri, 23 Oct 2026 05:33:31 GMT",
+              "access-control-allow-origin": "*",
+              "strict-transport-security": "max-age=31556952",
+              "etag": "\"6adaf1ab-60178\"",
+              "expires": "Fri, 23 Oct 2026 05:45:48 GMT",
+              "cache-control": "max-age=600",
+              "x-proxy-cache": "MISS",
+              "x-github-request-id": "CAE2:20C71B:5E021:633DB:6ADAF234",
+              "x-github-edge-region": "southeastasia",
+              "accept-ranges": "bytes",
+              "age": "0",
+              "date": "Fri, 23 Oct 2026 05:35:48 GMT",
+              "via": "1.1 varnish",
+              "x-served-by": "cache-sin-wsss1830062-SIN",
+              "x-cache": "MISS",
+              "x-cache-hits": "0",
+              "x-timer": "S1792733748.253854,VS0,VE251",
+              "vary": "Accept-Encoding",
+              "x-fastly-request-id": "3c6adee2f7fa2517f43d006cf7c345e26ae5e714"
+            },
+            "rawHeaders": "Connection: close\nContent-Length: 393592\nServer: GitHub.com\nContent-Type: image/webp\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: \"6adaf1ab-60178\"\nexpires: Fri, 23 Oct 2026 05:45:48 GMT\nCache-Control: max-age=600\nx-proxy-cache: MISS\nX-GitHub-Request-Id: CAE2:20C71B:5E021:633DB:6ADAF234\nx-github-edge-region: southeastasia\nAccept-Ranges: bytes\nAge: 0\nDate: Fri, 23 Oct 2026 05:35:48 GMT\nVia: 1.1 varnish\nX-Served-By: cache-sin-wsss1830062-SIN\nX-Cache: MISS\nX-Cache-Hits: 0\nX-Timer: S1792733748.253854,VS0,VE251\nVary: Accept-Encoding\nX-Fastly-Request-ID: 3c6adee2f7fa2517f43d006cf7c345e26ae5e714",
+            "rawBody": null,
+            "rawOutput": "HTTP/1.1 200\nConnection: close\nContent-Length: 393592\nServer: GitHub.com\nContent-Type: image/webp\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: \"6adaf1ab-60178\"\nexpires: Fri, 23 Oct 2026 05:45:48 GMT\nCache-Control: max-age=600\nx-proxy-cache: MISS\nX-GitHub-Request-Id: CAE2:20C71B:5E021:633DB:6ADAF234\nx-github-edge-region: southeastasia\nAccept-Ranges: bytes\nAge: 0\nDate: Fri, 23 Oct 2026 05:35:48 GMT\nVia: 1.1 varnish\nX-Served-By: cache-sin-wsss1830062-SIN\nX-Cache: MISS\nX-Cache-Hits: 0\nX-Timer: S1792733748.253854,VS0,VE251\nVary: Accept-Encoding\nX-Fastly-Request-ID: 3c6adee2f7fa2517f43d006cf7c345e26ae5e714",
+            "truncated": false,
+            "statusCode": 200,
+            "statusCodeName": "OK",
+            "timings": {
+              "total": 496,
+              "dns": 3,
+              "tcp": 76,
+              "tls": 87,
+              "firstByte": 330,
+              "download": 0
+            },
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "cipherName": "TLS_AES_128_GCM_SHA256",
+              "createdAt": "2026-09-30T23:44:46.000Z",
+              "expiresAt": "2026-12-29T23:44:45.000Z",
+              "issuer": {
+                "C": "US",
+                "O": "Let's Encrypt",
+                "CN": "YR1"
+              },
+              "subject": {
+                "CN": "*.github.io",
+                "alt": "DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+              },
+              "keyType": "RSA",
+              "keyBits": 2048,
+              "serialNumber": "06:A6:5E:5D:32:79:BA:56:4A:4D:E7:4E:B5:D6:44:78:DB:B8",
+              "fingerprint256": "F2:F9:A1:59:CE:50:A0:A1:68:B3:EA:EA:F2:FC:ED:5A:DD:D4:9B:A3:8E:2B:F6:32:48:F0:57:A1:39:FC:78:56",
+              "publicKey": "30:82:01:22:30:0D:06:09:2A:86:48:86:F7:0D:01:01:01:05:00:03:82:01:0F:00:30:82:01:0A:02:82:01:01:00:9E:6F:70:25:F7:88:C3:AC:BC:4F:CC:4B:6C:16:E0:58:54:E3:D9:B3:9D:09:59:93:72:56:A1:96:54:BD:2E:DE:04:42:66:4B:B5:A0:2F:41:A6:65:F4:5B:62:FA:62:E8:98:F7:B4:4B:B7:5C:CB:00:C2:C8:70:DD:50:F7:B0:60:55:17:BD:79:3F:D2:81:6F:33:9C:B2:9A:D5:FA:D1:DD:04:4E:96:D1:A2:01:79:78:74:6E:BD:B5:D4:30:00:28:B7:BA:C2:F5:25:F2:0B:27:34:05:FD:C3:64:44:3D:B1:51:95:2D:CE:2C:A7:07:29:30:A8:35:EF:6F:34:0D:47:E3:0A:AF:31:91:82:0B:18:92:7D:61:95:E9:A1:02:62:50:89:ED:A8:32:8D:F6:8C:64:37:20:46:68:7D:7A:D9:21:6B:53:2E:31:D8:2A:9A:16:72:37:87:4A:EB:CA:63:5E:08:94:96:0D:4F:59:71:93:7C:C9:D4:9A:DA:48:E9:22:8B:0B:2F:D6:4F:19:F8:13:01:07:A7:74:67:B8:7D:85:A1:13:AA:35:A4:FF:3D:20:7D:7E:02:51:75:EA:D7:88:B6:42:7C:05:D4:7A:F7:6A:1C:17:76:40:70:47:3E:D5:D8:B3:37:5A:E9:AB:D1:E1:42:37:E3:AC:E6:53:49:02:03:01:00:01"
+            }
+          }
+        },
+        {
+          "probe": {
+            "continent": "AS",
+            "region": "Eastern Asia",
+            "country": "CN",
+            "state": null,
+            "city": "Guangzhou",
+            "asn": 45090,
+            "longitude": 113.25,
+            "latitude": 23.12,
+            "network": "Shenzhen Tencent Computer Systems Company",
+            "tags": [
+              "datacenter-network",
+              "u-yanranxiaoxi"
+            ],
+            "resolvers": [
+              "private",
+              "private"
+            ]
+          },
+          "result": {
+            "status": "finished",
+            "resolvedAddress": "185.199.110.153",
+            "headers": {
+              "connection": "close",
+              "content-length": "393592",
+              "server": "GitHub.com",
+              "content-type": "image/webp",
+              "last-modified": "Fri, 23 Oct 2026 05:33:31 GMT",
+              "access-control-allow-origin": "*",
+              "strict-transport-security": "max-age=31556952",
+              "etag": "\"6adaf1ab-60178\"",
+              "expires": "Fri, 23 Oct 2026 05:44:30 GMT",
+              "cache-control": "max-age=600",
+              "x-proxy-cache": "MISS",
+              "x-github-request-id": "44DE:1D54DA:7664F:7B3AB:6ADAF1E6",
+              "x-github-edge-region": "japaneast",
+              "accept-ranges": "bytes",
+              "date": "Fri, 23 Oct 2026 05:35:49 GMT",
+              "via": "1.1 varnish",
+              "age": "0",
+              "x-served-by": "cache-nrt-rjtf7700088-NRT",
+              "x-cache": "HIT",
+              "x-cache-hits": "1",
+              "x-timer": "S1792733750.556250,VS0,VE2",
+              "vary": "Accept-Encoding",
+              "x-fastly-request-id": "b9c54776612549004ee88afa11d767dffba8505b"
+            },
+            "rawHeaders": "Connection: close\nContent-Length: 393592\nServer: GitHub.com\nContent-Type: image/webp\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: \"6adaf1ab-60178\"\nexpires: Fri, 23 Oct 2026 05:44:30 GMT\nCache-Control: max-age=600\nx-proxy-cache: MISS\nX-GitHub-Request-Id: 44DE:1D54DA:7664F:7B3AB:6ADAF1E6\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nDate: Fri, 23 Oct 2026 05:35:49 GMT\nVia: 1.1 varnish\nAge: 0\nX-Served-By: cache-nrt-rjtf7700088-NRT\nX-Cache: HIT\nX-Cache-Hits: 1\nX-Timer: S1792733750.556250,VS0,VE2\nVary: Accept-Encoding\nX-Fastly-Request-ID: b9c54776612549004ee88afa11d767dffba8505b",
+            "rawBody": null,
+            "rawOutput": "HTTP/1.1 200\nConnection: close\nContent-Length: 393592\nServer: GitHub.com\nContent-Type: image/webp\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: \"6adaf1ab-60178\"\nexpires: Fri, 23 Oct 2026 05:44:30 GMT\nCache-Control: max-age=600\nx-proxy-cache: MISS\nX-GitHub-Request-Id: 44DE:1D54DA:7664F:7B3AB:6ADAF1E6\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nDate: Fri, 23 Oct 2026 05:35:49 GMT\nVia: 1.1 varnish\nAge: 0\nX-Served-By: cache-nrt-rjtf7700088-NRT\nX-Cache: HIT\nX-Cache-Hits: 1\nX-Timer: S1792733750.556250,VS0,VE2\nVary: Accept-Encoding\nX-Fastly-Request-ID: b9c54776612549004ee88afa11d767dffba8505b",
+            "truncated": false,
+            "statusCode": 200,
+            "statusCodeName": "OK",
+            "timings": {
+              "total": 1816,
+              "dns": 17,
+              "tcp": 245,
+              "tls": 994,
+              "firstByte": 560,
+              "download": 0
+            },
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "cipherName": "TLS_AES_128_GCM_SHA256",
+              "createdAt": "2026-09-30T23:44:46.000Z",
+              "expiresAt": "2026-12-29T23:44:45.000Z",
+              "issuer": {
+                "C": "US",
+                "O": "Let's Encrypt",
+                "CN": "YR1"
+              },
+              "subject": {
+                "CN": "*.github.io",
+                "alt": "DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+              },
+              "keyType": "RSA",
+              "keyBits": 2048,
+              "serialNumber": "06:A6:5E:5D:32:79:BA:56:4A:4D:E7:4E:B5:D6:44:78:DB:B8",
+              "fingerprint256": "F2:F9:A1:59:CE:50:A0:A1:68:B3:EA:EA:F2:FC:ED:5A:DD:D4:9B:A3:8E:2B:F6:32:48:F0:57:A1:39:FC:78:56",
+              "publicKey": "30:82:01:22:30:0D:06:09:2A:86:48:86:F7:0D:01:01:01:05:00:03:82:01:0F:00:30:82:01:0A:02:82:01:01:00:9E:6F:70:25:F7:88:C3:AC:BC:4F:CC:4B:6C:16:E0:58:54:E3:D9:B3:9D:09:59:93:72:56:A1:96:54:BD:2E:DE:04:42:66:4B:B5:A0:2F:41:A6:65:F4:5B:62:FA:62:E8:98:F7:B4:4B:B7:5C:CB:00:C2:C8:70:DD:50:F7:B0:60:55:17:BD:79:3F:D2:81:6F:33:9C:B2:9A:D5:FA:D1:DD:04:4E:96:D1:A2:01:79:78:74:6E:BD:B5:D4:30:00:28:B7:BA:C2:F5:25:F2:0B:27:34:05:FD:C3:64:44:3D:B1:51:95:2D:CE:2C:A7:07:29:30:A8:35:EF:6F:34:0D:47:E3:0A:AF:31:91:82:0B:18:92:7D:61:95:E9:A1:02:62:50:89:ED:A8:32:8D:F6:8C:64:37:20:46:68:7D:7A:D9:21:6B:53:2E:31:D8:2A:9A:16:72:37:87:4A:EB:CA:63:5E:08:94:96:0D:4F:59:71:93:7C:C9:D4:9A:DA:48:E9:22:8B:0B:2F:D6:4F:19:F8:13:01:07:A7:74:67:B8:7D:85:A1:13:AA:35:A4:FF:3D:20:7D:7E:02:51:75:EA:D7:88:B6:42:7C:05:D4:7A:F7:6A:1C:17:76:40:70:47:3E:D5:D8:B3:37:5A:E9:AB:D1:E1:42:37:E3:AC:E6:53:49:02:03:01:00:01"
+            }
+          }
+        }
+      ]
+    },
+    "telecom_retry": {
+      "id": "2YlOpNNYFhDf6p4p700021Mrf",
+      "type": "http",
+      "status": "finished",
+      "createdAt": "2026-10-23T05:35:48.354Z",
+      "updatedAt": "2026-10-23T05:35:50.098Z",
+      "target": "fredericktsang0320.github.io",
+      "probesCount": 1,
+      "locations": [
+        {
+          "country": "CN",
+          "asn": 4812
+        }
+      ],
+      "measurementOptions": {
+        "request": {
+          "method": "GET",
+          "path": "/cultured-gems-market-report/"
+        }
+      },
+      "results": [
+        {
+          "probe": {
+            "continent": "AS",
+            "region": "Eastern Asia",
+            "country": "CN",
+            "state": null,
+            "city": "Shanghai",
+            "asn": 4812,
+            "longitude": 121.46,
+            "latitude": 31.22,
+            "network": "China Telecom (Group)",
+            "tags": [
+              "eyeball-network"
+            ],
+            "resolvers": [
+              "private"
+            ]
+          },
+          "result": {
+            "status": "finished",
+            "resolvedAddress": "185.199.109.153",
+            "headers": {
+              "connection": "close",
+              "content-length": "32438",
+              "server": "GitHub.com",
+              "content-type": "text/html; charset=utf-8",
+              "last-modified": "Fri, 23 Oct 2026 05:33:31 GMT",
+              "access-control-allow-origin": "*",
+              "strict-transport-security": "max-age=31556952",
+              "etag": "W/\"6adaf1ab-23c23\"",
+              "expires": "Fri, 23 Oct 2026 05:43:50 GMT",
+              "cache-control": "max-age=600",
+              "content-encoding": "gzip",
+              "x-proxy-cache": "MISS",
+              "x-github-request-id": "D056:3CE84C:78D56:7DA06:6ADAF1BE",
+              "x-github-edge-region": "japaneast",
+              "accept-ranges": "bytes",
+              "age": "87",
+              "date": "Fri, 23 Oct 2026 05:35:49 GMT",
+              "via": "1.1 varnish",
+              "x-served-by": "cache-nrt-rjaa8190025-NRT",
+              "x-cache": "HIT",
+              "x-cache-hits": "0",
+              "x-timer": "S1792733749.353045,VS0,VE1",
+              "vary": "Accept-Encoding",
+              "x-fastly-request-id": "ace4a6c1c0dfcd18e83011beb1d6a4a37865e765"
+            },
+            "rawHeaders": "Connection: close\nContent-Length: 32438\nServer: GitHub.com\nContent-Type: text/html; charset=utf-8\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: W/\"6adaf1ab-23c23\"\nexpires: Fri, 23 Oct 2026 05:43:50 GMT\nCache-Control: max-age=600\nContent-Encoding: gzip\nx-proxy-cache: MISS\nX-GitHub-Request-Id: D056:3CE84C:78D56:7DA06:6ADAF1BE\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nAge: 87\nDate: Fri, 23 Oct 2026 05:35:49 GMT\nVia: 1.1 varnish\nX-Served-By: cache-nrt-rjaa8190025-NRT\nX-Cache: HIT\nX-Cache-Hits: 0\nX-Timer: S1792733749.353045,VS0,VE1\nVary: Accept-Encoding\nX-Fastly-Request-ID: ace4a6c1c0dfcd18e83011beb1d6a4a37865e765",
+            "rawBody": "<!doctype html><html lang=\"zh-Hant\"><head><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"description\" content=\"培育彩寶市場研究：品牌、財務、商品實物卡片及公開資料原文。2026年10月23日。\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>培育彩寶市場研究｜去背卡片版｜2026-10-23</title><style>\n:root{--paper:#faf8f4;--ink:#272420;--muted:#635d55;--line:#ddd7cd;--accent:#775035;--red:#9a302b;--yellow:#785b16}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,\"PingFang HK\",\"Noto Sans CJK TC\",sans-serif}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}::selection{background:#e5d2be;color:#211a15}main,header,nav .nav-inner{max-width:1200px;margin:auto;padding:0 32px}header{padding-top:48px;padding-bottom:26px;border-bottom:1px solid var(--line)}h1,h2{font-family:\"Songti TC\",\"Noto Serif CJK TC\",serif;font-weight:600;line-height:1.25}h1{font-size:42px;margin:0 0 14px;letter-spacing:-.025em}h2{font-size:28px;margin:0 0 18px;letter-spacing:-.015em}h3{font-size:19px;line-height:1.45;margin:8px 0}p{margin:10px 0}.lede{font-size:18px;max-width:70ch}.meta,.caption,.code{font-size:12px;color:var(--muted)}.meta{margin-top:14px}nav{position:sticky;top:0;z-index:5;background:#faf8f4f5;border-bottom:1px solid var(--line)}nav .nav-inner{display:flex;gap:26px;align-items:center;min-height:54px;overflow:auto;white-space:nowrap}nav a{font-size:13px;text-decoration:none;color:var(--ink)}nav a:hover{color:var(--accent)}section{padding:44px 0;border-bottom:1px solid var(--line)}.intro{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:start}.intro p{font-size:17px}.decision{margin:0;padding-left:22px}.decision li{padding:0 0 14px 8px}.decision strong{display:block;font-size:17px}.refs{font-size:12px;white-space:normal}.refs a{text-decoration:none}.note{color:var(--muted);font-size:13px;max-width:85ch}.important{color:var(--red);font-weight:600}.caution{color:var(--yellow)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 24px}.product{min-width:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.photo{height:205px;display:block;overflow:hidden;background:#f6f6f6}.photo img{display:block;width:100%;height:100%;object-fit:contain}.photo.zoom img{transform:scale(1.9)}.product-copy{padding:16px 18px}.brandline{display:flex;gap:12px;justify-content:space-between;align-items:start;font-size:12px;font-weight:600}.brandline span{font-size:12px;font-weight:400;color:var(--muted);text-align:right}.product h3{font-size:18px}.code{margin:4px 0}.material,.sell{font-size:13px;line-height:1.55}.material{min-height:42px}.sell{color:var(--muted);min-height:40px}.price{font-size:19px;font-weight:600;display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-variant-numeric:tabular-nums}.price a{font-size:12px;font-weight:400}.caption{font-size:12px;line-height:1.55;margin-bottom:0}.brand-table{background:#fff;margin:18px 0}.brand-table th{width:175px;font-weight:400;padding:20px}.brand-table th strong{font-size:18px;font-family:serif}.brand-table th small{display:block;line-height:1.65;margin-top:12px;font-size:12px;color:var(--muted)}.brand-table td{padding:10px 16px}.brands{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px 8px}.brand{display:flex;align-items:center;gap:8px;min-height:52px;padding:5px 0;color:var(--ink);text-decoration:none;min-width:0}.brand img{width:42px;height:30px;object-fit:contain;background:#fff;flex-shrink:0}.brand span{font-size:12px;line-height:1.3;overflow-wrap:anywhere}.supp{display:flex;gap:26px;flex-wrap:wrap;align-items:center}.supp .brand{min-width:160px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:13px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}thead{background:#efeae1}th{font-weight:600}td strong{display:block}.table-wrap{overflow:auto}.finance td:first-child{width:150px}.finance td:nth-child(2){width:230px}.finance td:nth-child(3){width:285px}details{margin:20px 0 0;border-top:1px solid var(--line);padding-top:14px}summary{cursor:pointer;font-weight:600;line-height:1.7;padding:4px 0}details[open] summary{margin-bottom:20px}.proof{width:100%;height:auto;display:block}.local-feature{display:grid;grid-template-columns:1fr 1.3fr;gap:30px;align-items:center;margin:22px 0}.local-photo{height:300px;overflow:hidden;background:#fff;border:1px solid var(--line)}.local-photo img{width:300%;height:auto;max-width:none;position:relative;top:-215px}.local-feature h3{font-family:serif;font-size:25px}.local-feature .price{max-width:370px}.solution td:first-child{min-width:90px}.solution td{line-height:1.7}.steps{padding-left:22px}.steps li{padding:8px 0 8px 6px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.button{display:inline-block;padding:10px 18px;background:var(--ink);color:#fff;text-decoration:none;font-size:13px;border:0;cursor:pointer;border-radius:5px}.button:hover{background:var(--accent)}.sources{columns:2;column-gap:44px;list-style:none;padding:0;font-size:12px}.sources li{break-inside:avoid;margin:0 0 13px}.sources code{font:11px/1.4 monospace;color:var(--muted)}footer{max-width:1200px;margin:auto;padding:25px 32px 40px;font-size:12px;color:var(--muted)}.audit td:first-child{width:180px}pre{white-space:pre-wrap;word-break:break-word;background:#eee9e1;padding:16px;border-radius:5px;font-size:12px}button{font-family:inherit}.desktop-only{display:block}@media(max-width:950px){.brands{grid-template-columns:repeat(4,minmax(0,1fr))}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-table th{width:145px}.brand-table td{padding:8px}.intro{gap:24px}}@media(max-width:620px){header,main,nav .nav-inner{padding-left:20px;padding-right:20px}header{padding-top:32px}h1{font-size:32px}h2{font-size:25px}nav .nav-inner{gap:22px}.intro,.local-feature{grid-template-columns:1fr;gap:18px}.grid{grid-template-columns:1fr}.photo{height:250px}.brand-table th,.brand-table td{display:block;width:100%}.brand-table th{padding:15px 14px 5px;border-bottom:0}.brand-table th small{margin-top:5px}.brands{grid-template-columns:repeat(3,minmax(0,1fr))}.brand{gap:6px;min-height:54px}.brand img{width:30px;height:27px}.brand span{font-size:12px}.sources{columns:1}.local-photo{height:260px}.local-photo img{top:-145px}section{padding:32px 0}.material,.sell{min-height:0}.finance{min-width:770px}footer{padding:24px 20px}}@media print{nav,.print-hide{display:none}body{background:#fff}header{padding-top:0}section{padding:24px 0;break-inside:auto}.product{break-inside:avoid}.grid{grid-template-columns:repeat(3,1fr)}h1{font-size:34px}.sources{columns:2}a{color:#222}details[open]{break-inside:auto}.photo{height:150px}}\n</style><style>\nhtml{scroll-behavior:auto}body{font-size:16px}.product{display:flex;flex-direction:column;border-radius:16px;background:#fff;overflow:hidden;border:1px solid #dcd5ca}.product-stage{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:242px;padding:25px 26px;border:0;background:#f4f1eb;color:#5c5144;cursor:zoom-in;overflow:hidden;min-width:0}.product-stage svg{width:100%;height:100%;display:block;max-height:100%}.stage-action{position:absolute;right:14px;bottom:10px;font-size:12px;line-height:1.3;padding:4px 0;color:#5c5144}.product-copy{padding:19px 20px 17px;display:flex;flex-direction:column;flex:1}.product h3{font-size:20px;line-height:1.45;margin:9px 0 6px;min-height:58px;overflow-wrap:anywhere}.brandline{align-items:start;gap:12px}.maker{font-size:13px;font-weight:600}.brandline .evidence-label{font-size:12px;line-height:1.45;color:#655c51;font-weight:400;max-width:46%}.code{font-size:12px;line-height:1.5;min-height:36px;margin:0 0 12px;overflow-wrap:anywhere}.product-spec{font-size:13px;line-height:1.65;margin:0 0 12px;display:grid;gap:9px}.product-spec div{min-width:0}.product-spec dt{font-size:12px;font-weight:600;color:#6b6257;margin-bottom:2px}.product-spec dd{margin:0;overflow-wrap:anywhere}.product-bottom{margin-top:auto;padding-top:10px;border-top:1px solid #e7e1d8}.price{margin:0 0 12px;line-height:1.4;font-size:21px;font-weight:600;gap:12px}.price small{font-size:12px;font-weight:400;color:#655c51}.card-actions{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}.card-actions a,.card-actions button{font:500 13px/1.4 -apple-system,'PingFang HK',sans-serif;display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 13px;border-radius:7px;text-decoration:none;cursor:pointer;flex:1;min-width:110px}.primary-action{background:#69472f;color:#fff}.primary-action:hover{background:#4f3321}.compare-action{border:1px solid #cfc5b7;background:#fff;color:#45392d}.compare-action:hover{background:#f4f1eb}.product .caption{font-size:12px;margin:11px 0 0;line-height:1.55}.product .caption a{display:inline-block;min-height:24px;padding:2px 1px}.grid{gap:25px}.local-feature{background:#fff;border:1px solid #dcd5ca;border-radius:16px;overflow:hidden;gap:0;align-items:stretch}.local-feature>.product-stage{height:auto;min-height:365px;padding:40px}.local-feature>div{padding:27px 28px}.local-feature .price{font-size:24px;margin:17px 0}.local-feature h3{font-size:27px;margin:0 0 14px}.local-feature .card-actions{margin-top:17px}.local-feature .caption{font-size:12px}.local-photo{display:none}.image-dialog{padding:0;border:0;border-radius:16px;width:min(900px,calc(100vw - 40px));max-height:calc(100dvh - 40px);overflow:auto;color:#272420;background:#fff;box-shadow:0 18px 60px #211b1640}.image-dialog::backdrop{background:#211b16aa}.viewer-top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:19px 22px;border-bottom:1px solid #e2dacf}.viewer-top h3{font",
+            "rawOutput": "HTTP/1.1 200\nConnection: close\nContent-Length: 32438\nServer: GitHub.com\nContent-Type: text/html; charset=utf-8\nLast-Modified: Fri, 23 Oct 2026 05:33:31 GMT\nAccess-Control-Allow-Origin: *\nStrict-Transport-Security: max-age=31556952\nETag: W/\"6adaf1ab-23c23\"\nexpires: Fri, 23 Oct 2026 05:43:50 GMT\nCache-Control: max-age=600\nContent-Encoding: gzip\nx-proxy-cache: MISS\nX-GitHub-Request-Id: D056:3CE84C:78D56:7DA06:6ADAF1BE\nx-github-edge-region: japaneast\nAccept-Ranges: bytes\nAge: 87\nDate: Fri, 23 Oct 2026 05:35:49 GMT\nVia: 1.1 varnish\nX-Served-By: cache-nrt-rjaa8190025-NRT\nX-Cache: HIT\nX-Cache-Hits: 0\nX-Timer: S1792733749.353045,VS0,VE1\nVary: Accept-Encoding\nX-Fastly-Request-ID: ace4a6c1c0dfcd18e83011beb1d6a4a37865e765\n\n<!doctype html><html lang=\"zh-Hant\"><head><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"description\" content=\"培育彩寶市場研究：品牌、財務、商品實物卡片及公開資料原文。2026年10月23日。\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>培育彩寶市場研究｜去背卡片版｜2026-10-23</title><style>\n:root{--paper:#faf8f4;--ink:#272420;--muted:#635d55;--line:#ddd7cd;--accent:#775035;--red:#9a302b;--yellow:#785b16}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,\"PingFang HK\",\"Noto Sans CJK TC\",sans-serif}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible,summary:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:4px}::selection{background:#e5d2be;color:#211a15}main,header,nav .nav-inner{max-width:1200px;margin:auto;padding:0 32px}header{padding-top:48px;padding-bottom:26px;border-bottom:1px solid var(--line)}h1,h2{font-family:\"Songti TC\",\"Noto Serif CJK TC\",serif;font-weight:600;line-height:1.25}h1{font-size:42px;margin:0 0 14px;letter-spacing:-.025em}h2{font-size:28px;margin:0 0 18px;letter-spacing:-.015em}h3{font-size:19px;line-height:1.45;margin:8px 0}p{margin:10px 0}.lede{font-size:18px;max-width:70ch}.meta,.caption,.code{font-size:12px;color:var(--muted)}.meta{margin-top:14px}nav{position:sticky;top:0;z-index:5;background:#faf8f4f5;border-bottom:1px solid var(--line)}nav .nav-inner{display:flex;gap:26px;align-items:center;min-height:54px;overflow:auto;white-space:nowrap}nav a{font-size:13px;text-decoration:none;color:var(--ink)}nav a:hover{color:var(--accent)}section{padding:44px 0;border-bottom:1px solid var(--line)}.intro{display:grid;grid-template-columns:1.25fr 1fr;gap:40px;align-items:start}.intro p{font-size:17px}.decision{margin:0;padding-left:22px}.decision li{padding:0 0 14px 8px}.decision strong{display:block;font-size:17px}.refs{font-size:12px;white-space:normal}.refs a{text-decoration:none}.note{color:var(--muted);font-size:13px;max-width:85ch}.important{color:var(--red);font-weight:600}.caution{color:var(--yellow)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 24px}.product{min-width:0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.photo{height:205px;display:block;overflow:hidden;background:#f6f6f6}.photo img{display:block;width:100%;height:100%;object-fit:contain}.photo.zoom img{transform:scale(1.9)}.product-copy{padding:16px 18px}.brandline{display:flex;gap:12px;justify-content:space-between;align-items:start;font-size:12px;font-weight:600}.brandline span{font-size:12px;font-weight:400;color:var(--muted);text-align:right}.product h3{font-size:18px}.code{margin:4px 0}.material,.sell{font-size:13px;line-height:1.55}.material{min-height:42px}.sell{color:var(--muted);min-height:40px}.price{font-size:19px;font-weight:600;display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-variant-numeric:tabular-nums}.price a{font-size:12px;font-weight:400}.caption{font-size:12px;line-height:1.55;margin-bottom:0}.brand-table{background:#fff;margin:18px 0}.brand-table th{width:175px;font-weight:400;padding:20px}.brand-table th strong{font-size:18px;font-family:serif}.brand-table th small{display:block;line-height:1.65;margin-top:12px;font-size:12px;color:var(--muted)}.brand-table td{padding:10px 16px}.brands{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:4px 8px}.brand{display:flex;align-items:center;gap:8px;min-height:52px;padding:5px 0;color:var(--ink);text-decoration:none;min-width:0}.brand img{width:42px;height:30px;object-fit:contain;background:#fff;flex-shrink:0}.brand span{font-size:12px;line-height:1.3;overflow-wrap:anywhere}.supp{display:flex;gap:26px;flex-wrap:wrap;align-items:center}.supp .brand{min-width:160px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:13px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}thead{background:#efeae1}th{font-weight:600}td strong{display:block}.table-wrap{overflow:auto}.finance td:first-child{width:150px}.finance td:nth-child(2){width:230px}.finance td:nth-child(3){width:285px}details{margin:20px 0 0;border-top:1px solid var(--line);padding-top:14px}summary{cursor:pointer;font-weight:600;line-height:1.7;padding:4px 0}details[open] summary{margin-bottom:20px}.proof{width:100%;height:auto;display:block}.local-feature{display:grid;grid-template-columns:1fr 1.3fr;gap:30px;align-items:center;margin:22px 0}.local-photo{height:300px;overflow:hidden;background:#fff;border:1px solid var(--line)}.local-photo img{width:300%;height:auto;max-width:none;position:relative;top:-215px}.local-feature h3{font-family:serif;font-size:25px}.local-feature .price{max-width:370px}.solution td:first-child{min-width:90px}.solution td{line-height:1.7}.steps{padding-left:22px}.steps li{padding:8px 0 8px 6px}.toolbar{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.button{display:inline-block;padding:10px 18px;background:var(--ink);color:#fff;text-decoration:none;font-size:13px;border:0;cursor:pointer;border-radius:5px}.button:hover{background:var(--accent)}.sources{columns:2;column-gap:44px;list-style:none;padding:0;font-size:12px}.sources li{break-inside:avoid;margin:0 0 13px}.sources code{font:11px/1.4 monospace;color:var(--muted)}footer{max-width:1200px;margin:auto;padding:25px 32px 40px;font-size:12px;color:var(--muted)}.audit td:first-child{width:180px}pre{white-space:pre-wrap;word-break:break-word;background:#eee9e1;padding:16px;border-radius:5px;font-size:12px}button{font-family:inherit}.desktop-only{display:block}@media(max-width:950px){.brands{grid-template-columns:repeat(4,minmax(0,1fr))}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.brand-table th{width:145px}.brand-table td{padding:8px}.intro{gap:24px}}@media(max-width:620px){header,main,nav .nav-inner{padding-left:20px;padding-right:20px}header{padding-top:32px}h1{font-size:32px}h2{font-size:25px}nav .nav-inner{gap:22px}.intro,.local-feature{grid-template-columns:1fr;gap:18px}.grid{grid-template-columns:1fr}.photo{height:250px}.brand-table th,.brand-table td{display:block;width:100%}.brand-table th{padding:15px 14px 5px;border-bottom:0}.brand-table th small{margin-top:5px}.brands{grid-template-columns:repeat(3,minmax(0,1fr))}.brand{gap:6px;min-height:54px}.brand img{width:30px;height:27px}.brand span{font-size:12px}.sources{columns:1}.local-photo{height:260px}.local-photo img{top:-145px}section{padding:32px 0}.material,.sell{min-height:0}.finance{min-width:770px}footer{padding:24px 20px}}@media print{nav,.print-hide{display:none}body{background:#fff}header{padding-top:0}section{padding:24px 0;break-inside:auto}.product{break-inside:avoid}.grid{grid-template-columns:repeat(3,1fr)}h1{font-size:34px}.sources{columns:2}a{color:#222}details[open]{break-inside:auto}.photo{height:150px}}\n</style><style>\nhtml{scroll-behavior:auto}body{font-size:16px}.product{display:flex;flex-direction:column;border-radius:16px;background:#fff;overflow:hidden;border:1px solid #dcd5ca}.product-stage{position:relative;display:flex;align-items:center;justify-content:center;width:100%;height:242px;padding:25px 26px;border:0;background:#f4f1eb;color:#5c5144;cursor:zoom-in;overflow:hidden;min-width:0}.product-stage svg{width:100%;height:100%;display:block;max-height:100%}.stage-action{position:absolute;right:14px;bottom:10px;font-size:12px;line-height:1.3;padding:4px 0;color:#5c5144}.product-copy{padding:19px 20px 17px;display:flex;flex-direction:column;flex:1}.product h3{font-size:20px;line-height:1.45;margin:9px 0 6px;min-height:58px;overflow-wrap:anywhere}.brandline{align-items:start;gap:12px}.maker{font-size:13px;font-weight:600}.brandline .evidence-label{font-size:12px;line-height:1.45;color:#655c51;font-weight:400;max-width:46%}.code{font-size:12px;line-height:1.5;min-height:36px;margin:0 0 12px;overflow-wrap:anywhere}.product-spec{font-size:13px;line-height:1.65;margin:0 0 12px;display:grid;gap:9px}.product-spec div{min-width:0}.product-spec dt{font-size:12px;font-weight:600;color:#6b6257;margin-bottom:2px}.product-spec dd{margin:0;overflow-wrap:anywhere}.product-bottom{margin-top:auto;padding-top:10px;border-top:1px solid #e7e1d8}.price{margin:0 0 12px;line-height:1.4;font-size:21px;font-weight:600;gap:12px}.price small{font-size:12px;font-weight:400;color:#655c51}.card-actions{display:flex;gap:10px;align-items:stretch;flex-wrap:wrap}.card-actions a,.card-actions button{font:500 13px/1.4 -apple-system,'PingFang HK',sans-serif;display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px 13px;border-radius:7px;text-decoration:none;cursor:pointer;flex:1;min-width:110px}.primary-action{background:#69472f;color:#fff}.primary-action:hover{background:#4f3321}.compare-action{border:1px solid #cfc5b7;background:#fff;color:#45392d}.compare-action:hover{background:#f4f1eb}.product .caption{font-size:12px;margin:11px 0 0;line-height:1.55}.product .caption a{display:inline-block;min-height:24px;padding:2px 1px}.grid{gap:25px}.local-feature{background:#fff;border:1px solid #dcd5ca;border-radius:16px;overflow:hidden;gap:0;align-items:stretch}.local-feature>.product-stage{height:auto;min-height:365px;padding:40px}.local-feature>div{padding:27px 28px}.local-feature .price{font-size:24px;margin:17px 0}.local-feature h3{font-size:27px;margin:0 0 14px}.local-feature .card-actions{margin-top:17px}.local-feature .caption{font-size:12px}.local-photo{display:none}.image-dialog{padding:0;border:0;border-radius:16px;width:min(900px,calc(100vw - 40px));max-height:calc(100dvh - 40px);overflow:auto;color:#272420;background:#fff;box-shadow:0 18px 60px #211b1640}.image-dialog::backdrop{background:#211b16aa}.viewer-top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:19px 22px;border-bottom:1px solid #e2dacf}.viewer-top h3{font",
+            "truncated": true,
+            "statusCode": 200,
+            "statusCodeName": "OK",
+            "timings": {
+              "total": 1366,
+              "dns": 1,
+              "tcp": 243,
+              "tls": 551,
+              "firstByte": 563,
+              "download": 8
+            },
+            "tls": {
+              "authorized": true,
+              "protocol": "TLSv1.3",
+              "cipherName": "TLS_AES_128_GCM_SHA256",
+              "createdAt": "2026-09-30T23:44:46.000Z",
+              "expiresAt": "2026-12-29T23:44:45.000Z",
+              "issuer": {
+                "C": "US",
+                "O": "Let's Encrypt",
+                "CN": "YR1"
+              },
+              "subject": {
+                "CN": "*.github.io",
+                "alt": "DNS:*.github.com, DNS:*.github.io, DNS:*.githubusercontent.com, DNS:github.com, DNS:github.io, DNS:githubusercontent.com"
+              },
+              "keyType": "RSA",
+              "keyBits": 2048,
+              "serialNumber": "06:A6:5E:5D:32:79:BA:56:4A:4D:E7:4E:B5:D6:44:78:DB:B8",
+              "fingerprint256": "F2:F9:A1:59:CE:50:A0:A1:68:B3:EA:EA:F2:FC:ED:5A:DD:D4:9B:A3:8E:2B:F6:32:48:F0:57:A1:39:FC:78:56",
+              "publicKey": "30:82:01:22:30:0D:06:09:2A:86:48:86:F7:0D:01:01:01:05:00:03:82:01:0F:00:30:82:01:0A:02:82:01:01:00:9E:6F:70:25:F7:88:C3:AC:BC:4F:CC:4B:6C:16:E0:58:54:E3:D9:B3:9D:09:59:93:72:56:A1:96:54:BD:2E:DE:04:42:66:4B:B5:A0:2F:41:A6:65:F4:5B:62:FA:62:E8:98:F7:B4:4B:B7:5C:CB:00:C2:C8:70:DD:50:F7:B0:60:55:17:BD:79:3F:D2:81:6F:33:9C:B2:9A:D5:FA:D1:DD:04:4E:96:D1:A2:01:79:78:74:6E:BD:B5:D4:30:00:28:B7:BA:C2:F5:25:F2:0B:27:34:05:FD:C3:64:44:3D:B1:51:95:2D:CE:2C:A7:07:29:30:A8:35:EF:6F:34:0D:47:E3:0A:AF:31:91:82:0B:18:92:7D:61:95:E9:A1:02:62:50:89:ED:A8:32:8D:F6:8C:64:37:20:46:68:7D:7A:D9:21:6B:53:2E:31:D8:2A:9A:16:72:37:87:4A:EB:CA:63:5E:08:94:96:0D:4F:59:71:93:7C:C9:D4:9A:DA:48:E9:22:8B:0B:2F:D6:4F:19:F8:13:01:07:A7:74:67:B8:7D:85:A1:13:AA:35:A4:FF:3D:20:7D:7E:02:51:75:EA:D7:88:B6:42:7C:05:D4:7A:F7:6A:1C:17:76:40:70:47:3E:D5:D8:B3:37:5A:E9:AB:D1:E1:42:37:E3:AC:E6:53:49:02:03:01:00:01"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
