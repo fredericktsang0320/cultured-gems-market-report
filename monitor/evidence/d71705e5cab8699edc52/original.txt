@@ -1,0 +1,85 @@
+Window: "小紅書", App: rednote.
+0 標準視窗 小紅書, ID: SceneWindow, Secondary Actions: Raise
+	1 container
+		2 container Secondary Actions: Cancel
+			3 按鈕 Secondary Actions: Cancel
+			4 文字項目區域 (settable) Value: 培育彩宝, Secondary Actions: Cancel
+			5 按鈕 Secondary Actions: Cancel
+			6 按鈕 Description: 搜尋, ID: recommend_search_button, Secondary Actions: Cancel
+			7 element Description: 筆記, Secondary Actions: Cancel
+			8 element Description: 用戶, Secondary Actions: Cancel
+			9 element Description: 商品, Secondary Actions: Cancel
+			10 element Description: 影片, Secondary Actions: Cancel
+			11 element Description: 地點, Secondary Actions: Cancel
+			12 element Description: 群聊, Secondary Actions: Cancel
+			13 container Secondary Actions: Cancel
+				14 container Secondary Actions: Cancel
+					15 文字 Description: 綜合, Secondary Actions: Cancel
+					16 文字 Description: 銷量, Secondary Actions: Cancel
+					17 文字 Description: 店鋪, Secondary Actions: Cancel
+					18 文字 Description: 1年1度, Secondary Actions: Cancel
+					19 文字 Description: 直播, Secondary Actions: Cancel
+					20 文字 Description: 退貨包運費, Secondary Actions: Cancel
+					21 文字 Description: 價格升序, Secondary Actions: Cancel
+					22 文字 Description: 價格降序, Secondary Actions: Cancel
+				23 container Secondary Actions: Cancel
+					24 文字 Description: “第一次买是真的很可以，店家人也很好很耐心，性价比很高”, Secondary Actions: Cancel
+					25 文字 Description: Nereus【冰裂霓虹培育帕拉伊巴】钇铝榴石椭圆裸石/蓝绿色调, Secondary Actions: Cancel
+					26 container Secondary Actions: Cancel
+						27 文字 Description: 限時立減35元, Secondary Actions: Cancel
+						28 文字 Description: 近期店舖銷量No.1, Secondary Actions: Cancel
+						29 文字 Description: 4000+人加購, Secondary Actions: Cancel
+						30 文字 Description: 退貨包運費, Secondary Actions: Cancel
+					31 文字 Description: 券後¥70已售673, Secondary Actions: Cancel
+					32 按鈕 Secondary Actions: Cancel
+				33 container Secondary Actions: Cancel
+					34 文字 Description: “好看好看好看，实物非常有质感，不是那种轻飘飘的感觉，白光暖光拍...”, Secondary Actions: Cancel
+					35 文字 Description: 培育木佐色哥伦比亚祖母绿裸石, Secondary Actions: Cancel
+					36 container Secondary Actions: Cancel
+						37 文字 Description: 大促價保, Secondary Actions: Cancel
+						38 文字 Description: 後日達, Secondary Actions: Cancel
+						39 文字 Description: 58客人回購 , Secondary Actions: Cancel
+						40 文字 Description: 限時立減15, Secondary Actions: Cancel
+						41 文字 Description: 月銷量上漲超 3 倍, Secondary Actions: Cancel
+					42 文字 Description: 券後¥85已售547, Secondary Actions: Cancel
+					43 按鈕 Secondary Actions: Cancel
+				44 container Secondary Actions: Cancel
+					45 文字 Description: “钻石好闪，闪到无法聚焦，太喜欢了！单戴叠戴都好大气，跟我coco...”, Secondary Actions: Cancel
+					46 文字 Description: WE培育钻石·专拍链接, Secondary Actions: Cancel
+					47 container Secondary Actions: Cancel
+						48 文字 Description: 近期店舖銷量No.2, Secondary Actions: Cancel
+						49 文字 Description: 100+人加購, Secondary Actions: Cancel
+						50 文字 Description: 退貨包運費, Secondary Actions: Cancel
+					51 文字 Description: ¥5199已售464, Secondary Actions: Cancel
+					52 按鈕 Secondary Actions: Cancel
+				53 container Secondary Actions: Cancel
+					54 文字 Description: “男生带1.25克拉很好看，很闪亮。”, Secondary Actions: Cancel
+					55 文字 Description: 梵诗·50分/1.25克拉祖母绿切割钻石排钻手链·S925银镀金·男女同款, Secondary Actions: Cancel
+					56 container Secondary Actions: Cancel
+						57 文字 Description: 1000+人加購, Secondary Actions: Cancel
+						58 文字 Description: 100+人收藏, Secondary Actions: Cancel
+						59 文字 Description: 限時立減180, Secondary Actions: Cancel
+						60 文字 Description: 100%好評, Secondary Actions: Cancel
+						61 文字 Description: 後日達, Secondary Actions: Cancel
+					62 文字 Description: 券後¥1019已售347, Secondary Actions: Cancel
+					63 按鈕 Secondary Actions: Cancel
+				64 container Secondary Actions: Cancel
+					65 文字 Description: 培育拉贡色 薄荷色 金绿色彩色蓝宝石裸石, Secondary Actions: Cancel
+					66 container Secondary Actions: Cancel
+						67 文字 Description: 近期店舖銷量No.3, Secondary Actions: Cancel
+						68 文字 Description: 大促價保, Secondary Actions: Cancel
+						69 文字 Description: 後日達, Secondary Actions: Cancel
+						70 文字 Description: 70客人回購 , Secondary Actions: Cancel
+						71 文字 Description: 限時立減15, Secondary Actions: Cancel
+					72 文字 Description: 券後¥85已售467, Secondary Actions: Cancel
+					73 按鈕 Secondary Actions: Cancel
+	74 關閉按鈕
+	75 全螢幕按鈕 Help: 此按鈕也有可縮放視窗的動作, Secondary Actions: 縮放視窗
+	76 縮到最小按鈕
+	77 文字 小紅書
+78 menu bar
+	79 小紅書, ID: com.apple.menu.application
+	80 編輯, ID: com.apple.menu.edit
+	81 顯示方式, ID: com.apple.menu.view
+	82 視窗, ID: com.apple.menu.window
+	83 輔助說明, ID: com.apple.menu.help

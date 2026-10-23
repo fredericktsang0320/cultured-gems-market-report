@@ -1,0 +1,35 @@
+Window: "小紅書", App: rednote.
+0 標準視窗 小紅書, ID: SceneWindow, Secondary Actions: Raise
+	1 container
+		2 container Secondary Actions: Cancel
+			3 container Secondary Actions: Cancel
+				4 滑桿 (settable) Value: 商品展示当前为商品图片1，共4页，上下轻扫翻页双击全屏展示, Secondary Actions: Cancel
+				5 container Secondary Actions: Cancel
+					6 container Secondary Actions: Cancel
+						7 文字 Description: 商品价格, Value: 關注後369元原价399元已售205件, Secondary Actions: Cancel
+						8 按鈕 Description: 优惠信息, Help: 双击进入优惠明细, Value: 關注店鋪立減30商家券新客立減20, Secondary Actions: Cancel
+						9 文字 Description: 商品名称, Value: 「翡冷翠」培育祖母绿戒指 · 2克拉方形s925银厚镀18K金戒指, Secondary Actions: Cancel
+						10 按鈕 Help: 双击进入发货说明, Value: 預售4天內發貨，遲發必賠发货地浙江台州 包郵, Secondary Actions: Cancel
+						11 按鈕 Description: 服务说明, Help: 双击进入详情, Value: 七天無理由退貨極速退款晚發必賠, Secondary Actions: Cancel
+						12 按鈕 Description: 已选规格, Help: 双击进入规格选择, Value: 美式 8 码（男生常用）, Secondary Actions: Cancel
+			13 按鈕 Description: 返回, Help: 双击返回上一页, Secondary Actions: Cancel
+			14 按鈕 Description: 搜索商品, Help: 双击进入搜索页, Secondary Actions: Cancel
+			15 按鈕 Secondary Actions: Cancel
+			16 按鈕 Description: 商品未加入心愿单, Help: 双击加入, Secondary Actions: Cancel
+			17 按鈕 Description: 分享商品, Help: 双击打开分享面板, Secondary Actions: Cancel
+			18 container Secondary Actions: Cancel
+				19 element Description: 进入店铺, Secondary Actions: Cancel
+				20 element Description: 打开客服, Secondary Actions: Cancel
+				21 element Description: 打开购物车, Secondary Actions: Cancel
+				22 element Secondary Actions: Cancel
+				23 element Secondary Actions: Cancel
+	24 關閉按鈕
+	25 全螢幕按鈕 Help: 此按鈕也有可縮放視窗的動作, Secondary Actions: 縮放視窗
+	26 縮到最小按鈕
+	27 文字 小紅書
+28 menu bar
+	29 小紅書, ID: com.apple.menu.application
+	30 編輯, ID: com.apple.menu.edit
+	31 顯示方式, ID: com.apple.menu.view
+	32 視窗, ID: com.apple.menu.window
+	33 輔助說明, ID: com.apple.menu.help
