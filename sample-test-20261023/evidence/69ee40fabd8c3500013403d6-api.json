@@ -1,0 +1,582 @@
+{
+  "error_code": 0,
+  "success": true,
+  "msg": "ok",
+  "data": {
+    "template": "[{\"name\":\"appV4\",\"key\":\"app\",\"type\":\"block\",\"parent\":null},{\"name\":\"headerBarMainV2\",\"key\":\"headerBarMain\",\"parent\":\"app.slot.headerBarMain\",\"type\":\"block\"},{\"name\":\"headerBarPopup\",\"key\":\"headerBarPopup\",\"type\":\"block\",\"parent\":null,\"strategies\":[{\"type\":\"event\"},{\"type\":\"runtime\"}]},{\"name\":\"curtainRectangle\",\"key\":\"curtain\",\"parent\":\"app.slot.curtain\",\"type\":\"block\"},{\"name\":\"carouselRectangle\",\"key\":\"carousel\",\"type\":\"block\",\"parent\":\"app.slot.carousel\"},{\"name\":\"colorVariantsV1\",\"key\":\"colorVariants\",\"type\":\"block\",\"parent\":\"app.slot.colorVariants\"},{\"name\":\"priceWarmUpV2\",\"key\":\"priceWarmUp\",\"type\":\"block\",\"parent\":\"app.slot.basic\"},{\"name\":\"priceV4\",\"key\":\"price\",\"type\":\"block\",\"parent\":\"app.slot.basic\"},{\"name\":\"profitBarV5\",\"key\":\"profitBar\",\"type\":\"block\",\"parent\":\"app.slot.basic\"},{\"name\":\"depositTailPayTimeV4\",\"key\":\"depositTailPayTime\",\"type\":\"block\",\"parent\":\"app.slot.basic\"},{\"name\":\"descriptionV4\",\"key\":\"description\",\"type\":\"block\",\"parent\":\"app.slot.basic\"},{\"name\":\"descriptionExtraInfoV1\",\"key\":\"descriptionExtraInfo\",\"type\":\"block\",\"parent\":\"app.slot.basic\"},{\"name\":\"redRankV4\",\"key\":\"redRank\",\"type\":\"block\",\"parent\":\"app.slot.basic\"},{\"name\":\"depositSteps\",\"key\":\"depositSteps\",\"type\":\"block\",\"parent\":\"app.slot.basic\"},{\"name\":\"campaignBannerV4\",\"key\":\"campaignBanner\",\"type\":\"block\",\"parent\":\"app.slot.campaignBanner\"},{\"name\":\"membershipV4\",\"key\":\"membership\",\"type\":\"block\",\"parent\":\"app.slot.membership\"},{\"name\":\"serviceAssuranceV5\",\"key\":\"serviceMain\",\"type\":\"block\",\"parent\":\"app.slot.service\"},{\"name\":\"profitBarPopupV2\",\"key\":\"profitBarPopup\",\"type\":\"block\",\"parent\":null,\"strategies\":[{\"type\":\"event\"},{\"type\":\"runtime\"}]},{\"name\":\"installmentV1\",\"key\":\"installment\",\"type\":\"block\",\"parent\":\"app.slot.service\"},{\"name\":\"installmentPopup\",\"key\":\"installmentPopup\",\"type\":\"block\",\"parent\":null,\"strategies\":[{\"type\":\"event\"},{\"type\":\"runtime\"}]},{\"name\":\"displayO2OShopV4\",\"key\":\"displayO2OShop\",\"parent\":\"app.slot.service\",\"type\":\"block\"},{\"name\":\"selectedV4\",\"key\":\"selected\",\"type\":\"block\",\"parent\":\"app.slot.service\"},{\"name\":\"goodsDistributeV4\",\"key\":\"goodsDistribute\",\"type\":\"block\",\"parent\":\"app.slot.service\"},{\"name\":\"redLabel\",\"key\":\"redLabel\",\"type\":\"block\",\"parent\":\"app.slot.redLabel\",\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"unboxing\",\"key\":\"unboxing\",\"type\":\"block\",\"parent\":\"app.slot.comments\",\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"sellerV4\",\"key\":\"seller\",\"type\":\"block\",\"parent\":\"app.slot.shop\",\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"shopRecommendV4\",\"key\":\"shopRecommend\",\"type\":\"block\",\"parent\":\"app.slot.shop\",\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"lookAgain\",\"key\":\"lookAgain\",\"type\":\"block\",\"parent\":\"app.slot.lookAgain\",\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"graphicDetailsV4\",\"key\":\"graphicDetails\",\"type\":\"block\",\"parent\":\"app.slot.graphicDetails\",\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"productDetail\",\"key\":\"productDetail\",\"parent\":\"graphicDetails\",\"type\":\"block\",\"strategies\":[{\"type\":\"event\"},{\"type\":\"runtime\"}]},{\"name\":\"extraInfoV4\",\"key\":\"extraInfo\",\"type\":\"block\",\"parent\":\"app.slot.extraInfo\",\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"normalFaqV4\",\"key\":\"normalFaq\",\"type\":\"block\",\"parent\":\"extraInfo\",\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"variantsParams\",\"key\":\"variantsParams\",\"type\":\"block\",\"parent\":\"extraInfo\",\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"priceDescriptionV4\",\"key\":\"priceDescription\",\"type\":\"block\",\"parent\":\"extraInfo\",\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"consumeWarningV4\",\"key\":\"consumeWarning\",\"type\":\"block\",\"parent\":\"extraInfo\",\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"feedsTitleV4\",\"key\":\"feedsTitle\",\"type\":\"block\",\"parent\":\"app.slot.feedsTitle\",\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"feedsCardV4\",\"key\":\"feedsCard\",\"type\":\"block\",\"parent\":\"app.slot.feedsCard\",\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"couponTip\",\"key\":\"couponTip\",\"type\":\"block\",\"parent\":\"app.slot.bottomBarMain\"},{\"name\":\"bottomBarPro\",\"key\":\"bottomBarMain\",\"type\":\"block\",\"parent\":\"app.slot.bottomBarMain\",\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"servicePopup\",\"key\":\"servicePopup\",\"type\":\"block\",\"parent\":null,\"strategies\":[{\"type\":\"event\"},{\"type\":\"runtime\"}]},{\"name\":\"cpsPopup\",\"key\":\"cpsPopup\",\"type\":\"block\",\"parent\":null,\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"fashionCouponPopup\",\"key\":\"fashionCouponPopup\",\"type\":\"block\",\"parent\":null,\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"variantsContainer\",\"key\":\"variantsContainer\",\"type\":\"block\",\"parent\":null,\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"addCartTips\",\"key\":\"addCartTips\",\"type\":\"block\",\"parent\":null,\"strategies\":[{\"type\":\"event\"},{\"type\":\"runtime\"}]},{\"name\":\"membershipPopup\",\"key\":\"membershipPopup\",\"type\":\"block\",\"parent\":null,\"strategies\":[{\"type\":\"event\"},{\"type\":\"runtime\"}]},{\"name\":\"distributePopup\",\"key\":\"distributePopup\",\"type\":\"block\",\"parent\":null,\"strategies\":[{\"type\":\"runtime\"}]},{\"name\":\"liveBar\",\"key\":\"liveBar\",\"parent\":null,\"type\":\"block\",\"strategies\":[{\"type\":\"event\"}]},{\"name\":\"liveVideoBar\",\"key\":\"liveVideoBar\",\"parent\":\"app.slot.liveVideoBar\",\"type\":\"block\",\"strategies\":[{\"type\":\"event\"},{\"type\":\"runtime\"}]},{\"name\":\"genuinePopup\",\"key\":\"genuinePopup\",\"type\":\"block\",\"parent\":null,\"strategies\":[{\"type\":\"event\"},{\"type\":\"runtime\"}]},{\"name\":\"couponRemindPopup\",\"key\":\"couponRemindPopup\",\"type\":\"block\",\"parent\":null,\"strategies\":[{\"type\":\"event\"},{\"type\":\"runtime\"}]},{\"name\":\"pluginBoostV4\",\"key\":\"pluginBoost\",\"parent\":null,\"type\":\"block\"}]",
+    "template_data": [
+      {
+        "installmentPopupV1": {
+          "title": null,
+          "tips": null,
+          "notice": null,
+          "steps": []
+        },
+        "sellerH5": {
+          "logo": "https://sns-avatar-qc.xhscdn.com/avatar/69a99c1695068500012c6230.jpg?imageView2/2/w/120/format/jpg",
+          "name": "Nereus Jewelry的店",
+          "link": "https://www.xiaohongshu.com/shop/699b66c88d8220001591d7df",
+          "tag": null,
+          "grade": "4.5",
+          "sellerScore": "4.53",
+          "sellerScoreText": "卖家口碑",
+          "slogan": null,
+          "skuCount": null,
+          "nextTitle": "进店逛逛",
+          "id": "699b66c88d8220001591d7df",
+          "fansAmount": "粉丝数 3285",
+          "salesVolume": "已售2317"
+        },
+        "descriptionH5": {
+          "name": "Nereus【培育帕帕拉恰】S925银镀18K金女戒1.7c/6*8mm · 日落色 美码6号",
+          "skuId": "69ee40fabd8c3500013403d6",
+          "tags": [],
+          "itemAnalysisDataText": null,
+          "isFollowed": false,
+          "hasFollowed": false
+        },
+        "bottomBarMainH5": {
+          "skuId": "69ee40fabd8c3500013403d6",
+          "seller": {
+            "sellerId": "699b66c88d8220001591d7df",
+            "link": "https://www.xiaohongshu.com/shop/699b66c88d8220001591d7df",
+            "logo": "https://sns-avatar-qc.xhscdn.com/avatar/69a99c1695068500012c6230.jpg?imageView2/2/w/120/format/jpg",
+            "name": null
+          },
+          "showCustomerService": true,
+          "customerServiceName": "客服",
+          "customerServiceLink": "xhsdiscover://rn/eva-seraph/seller/699b66c88d8220001591d7df/chat?goods_id=69ee40fabd8c3500013403d6",
+          "isFollowed": null,
+          "cartItemCount": null,
+          "activityInfo": null,
+          "buttons": [
+            {
+              "type": "addCart",
+              "text": "加入购物车",
+              "subText": "",
+              "actionType": "addCart",
+              "styleType": "RedA6",
+              "isDepositSale": null,
+              "depositPrice": null,
+              "link": null,
+              "primaryLink": null,
+              "tradeExt": null,
+              "avatarUrl": null,
+              "avatarHolderUrl": null,
+              "dealPrice": null,
+              "countDown": null,
+              "customAction": null
+            },
+            {
+              "type": "instantBuy",
+              "text": "立即购买",
+              "subText": "",
+              "actionType": "instantBuy",
+              "styleType": null,
+              "isDepositSale": null,
+              "depositPrice": null,
+              "link": null,
+              "primaryLink": null,
+              "tradeExt": null,
+              "avatarUrl": null,
+              "avatarHolderUrl": null,
+              "dealPrice": null,
+              "countDown": null,
+              "customAction": null
+            }
+          ],
+          "price": 28000,
+          "isSingleVariant": false,
+          "couponInfos": [],
+          "dealPrice": null,
+          "qualificationInfo": null,
+          "onSaleSubscribeData": null,
+          "deliveryInfo": {
+            "ableToDelivery": true,
+            "unableToDeliveryText": null,
+            "buttonText": null
+          }
+        },
+        "priceH5": {
+          "highlightPrice": 350.0,
+          "priceIntegerPart": "350",
+          "priceDecimalPart": null,
+          "dealPrice": {
+            "price": 280.0,
+            "type": 3,
+            "priceText": "到手价",
+            "isShowPricePop": true
+          },
+          "promotion": null,
+          "itemAnalysisDataText": "已售218",
+          "isFollowed": null,
+          "hasFollowed": false,
+          "multipleDiscount": [],
+          "countDown": null,
+          "backgroundImage": null,
+          "tags": []
+        },
+        "servicePopupV2": {
+          "title": null,
+          "list": [
+            {
+              "title": "退货包运费",
+              "description": "卖家赠送，退换货可享上门取件等平台提供的寄件方式首重（一公斤以内）免费，自行寄回将参照首重标准补贴运费，具体以“订单详情-退货包运费”页面为准。",
+              "link": "https://agree.xiaohongshu.com/h5/terms/ZXXY20230711002/-1",
+              "showWarehouse": null,
+              "icon": "https://qimg.xiaohongshu.com/beerdemo/90a8e4f4bef8157c3a390a7d90ca8f97193dea00?sign=309bb3bdec44f4d7a04008659687fff6&t=7c245f00&aegis=fulishedetail",
+              "type": null
+            },
+            {
+              "title": "7天无理由退货",
+              "description": "满足相应条件时，消费者可申请“七天无理由退货”。",
+              "link": null,
+              "showWarehouse": null,
+              "icon": "https://qimg.xiaohongshu.com/beerdemo/90a8e4f4bef8157c3a390a7d90ca8f97193dea00?sign=309bb3bdec44f4d7a04008659687fff6&t=7c245f00&aegis=fulishedetail",
+              "type": null
+            },
+            {
+              "title": "极速退款",
+              "description": "满足相应条件时，信用良好的用户申请【未发货退款】或【申请退货且将退货寄出后】，享受钱款直接到账权益",
+              "link": null,
+              "showWarehouse": null,
+              "icon": "https://qimg.xiaohongshu.com/beerdemo/90a8e4f4bef8157c3a390a7d90ca8f97193dea00?sign=309bb3bdec44f4d7a04008659687fff6&t=7c245f00&aegis=fulishedetail",
+              "type": null
+            },
+            {
+              "title": "晚发必赔",
+              "description": "若商家发货时间超过承诺的发货时效，将按照规则赔付您至少3元无门槛薯券（特殊商品及不可抗力因素除外)。",
+              "link": null,
+              "showWarehouse": null,
+              "icon": "https://qimg.xiaohongshu.com/beerdemo/90a8e4f4bef8157c3a390a7d90ca8f97193dea00?sign=309bb3bdec44f4d7a04008659687fff6&t=7c245f00&aegis=fulishedetail",
+              "type": null
+            }
+          ],
+          "level1": [],
+          "banner": null
+        },
+        "descriptionExtraInfoV1": null,
+        "carouselH5": {
+          "images": [
+            {
+              "url": "//mall-i8.xhscdn.com/arkgoods/1040g0ao31veamnfc3m3g5qcrcpkocfhtgcs2nc8?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+              "thumbnail": null,
+              "width": 1278,
+              "height": 1704,
+              "sizeBanner": null,
+              "cover": null,
+              "videoId": null,
+              "media": null,
+              "type": null
+            },
+            {
+              "url": "//mall-i8.xhscdn.com/arkgoods/104100ao31vh6f1bm2q06j6r6p0jvc0000000005in8ida?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+              "thumbnail": null,
+              "width": 4284,
+              "height": 4284,
+              "sizeBanner": null,
+              "cover": null,
+              "videoId": null,
+              "media": null,
+              "type": null
+            },
+            {
+              "url": "//mall-i8.xhscdn.com/arkgoods/1040g0ao31veamnfc3m305qcrcpkocfht1kv2rho?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+              "thumbnail": null,
+              "width": 925,
+              "height": 1234,
+              "sizeBanner": null,
+              "cover": null,
+              "videoId": null,
+              "media": null,
+              "type": null
+            }
+          ],
+          "marketingImage": null,
+          "video": null,
+          "skuId": "69ee40fabd8c3500013403d6",
+          "stockStatus": 1
+        },
+        "depositSteps": null,
+        "priceWarmUp": {
+          "price": null,
+          "promotion": null,
+          "tips": null,
+          "backgroundImage": null
+        },
+        "selectedH5": {
+          "text": "日落色 美码6号",
+          "skuId": "69ee40fabd8c3500013403d6",
+          "desc": null,
+          "specifications": []
+        },
+        "profitBarV1": {
+          "name": "优惠",
+          "tags": [
+            "限时立减70"
+          ],
+          "queryPaymentMarketingInfo": false,
+          "profitType": "PROMOTION",
+          "couponTemplateId": null,
+          "couponPromotionChannel": null,
+          "promotionType": "TIME_LIMIT_SPECIAL_PRICE",
+          "promotionId": "6ab557108c243100153ead8f",
+          "paymentMarketingText": null,
+          "depositId": null,
+          "fissionTag": null
+        },
+        "fissionCoupon": null,
+        "graphicDetailsV4": {
+          "brandCard": null,
+          "shopActive": null,
+          "brandAuthorization": null,
+          "description": "",
+          "images": [
+            {
+              "url": "https://mall-i8.xhscdn.com/b/b631ea1a-c5f2-4765-b68d-4ee77e09a88c?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+              "thumbnail": null,
+              "width": 1278,
+              "height": 1500,
+              "sizeBanner": null,
+              "cover": null,
+              "videoId": null,
+              "media": null,
+              "type": null
+            },
+            {
+              "url": "https://mall-i8.xhscdn.com/b/a8c6ac89-84ad-4241-a195-0aea42b2fd80?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+              "thumbnail": null,
+              "width": 1278,
+              "height": 204,
+              "sizeBanner": null,
+              "cover": null,
+              "videoId": null,
+              "media": null,
+              "type": null
+            },
+            {
+              "url": "https://mall-i8.xhscdn.com/arkgoods/1040g0ao31veamnfc3m305qcrcpkocfht1kv2rho?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+              "thumbnail": null,
+              "width": 925,
+              "height": 1234,
+              "sizeBanner": null,
+              "cover": null,
+              "videoId": null,
+              "media": null,
+              "type": null
+            },
+            {
+              "url": "https://mall-i8.xhscdn.com/b/0d9f878d-0b9b-4c6e-b04c-b9ca3d871dd7?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+              "thumbnail": null,
+              "width": 4284,
+              "height": 1500,
+              "sizeBanner": null,
+              "cover": null,
+              "videoId": null,
+              "media": null,
+              "type": null
+            },
+            {
+              "url": "https://mall-i8.xhscdn.com/b/d1747b6a-1985-4e14-9633-1142c3aac49d?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+              "thumbnail": null,
+              "width": 4284,
+              "height": 1500,
+              "sizeBanner": null,
+              "cover": null,
+              "videoId": null,
+              "media": null,
+              "type": null
+            },
+            {
+              "url": "https://mall-i8.xhscdn.com/b/449d7892-e411-462b-93d2-7baa43951d2f?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+              "thumbnail": null,
+              "width": 4284,
+              "height": 1284,
+              "sizeBanner": null,
+              "cover": null,
+              "videoId": null,
+              "media": null,
+              "type": null
+            }
+          ],
+          "guide": null,
+          "sellerId": "699b66c88d8220001591d7df",
+          "eventId": null
+        },
+        "headerBarMainPopup": {
+          "title": "更多功能",
+          "list": [
+            {
+              "name": "友好市集",
+              "icon": "https://picasso-static.xiaohongshu.com/picasso-editor/988195f77bce2ea719803b8bf89d731e41b6b424",
+              "url": "xhsdiscover://home/store",
+              "trackersComponent": "goods_detail:home/store",
+              "data": null
+            },
+            {
+              "name": "购物车",
+              "icon": "https://picasso-static.xiaohongshu.com/picasso-editor/fa55abec26329f977ea2fa669b1591a3ea47c4bb",
+              "url": "xhsdiscover://rn/lancer/user/shopping_cart?eaglet_id=1152&upstream=nns",
+              "trackersComponent": "goods_detail:user_shopping_cart",
+              "data": null
+            },
+            {
+              "name": "订单",
+              "icon": "https://picasso-static.xiaohongshu.com/picasso-editor/c618e573e86f867b4149cab9f465ea429612e265",
+              "url": "xhsdiscover://rn/lancer-order/order/list",
+              "trackersComponent": "goods_detail:https://www.xiaohongshu.com/order/list",
+              "data": null
+            },
+            {
+              "name": "卡券",
+              "icon": "https://picasso-static.xiaohongshu.com/picasso-editor/9d573c638358852a11fccfad66777f9ba9857de8",
+              "url": "https://www.xiaohongshu.com/activity/coupon/list",
+              "trackersComponent": "goods_detail:https://www.xiaohongshu.com/activity/coupon/list",
+              "data": null
+            },
+            {
+              "name": "心愿单",
+              "icon": "https://picasso-static.xiaohongshu.com/picasso-editor/c4860a6b04556fe1625ed1b8fdc1c893eb4922f3",
+              "url": "https://www.xiaohongshu.com/wishlist/index",
+              "trackersComponent": "goods_detail:https://www.xiaohongshu.com/wishlist/index",
+              "data": null
+            },
+            {
+              "name": "举报",
+              "icon": "https://picasso-static.xiaohongshu.com/fe-platform/44e30acf8974268c4ae5a8b4895b84223edf8772.png",
+              "url": "https://www.xiaohongshu.com/evaluation/tip-offs?goodsId=69ee40fabd8c3500013403d6",
+              "trackersComponent": "goods_detail:https://www.xiaohongshu.com/evaluation/tip-offs",
+              "data": null
+            },
+            {
+              "name": "分享",
+              "icon": "https://picasso-static.xiaohongshu.com/picasso-editor/fbd0a7fddfad41242de3f59bbdffa2663da6f0c0",
+              "url": null,
+              "trackersComponent": null,
+              "data": {
+                "shareData": {
+                  "instanceId": null,
+                  "title": "Nereus【培育帕帕拉恰】S925银镀18K金女戒1.7c/6*8mm · 日落色 美码6号",
+                  "image": "https://mall-i8.xhscdn.com/arkgoods/1040g0ao31veamnfc3m3g5qcrcpkocfhtgcs2nc8?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+                  "imageurl": "https://mall-i8.xhscdn.com/arkgoods/1040g0ao31veamnfc3m3g5qcrcpkocfhtgcs2nc8?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+                  "linkurl": "https://www.xiaohongshu.com/goods-detail/69ee40fabd8c3500013403d6?xsec_token=XBNFx0Sb6MIbjSO-L7gDLwGcr1ORXQyTAEPRQQK0wsnCE=&xsec_source=app_share&instation_link=xhsdiscover%3A%2F%2Fgoods_detail%2F69ee40fabd8c3500013403d6%26rn%3Dtrue",
+                  "content": "",
+                  "type": "ShareToFriend,WeixinSession,WeixinTimeline,SinaWeibo,QQ,QQSpace,copy,report",
+                  "extension": {
+                    "miniprogram": null,
+                    "friend": "{\"type\":\"goodsDetail\",\"avatar\":\"https://sns-avatar-qc.xhscdn.com/avatar/69a99c1695068500012c6230.jpg?imageView2/2/w/120/format/jpg\",\"officialVerifyType\":0,\"brandName\":\"Nereus Jewelry的店\",\"brandId\":\"699b66c88d8220001591d7df\",\"image\":\"https://mall-i8.xhscdn.com/arkgoods/1040g0ao31veamnfc3m3g5qcrcpkocfhtgcs2nc8?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL\",\"desc\":\"Nereus【培育帕帕拉恰】S925银镀18K金女戒1.7c/6*8mm · 日落色 美码6号\",\"price\":28000,\"id\":\"69ee40fabd8c3500013403d6\",\"title\":\"Nereus【培育帕帕拉恰】S925银镀18K金女戒1.7c/6*8mm · 日落色 美码6号\",\"content\":\"Nereus Jewelry的店\",\"cover\":\"https://mall-i8.xhscdn.com/arkgoods/1040g0ao31veamnfc3m3g5qcrcpkocfhtgcs2nc8?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL\"}",
+                    "reportUrl": null
+                  },
+                  "baseUrl": "https://www.xiaohongshu.com"
+                }
+              }
+            }
+          ]
+        },
+        "descriptionMain": {
+          "name": "Nereus【培育帕帕拉恰】S925银镀18K金女戒1.7c/6*8mm",
+          "itemId": "69ee40fabd8c3500013403d6",
+          "tags": [],
+          "spuAnalysisDataText": null,
+          "isFollowed": null,
+          "hasFollowed": null
+        },
+        "priceDescription": {
+          "title": "价格说明",
+          "list": [
+            {
+              "name": "划线价格",
+              "value": "指商品的专柜价、吊牌价、正品零售价、厂商指导价或该商品的曾经展示过的销售价等，并非原价，仅供参考。"
+            },
+            {
+              "name": "未划线价格",
+              "value": "指商品的销售价，是您最终决定是否购买商品的依据。"
+            },
+            {
+              "name": "折扣",
+              "value": "页面显示的“折扣”为非划线价格与划线价格的对比，该对比值仅供您参考，不作为计算非划线价格的依据。"
+            }
+          ]
+        },
+        "profitBarPopupH5": {
+          "title": "优惠",
+          "formula": {
+            "result": {
+              "name": "到手价",
+              "price": 280.0
+            },
+            "step": [
+              {
+                "name": "原始售价",
+                "price": 350.0
+              },
+              {
+                "name": "限时立减",
+                "price": 70.0
+              }
+            ]
+          },
+          "promotion": null,
+          "promotionV1": {
+            "subTitle": "",
+            "title": "相关优惠",
+            "list": [
+              {
+                "entryText": null,
+                "columnDisplay": false,
+                "promotionId": "6ab557108c243100153ead8f",
+                "promotionType": 4,
+                "promotionChannel": null,
+                "promotionName": null,
+                "subTitle": null,
+                "title": null,
+                "name": "限时特价",
+                "validateTime": "有效期至2027.02.27 00:44",
+                "anchorName": null,
+                "reminder": null,
+                "textColor": null,
+                "borderColor": null,
+                "contents": [
+                  {
+                    "tag": "限时立减70",
+                    "description": null,
+                    "validateTime": "有效期至2027.02.27 00:44",
+                    "giftGoods": [],
+                    "textColor": null,
+                    "borderColor": null
+                  }
+                ],
+                "link": null,
+                "orderRebateCouponTemplateId": null
+              }
+            ]
+          },
+          "coupon": null,
+          "follow": {
+            "name": "Nereus Jewelry",
+            "logo": "https://sns-avatar-qc.xhscdn.com/avatar/69a99c1695068500012c6230.jpg?imageView2/2/w/80/format/jpg",
+            "fansNum": 3285,
+            "sellerUserId": "699b66690000000021023e3d",
+            "sellerId": "699b66c88d8220001591d7df"
+          }
+        },
+        "campaignBanner": {
+          "componentCode": null,
+          "resourceObjects": []
+        },
+        "consumeWarning": {
+          "title": null,
+          "text": null
+        },
+        "installmentV1": {
+          "title": null,
+          "text": null
+        },
+        "displayO2OShop": null,
+        "normalFaq": {
+          "title": null,
+          "list": []
+        },
+        "serviceV5": {
+          "sceneType": null,
+          "list": [
+            {
+              "name": "退货包运费",
+              "icon": "https://picasso-static.xiaohongshu.com/fe-platform/e624ca23a791ee2bc01871ebccd3a6d8f7f0d6a1.png",
+              "type": null
+            },
+            {
+              "name": "7天无理由退货",
+              "icon": "https://picasso-static.xiaohongshu.com/fe-platform/e624ca23a791ee2bc01871ebccd3a6d8f7f0d6a1.png",
+              "type": null
+            },
+            {
+              "name": "极速退款",
+              "icon": "https://picasso-static.xiaohongshu.com/fe-platform/e624ca23a791ee2bc01871ebccd3a6d8f7f0d6a1.png",
+              "type": null
+            },
+            {
+              "name": "晚发必赔",
+              "icon": "https://picasso-static.xiaohongshu.com/fe-platform/e624ca23a791ee2bc01871ebccd3a6d8f7f0d6a1.png",
+              "type": null
+            }
+          ],
+          "level1": [],
+          "brandGuarantee": null,
+          "scrollingData": [],
+          "carousel": null
+        },
+        "goodsDistributeV4": {
+          "location": "山东潍坊",
+          "fee": "包邮",
+          "shipmentIcon": null,
+          "time": {
+            "text": "付款后7天内发货",
+            "mode": null,
+            "tag": null,
+            "tagWidth": null,
+            "tagHeight": null,
+            "color": null,
+            "colorDark": null,
+            "sepColor": null,
+            "sepColorDark": null
+          }
+        },
+        "headerBarMainV2": {
+          "hasMoreButton": true,
+          "hasComments": null,
+          "searchLink": null,
+          "sellerId": "699b66c88d8220001591d7df",
+          "hasSearch": true,
+          "hasPlaceholder": true,
+          "hasFollowed": true,
+          "isFollowed": false
+        },
+        "goodsDistributePopupV4": null,
+        "variantsParams": {
+          "title": "规格参数",
+          "list": [
+            {
+              "name": "商品名称",
+              "value": "Nereus【培育帕帕拉恰】S925银镀18K金女戒1.7c/6*8mm"
+            },
+            {
+              "name": "适用性别",
+              "value": "女"
+            },
+            {
+              "name": "是否现货",
+              "value": "现货"
+            },
+            {
+              "name": "风格",
+              "value": "时尚,现代"
+            },
+            {
+              "name": "图案",
+              "value": "动物图案"
+            },
+            {
+              "name": "新奇特",
+              "value": "千奇百怪"
+            },
+            {
+              "name": "镶嵌材质",
+              "value": "纯银镶嵌宝石"
+            },
+            {
+              "name": "饰品材质",
+              "value": "925银"
+            }
+          ]
+        },
+        "skuInfo": {
+          "type": "normal"
+        }
+      }
+    ],
+    "template_version": "75",
+    "common_data": "{\"statisticInfo\":{\"skuNum\":1}}"
+  },
+  "force_update": null
+}

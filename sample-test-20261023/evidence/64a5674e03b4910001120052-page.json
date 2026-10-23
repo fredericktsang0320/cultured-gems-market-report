@@ -1,0 +1,50 @@
+{
+  "source_url": "https://www.xiaohongshu.com/goods-detail/64a5674e03b4910001120052",
+  "captured_at": "2026-10-23T10:24:57.591Z",
+  "public_page_text": "1/9\n¥\n\n150\n\n已售28\nAUSTIN翱森定制链接（定制类产品无质量问题不退不换，可改圈口尺\n保障\n退货包运费\n7天无理由退货\n极速退款\n晚发必赔\n发货\n\n广东深圳\n\n包邮\n\n付款后30天内发货\n\nAURCEN | 翱森的店\n\n粉丝数 7932\n已售1457\n进店逛逛\n图文详情\n规格参数\n\n商品名称\n\nAUSTIN翱森定制链接（定制类产品无质量问题不退不换，可改圈口尺\n\n镶嵌材质\n\n镀金镶嵌人工宝石/半宝石\n\n价格说明\n划线价格: 指商品的专柜价、吊牌价、正品零售价、厂商指导价或该商品的曾经展示过的销售价等，并非原价，仅供参考。\n未划线价格: 指商品的销售价，是您最终决定是否购买商品的依据。\n折扣: 页面显示的“折扣”为非划线价格与划线价格的对比，该对比值仅供您参考，不作为计算非划线价格的依据。\n\n店铺\n\n客服\n\n购物车\n\n加入购物车\n立即购买",
+  "extracted": {
+    "name": "AUSTIN翱森定制链接（定制类产品无质量问题不退不换，可改圈口尺",
+    "price": 150,
+    "productSales": 28,
+    "shopName": "AURCEN | 翱森",
+    "shopSales": 1457,
+    "imageUrl": "https://mall-i8.xhscdn.com/arkgoods/1040g3no31ve0oda52s0g5p216c2ah5c8p4oeia0?imageView2/2/w/1280/q/80/format/webp",
+    "category": "其他",
+    "categorySource": "rule",
+    "categoryStatus": "rule_only"
+  },
+  "raw_extraction": {
+    "name": "粉丝数 7932",
+    "price": 150,
+    "salesText": "AURCEN | 翱森的店粉丝数 7932已售1457进店逛逛",
+    "shopName": "AURCEN | 翱森的店粉丝数 7932已售1457进店逛逛",
+    "shopSalesText": "1457",
+    "imageUrl": "https://mall-i8.xhscdn.com/arkgoods/1040g3no31ve0oda52s0g5p216c2ah5c8p4oeia0?imageView2/2/w/1280/q/80/format/webp",
+    "debug": {
+      "originalPriceText": "¥150已售28",
+      "originalSalesText": "AURCEN | 翱森的店粉丝数 7932已售1457进店逛逛",
+      "originalShopSalesText": "",
+      "pageTextSample": "1/9\n¥\n\n150\n\n已售28\nAUSTIN翱森定制链接（定制类产品无质量问题不退不换，可改圈口尺\n保障\n退货包运费\n7天无理由退货\n极速退款\n晚发必赔\n发货\n\n广东深圳\n\n包邮\n\n付款后30天内发货\n\nAURCEN | 翱森的店\n\n粉丝数 7932\n已售1457\n进店逛逛\n图文详情\n规格参数\n\n商品名称\n\nAUSTIN翱森定制链接（定制类产品无质量问题不退不换，可改圈口尺\n\n镶嵌材质\n\n镀金镶嵌人工宝石/半宝石\n\n价格说明\n划线价格: 指商品的专柜价、吊牌价、正品零售价、厂商指导价或该商品的曾经展示过的销售价等，并非原价，仅供参考。\n未划线价格: 指商品的销售价，是您最终决定是否购买商品的",
+      "extractedInfo": {
+        "name": "AUSTIN翱森定制链接（定制类产品无质量问题不退不换，可改圈口尺",
+        "price": 150,
+        "sales": "28",
+        "shopName": "AURCEN | 翱森",
+        "shopSales": "1457",
+        "allSalesTokens": [
+          "28",
+          "1457"
+        ],
+        "headerSalesTokens": [
+          "28"
+        ],
+        "shopSalesTokens": [
+          "1457"
+        ],
+        "priceSalesTokens": [
+          "28"
+        ]
+      }
+    }
+  }
+}

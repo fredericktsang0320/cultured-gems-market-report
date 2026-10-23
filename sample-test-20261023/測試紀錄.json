@@ -1,0 +1,81 @@
+{
+  "created_at": "2026-10-23T18:08:13.317697+08:00",
+  "rednote": {
+    "repository": "https://github.com/Alex-supersolo/rednote_monitor",
+    "commit": "51f39504387621a062a0495519d0ee0cfebb2441",
+    "node_version": "v24.22.1",
+    "health_status": 200,
+    "real_product_requests": 12,
+    "http_200_product_requests": 12,
+    "repository_seed_data_imported": false,
+    "local_changes": [
+      "Bind to localhost",
+      "Disable scheduled and boot refresh during tests",
+      "Keep repository demo data out of the test DB",
+      "Save public page evidence"
+    ],
+    "real_variant_urls": 34,
+    "http_200_variant_requests": 34,
+    "public_name_fallback_regression": {
+      "name": "VISING · 3.64克拉实验室培育蓝宝石帕帕拉恰红莲花色刻丝戒指S925银镀金 · 美码6码（港码12-13码） 30天内发货",
+      "price": 1499,
+      "productSales": 12,
+      "shopName": "VISING珠宝店旗舰店",
+      "shopSales": 33000,
+      "imageUrl": "https://mall-i8.xhscdn.com/arkgoods/1040g0o031oiur1dq4q005n16mhohucs1611rb88?imageView2/2/w/2343/q/80/format/webp",
+      "category": "珠宝文玩",
+      "categorySource": "rule",
+      "categoryStatus": "rule_only"
+    }
+  },
+  "douyin": {
+    "checked_at": "2026-10-23T18:01:54.492068+08:00",
+    "repository": "https://github.com/runyuweng/Douyin_EC_Data",
+    "commit": "21d466d888a8a220e43e03a25151f4481723cb07",
+    "files": [
+      "p2.webp",
+      "p3.webp",
+      "README.md",
+      "p0.png",
+      "qc.png",
+      "p1.webp"
+    ],
+    "runnable_manifest_present": false,
+    "documented_api_endpoint_present": false,
+    "sample_record_date": "2025-03-02",
+    "sample_order_quantity_field_present": false,
+    "payment_field": "new_pay_amt",
+    "click_field": "product_click_cnt",
+    "sample_is_live": false,
+    "website_checks": [
+      {
+        "url": "https://www.oceanflow.top/",
+        "status": 403,
+        "final_url": "https://www.oceanflow.top/",
+        "content_type": "text/html",
+        "body_preview": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+      },
+      {
+        "url": "https://oceanflow.top/",
+        "status": 403,
+        "final_url": "https://oceanflow.top/",
+        "content_type": "text/html",
+        "body_preview": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n"
+      }
+    ],
+    "next_requirement": "Vendor API endpoint, access credential and live jewellery sample, or a normally accessible logged-in platform client."
+  },
+  "scope": {
+    "shops": 6,
+    "variant_urls": 34,
+    "product_groups": 32,
+    "top10_finished_is_sample_only": true,
+    "douyin_verified_products": 0
+  },
+  "updated_at": "2026-10-23T18:45:05.311242+08:00",
+  "douyin_access_tests": {
+    "native_app": "Observed startup 75%, then repeated UI timeouts",
+    "safari": "504 Gateway Time-out",
+    "in_app_browser": "normal QR login shown; awaiting account holder"
+  }
+}

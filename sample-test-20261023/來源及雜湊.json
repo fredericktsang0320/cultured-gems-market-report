@@ -1,0 +1,322 @@
+[
+  {
+    "sku_id": "6a4f46a774c2860001a15f04",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6a4f46a774c2860001a15f04",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g3no322d2puaan08g5n63qrhlivgsln0rcb0?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "bd7468b863e975ef1eeab5942d063e8d25734abb4fd77e9533c1c9bd60830d95",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6a4f46a774c2860001a15f04",
+    "api_sha256": "312463c11cfe82be372561d0725c54587e55c16fa44a6627d75d29c51a5b3f7e",
+    "page_json_sha256": "d5bb91ad95f85bb6b5ea119a13ab1388d3b75bbdfec7355fc2fd0f823da1abab",
+    "captured_at": "2026-10-23T18:00:24.658057+08:00"
+  },
+  {
+    "sku_id": "6ac06f1c018c6a0001c2e0ff",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6ac06f1c018c6a0001c2e0ff",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g3no325rjlijh580g5n63qrhlivgsnld9iqo?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "bd0848df111612d9a55f4dc2d16f997dbc438ec997c5f39fa1730f052a59084d",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6ac06f1c018c6a0001c2e0ff",
+    "api_sha256": "f79b7aad7fb6de59b3ea9520fb45f8b07652737e85775bf2bf0c76599162a196",
+    "page_json_sha256": "99d77b75967e84f47c6057dd4504da17a23403c25e9ddd8e408f844a50839725",
+    "captured_at": "2026-10-23T18:00:24.593134+08:00"
+  },
+  {
+    "sku_id": "688f014b79bc4700012d3d89",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/688f014b79bc4700012d3d89",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g0o03219bmjnd72005n63qrhlivgspvh1190?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "c543d4bee89076346dede921c9c5fcd4b04e2c88b40edcce49ae8b52605c04b1",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=688f014b79bc4700012d3d89",
+    "api_sha256": "67c39b38c56e2690bea5a21b02f38154ecbee486b43ec5fa596b5064006ab102",
+    "page_json_sha256": "a4e3ba57d794821c2a87bf4d5feea9531fee0a57715be58e78ee9018cac125a6",
+    "captured_at": "2026-10-23T18:00:32.426009+08:00"
+  },
+  {
+    "sku_id": "6ac31ecf3491140001ebac77",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6ac31ecf3491140001ebac77",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g3no325u7kghj460g5n63qrhlivgs00ibsh8?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "3a91d83ac2e8e811cfd5ba97aaa6d5db5217b6996c4090de5471274937058dd3",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6ac31ecf3491140001ebac77",
+    "api_sha256": "f2236cc6b851fd99e8fd5a54748e52cabfd372633c3f95f3015ad5871899e741",
+    "page_json_sha256": "15727ad7916277b7d9bb7bb1c3b544c7105e71b796d16bbbe83e1eefb651a1d0",
+    "captured_at": "2026-10-23T18:00:32.454243+08:00"
+  },
+  {
+    "sku_id": "6abdeb150f3f3e00018f0bba",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6abdeb150f3f3e00018f0bba",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g0o0325p508ne58005n63qrhlivgsjjdkteo?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "588af017650e294a3a62bc3bf233fceb24665e81ec87464bceca0760f93da865",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6abdeb150f3f3e00018f0bba",
+    "api_sha256": "c8bb17c3717b969fe78fcaedf07f21ac51b4e81f8b8b97e2521940c62ca61ae5",
+    "page_json_sha256": "8fb1e74453fa367841a832eae7312763d4cc67ce10dddcc9c08fa926c43bbcd5",
+    "captured_at": "2026-10-23T18:00:40.316656+08:00"
+  },
+  {
+    "sku_id": "6ac6f9100f3f3e000148d998",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6ac6f9100f3f3e000148d998",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g3no326200lco58205n63qrhlivgsj1auu80?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "b9a42fab2217e974e32fa90ba4104cb9d45d9245c1b1a478679971f93bb6902d",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6ac6f9100f3f3e000148d998",
+    "api_sha256": "2d0a477ef8b78cb1f73b2d52f3e17a95fe96580e5484d30e23f5df3293ee7d6e",
+    "page_json_sha256": "c0dc90dcbcbc7f3c4b23bfeffb9c0ea955ace5f95c72e442c231b53b7121321e",
+    "captured_at": "2026-10-23T18:00:40.287878+08:00"
+  },
+  {
+    "sku_id": "69c409e5ffa26d0001458408",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/69c409e5ffa26d0001458408",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g3ng31u544evkhs705qcrcpkocfhtftotic0?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "539dce6e68a1213b33ea6c50221af6fda7bbbb867deb3da614cf0a9ea64a9d80",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=69c409e5ffa26d0001458408",
+    "api_sha256": "caf3ada0bad70c2f298a495c0a68502537c6b448eeb8b89d4890b2e026ff194c",
+    "page_json_sha256": "934daee55729e97b29092aa28556d015de721aaaecd2f08c20a1a309d5fca8fa",
+    "captured_at": "2026-10-23T18:00:50.405152+08:00"
+  },
+  {
+    "sku_id": "69c96bfac675dc0001012a74",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/69c96bfac675dc0001012a74",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g0ao31ufa04l3hm2g5qcrcpkocfhtf5b94i8?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "5beeab8bf7e4332a3a9470b8c9994569993339b16b595a3d6975bc9f47ba9ef9",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=69c96bfac675dc0001012a74",
+    "api_sha256": "e004497d8d2d8ef05f39e50f3337b4c8c7d66d148c0c18677e426e8e305cc34c",
+    "page_json_sha256": "c5ee6655a7610dd06843537d5a35c718e17bf9096569dfcfedf280ba909a2c74",
+    "captured_at": "2026-10-23T18:00:48.222597+08:00"
+  },
+  {
+    "sku_id": "69ee40fabd8c3500013403d6",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/69ee40fabd8c3500013403d6",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g0ao31veamnfc3m3g5qcrcpkocfhtgcs2nc8?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "ceb0500dbfaba42d70855603c4f2dda4cc0fce644d7b22148fb627c7363d91f6",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=69ee40fabd8c3500013403d6",
+    "api_sha256": "9af9b4dbde4f684cfa40b8e8019ca02e67c095c256b11627020d248c6f4371e8",
+    "page_json_sha256": "5eae31bc383362cd700a6f6a490618c121820e5be351dd3c9790890dfeaa9cdf",
+    "captured_at": "2026-10-23T18:00:56.005843+08:00"
+  },
+  {
+    "sku_id": "69d688728a7da80001a307e3",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/69d688728a7da80001a307e3",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g3ng31un67l0ais005qcrcpkocfhtdkfkito?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "21381dbba69d2dd9b67a31f1e4b881296e7fad2058db23fd96019213360b177d",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=69d688728a7da80001a307e3",
+    "api_sha256": "70d408dfaff4366c1b890d12e45ebb2ea6b01bdb55c48e0782cb106f8b4eb81d",
+    "page_json_sha256": "b26d319fce2141e395088c9086e47fa4a544944a69ab99f4b76da536d149ad59",
+    "captured_at": "2026-10-23T18:00:59.969973+08:00"
+  },
+  {
+    "sku_id": "6a9ac6484c56fb0001f8af94",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6a9ac6484c56fb0001f8af94",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/104100ao325226j653i2mj6r6p0jvc000000000012lsi4?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "0854b54e6cf6e7b1d70a4f440db58d99ef984830132ed60b590458689c33663c",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6a9ac6484c56fb0001f8af94",
+    "api_sha256": "56711a397b5d5b4f801c2290c264836365dcba78de1255ee8279c3fbdc46b257",
+    "page_json_sha256": "4449e4e852aa0c66d6c18098ce3267573806c4b6ea8d2954e61051ad472bb9c7",
+    "captured_at": "2026-10-23T18:01:03.851914+08:00"
+  },
+  {
+    "sku_id": "6aa40069f6632a0001fb0f6b",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6aa40069f6632a0001fb0f6b",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/104100ao324vr66gjjc06j6r6p0jvc00000000025uoe5a?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "86f5b38637092012e15bbbccd03f7e4439545f0763e1b8454e9a981da2318d7c",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6aa40069f6632a0001fb0f6b",
+    "api_sha256": "0af48f0216fe6bd2c3fbd2847b3c34f8875329aead69e144e7be982c1787d3dd",
+    "page_json_sha256": "3c5bf0caeb818bd6439a23eaf6d1d3c0946390e93e3c462413848aef55fc3520",
+    "captured_at": "2026-10-23T18:01:07.706785+08:00"
+  },
+  {
+    "sku_id": "6a4b6b98a1b436000112a390",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6a4b6b98a1b436000112a390",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/104103ng3229ao5i67u7m5fkg4arfc0o007joo0d2k017a?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "f0ed0fea449903e038a4e10ade0696dbe2a07979fc1b8a5799f2c6862e93cc29",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6a4b6b98a1b436000112a390",
+    "api_sha256": "d11b09b7ac8edad83bf5a1c9e18bc57e567fda49368a9c2d72305da11a800aa0",
+    "page_json_sha256": "c7e1df05b59784112b37e481e4be72381010f74938c27a4a31629337cd9164f7",
+    "captured_at": "2026-10-23T18:23:47.790665+08:00"
+  },
+  {
+    "sku_id": "65fcfaa6431844000173b3ca",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/65fcfaa6431844000173b3ca",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/104103ng31dmg2h7510765fkg4arfc0o007joo0ekjbt2m?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "81b1b9b02406260735d0dff8bd11a348fdc523831a0d6dcc9343ebf58b5e8b31",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=65fcfaa6431844000173b3ca",
+    "api_sha256": "03af6594e4cb8ad90b29ec23199bacbf44811e98cb0a84b5cb73b70603f3f216",
+    "page_json_sha256": "c734804b0c52b219cdb0d4647ad8d2776f461a50ac3c1acf514f6e4bed07f927",
+    "captured_at": "2026-10-23T18:23:34.844231+08:00"
+  },
+  {
+    "sku_id": "65094cae3997590001ead781",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/65094cae3997590001ead781",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g0o031mv83vl64u0g5nn099q0bsh3akbq53o?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "7fee5d39736c3e62253375bb19601e56483ae49110d5f3d977d8486c5a52c875",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=65094cae3997590001ead781",
+    "api_sha256": "b30eb4c38926ef9ed181faefc49c0457c454f61da831e79ab03bafe793760374",
+    "page_json_sha256": "7a6287490f1c4ee3d62f860ea9af2d2784ec86821e3c22e2a90ca98b892bd223",
+    "captured_at": "2026-10-23T18:23:43.489361+08:00"
+  },
+  {
+    "sku_id": "64cbad371b6b970001cb9ba9",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/64cbad371b6b970001cb9ba9",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/104100ao31ansh27j7e1m5fkg4arfc0o007joo0doujbja?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "70512573e71743952d9574eac7f1b1af055e4ead0888f95c39c61563567675a9",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=64cbad371b6b970001cb9ba9",
+    "api_sha256": "6e3b0dfef91921e3b018c9c31017c38badafaf8c016feaa2346182b1c0036a74",
+    "page_json_sha256": "30a24483e55ce2c46b78452385a901151852b6de914155a6242c09332daa501e",
+    "captured_at": "2026-10-23T18:23:51.927499+08:00"
+  },
+  {
+    "sku_id": "64df261bfd81710001c66900",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/64df261bfd81710001c66900",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/104100ao30ntjddue125m5fkg4arfc0o007joo08rir0m2?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "27a8c9f62ba806bc471c9a3aeadaa4e4a176bd1e8fd6074fe1629fd2aaa37a54",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=64df261bfd81710001c66900",
+    "api_sha256": "86c4376d15135e5c3fab197b8878184374b942524535d3e11a461b930d76f172",
+    "page_json_sha256": "3e8748a2f5e2615d1ba3352c63bcdcdb70fbfe17ef74398b719e050af0b21ddc",
+    "captured_at": "2026-10-23T18:23:57.680247+08:00"
+  },
+  {
+    "sku_id": "64b24eb65b333c000101d25a",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/64b24eb65b333c000101d25a",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/100100ao2q78sssgjm0165fkg4arfc0o007joo0f09cpv8?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "10d016e4f8e95ddc0398e2d7fb8954c8c20064b3d49da1241567c674d831678c",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=64b24eb65b333c000101d25a",
+    "api_sha256": "2b03d8aae0a7c1becedecc54b907c5734e6ac5300ae00c459ffb64b02d4afea1",
+    "page_json_sha256": "d99b2f7f6207470f26f02413656095b0612c4119f5eac834915ba41c4ad01311",
+    "captured_at": "2026-10-23T18:24:01.303036+08:00"
+  },
+  {
+    "sku_id": "658d17e960d1170001953765",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/658d17e960d1170001953765",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/104100ao30t7farejju0m5fkg4arfc0o007joo0cu75o0c?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "90699c860a189c1851d4d9e5e41561bfdc21e63f9d3356ff77f987673ded0673",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=658d17e960d1170001953765",
+    "api_sha256": "1efbbe0ff718c73f0a3910cbdc49b30f336bad5b2803754bbef7456bd773a753",
+    "page_json_sha256": "27d1f7b7034a31fc82a7edbb1abb6f251dcc2ab4816c5e25a1df1db35e47e8e1",
+    "captured_at": "2026-10-23T18:24:05.725277+08:00"
+  },
+  {
+    "sku_id": "6a7f0e4bc9142a0001d92c6c",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6a7f0e4bc9142a0001d92c6c",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g3no3263rkr934c0g5ooa8crkg9ppfpf9mvo?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "8db283e453fcb0bd247686c2500eee626bb14a621fbe81bb9c75ba44b2bf4970",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6a7f0e4bc9142a0001d92c6c",
+    "api_sha256": "4a72161a61f94b6325efc37838ca4663066ae5865fa41619dd025aec26220ef3",
+    "page_json_sha256": "f90591c8282ee7ff7737dc768e944ef54fb35f2b11ca411e687212c51e2807bb",
+    "captured_at": "2026-10-23T18:24:12.925233+08:00"
+  },
+  {
+    "sku_id": "6aa980aa5324600001e21904",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6aa980aa5324600001e21904",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g0o03263odmubka0g5ooa8crkg9pp39r9e18?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "28ff2e43ab3f02900591174c7c95d020e3a94e6eb1f45aba9e7dfac8645ac276",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6aa980aa5324600001e21904",
+    "api_sha256": "7cd2ae680432e28490b0bd8199a7ef7f065fb8543d73b8df45d12f4587c3ea98",
+    "page_json_sha256": "6affb1419d5b1a73fc85ad8c092700c08aa31e64ed5b701981a7e3a8caf360ba",
+    "captured_at": "2026-10-23T18:24:13.062311+08:00"
+  },
+  {
+    "sku_id": "6a72e9882bf2dc00016f4d84",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6a72e9882bf2dc00016f4d84",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g0o03263r9qqp46005ooa8crkg9pp8bpjrc8?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "45f7f808bbea9870f67d487929b7d768048974284fc3dc69ea07aef2b5c264b6",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6a72e9882bf2dc00016f4d84",
+    "api_sha256": "5e3740189566ad90eb7fc7208d409cd465b1eb239734fe4b5590b4dc10df339d",
+    "page_json_sha256": "73dd22f4e5db3a7fd6d20c61f6d5d291c7372542335a6e845d58fcd5493e9d01",
+    "captured_at": "2026-10-23T18:24:21.359769+08:00"
+  },
+  {
+    "sku_id": "6ac7e08134911400015b7dcb",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6ac7e08134911400015b7dcb",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g3no3263r8orh4a205ooa8crkg9ppb215ujg?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "9088794694abd7bf97f8f85e7c4af3c659bc391809df92690d9c94ef6b803cbf",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6ac7e08134911400015b7dcb",
+    "api_sha256": "8fefc88ab4678dadaf4789a7ee06e3b8c6c3dbaaf9e224f44be005facdbcbad7",
+    "page_json_sha256": "b3eb8392f36f7ba8d8d054f66392fa8b28d7ad8895f416281aa13a234e51e8b9",
+    "captured_at": "2026-10-23T18:24:34.171888+08:00"
+  },
+  {
+    "sku_id": "6ac7e6bb6996d90001c31866",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6ac7e6bb6996d90001c31866",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g0o032668ri104a0g5ooa8crkg9pptt0rls0?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "baa3e55ea86af330e44c4c714d6a7b8cda427b1007d0d56e53503026e9f9a27b",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6ac7e6bb6996d90001c31866",
+    "api_sha256": "e020ae696a1436c6ce4c96fa2586605dca15e37b68e7b8ff08a508370d46eb13",
+    "page_json_sha256": "393446adb5dd0ccc4c5710de044da802349881c912039bc97298b1c7c2e7cc43",
+    "captured_at": "2026-10-23T18:24:35.353705+08:00"
+  },
+  {
+    "sku_id": "6ac7e632d2c9e10001de5f5e",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6ac7e632d2c9e10001de5f5e",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g3no31nimh4vf520g5ooa8crkg9ppasq3tr0?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "af492a7875c272c64881d1575dfdc72320d3ddc2ca46089050fd2c5bff8d1735",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6ac7e632d2c9e10001de5f5e",
+    "api_sha256": "a29ffcf423d1011aaaddd4bc598053df9053941d9d58f2b58b8de9feca8879ed",
+    "page_json_sha256": "3599703136771ac09d1f31364e36dfef444ec60b2c6913a93c66be6a817075eb",
+    "captured_at": "2026-10-23T18:24:47.968039+08:00"
+  },
+  {
+    "sku_id": "64a5674e03b4910001120052",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/64a5674e03b4910001120052",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g3no31ve0oda52s0g5p216c2ah5c8p4oeia0?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "f0d7d1a7b9c50741023a16b0ed305d8f590b8c435a04c8f162b9b1ffba3c7104",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=64a5674e03b4910001120052",
+    "api_sha256": "7e3d3a0a2a59071d82275fd35572e0ee70f9c953a0e6c109da9d948417c737b5",
+    "page_json_sha256": "847e18a16f5474a3c302e141c3e88ffe5373b1a9a1fa4dcd7bc1e4682163b269",
+    "captured_at": "2026-10-23T18:24:57.898636+08:00"
+  },
+  {
+    "sku_id": "6750271beb35d700019e483b",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6750271beb35d700019e483b",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g0ao31nga016uku0g5p216c2ah5c8q6n21qg?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "09ec6d677765bf2994dec333f27b81968ca2cd45b2b09ca44adfd08602b3a20a",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6750271beb35d700019e483b",
+    "api_sha256": "8a32f990fcb5c29c4e75316c5ec944362953945770b07c5dfacaf66806b80dd2",
+    "page_json_sha256": "624f89b760b5448a38ebe20f391b5269d1a6be1518c4f70065da2589e5d17f24",
+    "captured_at": "2026-10-23T18:24:58.631604+08:00"
+  },
+  {
+    "sku_id": "6929084ee4338c00015f809f",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/6929084ee4338c00015f809f",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g0ao31pdocat024205p216c2ah5c8702hnt8?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "a04970098686537d8d66e1ffbe10d5a4fd320f27bcda4ac3656aa1ddd1a42b71",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=6929084ee4338c00015f809f",
+    "api_sha256": "7b69ddeb1571f19625047ebcb8788f68c6762bb8a7542af91fa6e4f57d19888d",
+    "page_json_sha256": "62b9b1eb26b16ab7f78c4f4281c69f501beb6bc512aebb8d9083657d262c154c",
+    "captured_at": "2026-10-23T18:25:06.059478+08:00"
+  },
+  {
+    "sku_id": "69b250be5e5f050001e0584b",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/69b250be5e5f050001e0584b",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g3no31tc8kabdme005p216c2ah5c81a9p9s8?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "f95331a2ae597ef12098e0cd73668eb5ecdc8a75c9715a47e113f9df1bdef8cf",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=69b250be5e5f050001e0584b",
+    "api_sha256": "50ab39f28e20b1300fb3367491b1a7636796cf023b148720cc17ef96a1a10b86",
+    "page_json_sha256": "1bd39d8bcb34b725cd02f0a779e92fa7f2f1d64c16a107d4cf24811c86c932b6",
+    "captured_at": "2026-10-23T18:25:09.291854+08:00"
+  },
+  {
+    "sku_id": "685d656ad67cc200015cfb3a",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/685d656ad67cc200015cfb3a",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g0ao31pbtktv624b05p216c2ah5c8133ubjo?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "9359a9abe6a25fb98de7677e8c47d0ff29e66cfa15402cbeed21142dac47e626",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=685d656ad67cc200015cfb3a",
+    "api_sha256": "ed559ec36774f3726ae5873086b3d7c680d21b1dd4701ed378c3e9844d8ebb17",
+    "page_json_sha256": "8d374e8aef72be1edf9ff508b2a9116b017780c02bc47da6a89294298f09f5a2",
+    "captured_at": "2026-10-23T18:25:27.230407+08:00"
+  },
+  {
+    "sku_id": "680f6cb37992330001837903",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/680f6cb37992330001837903",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g0ao31pckg5gg284g5p216c2ah5c89833318?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "19e211bc1f75b38fe31b0ce6d0fab60100a3c77ab0595120cdf4d70caf476f27",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=680f6cb37992330001837903",
+    "api_sha256": "dca6405c241eabdf4a5dec38bf3279bfb8b004df97c3c94177d2a0d2f6651132",
+    "page_json_sha256": "1935aa3dd605183e39a013b93dd9c35106da1c06dac23e1e6f5b519e5b549a4b",
+    "captured_at": "2026-10-23T18:25:19.229059+08:00"
+  },
+  {
+    "sku_id": "69d7076fb4722c00019b23d2",
+    "product_url": "https://www.xiaohongshu.com/goods-detail/69d7076fb4722c00019b23d2",
+    "image_source": "https://mall-i8.xhscdn.com/arkgoods/1040g0o031oiur1dq4q005n16mhohucs1611rb88?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "image_sha256": "ec1bcda958bae0a83ae6f9c1f0f2f525fde01a658e85de151938a31520979a3a",
+    "api_url": "https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=69d7076fb4722c00019b23d2",
+    "api_sha256": "8df1174df249c21cbe10c8ec9a66c2c1b016e8c56c30cb5eddfbff0834e52382",
+    "page_json_sha256": "f84c5ff5ed9f437e1ac7b6ca1e7b64d27df21debbc325b89fdb6ab05db03ea39",
+    "captured_at": "2026-10-23T18:27:13.704121+08:00"
+  }
+]

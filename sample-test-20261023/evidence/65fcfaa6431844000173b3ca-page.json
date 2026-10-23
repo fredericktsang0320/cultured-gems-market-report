@@ -1,0 +1,50 @@
+{
+  "source_url": "https://www.xiaohongshu.com/goods-detail/65fcfaa6431844000173b3ca",
+  "captured_at": "2026-10-23T10:23:34.452Z",
+  "public_page_text": "1/9\n¥\n\n580\n\n已售768\nCUMEE · 时尚个性款仿真祖母绿色糖塔戒指耳钉吊坠套装 · 耳钉\n保障\n退货包运费\n7天无理由退货\n极速退款\n晚发必赔\n已选\n\n耳钉\n\n分期\n享3期免息，每期¥193.33，可省10.44元\n发货\n\n广东深圳\n\n包邮\n\n48小时内发货\n\nCUMEE 库密的店\n\n卖家口碑\n\n4.63\n粉丝数 4.4万\n已售 2.6万\n进店逛逛\n图文详情\n规格参数\n\n商品名称\n\n时尚个性款仿真祖母绿色糖塔戒指耳钉吊坠套装\n\n品牌\n\nCUMEE\n\n适用性别\n\n通用\n\n是否现货\n\n现货\n\n风格\n\n原创\n\n镶嵌材质\n\n镀金镶嵌人工宝石/半宝石\n\n饰品材质\n\n合金/镀银/镀金\n\n价格说明\n划线价格: 指商品的专柜价、吊牌价、正品零售价、厂商指导价或该商品的曾经展示过的销售价等，并非原价，仅供参考。\n未划线价格: 指商品的销售价，是您最终决定是否购买商品的依据。\n折扣: 页面显示的“折扣”为非划线价格与划线价格的对比，该对比值仅供您参考，不作为计算非划线价格的依据。\n\n店铺\n\n客服\n\n购物车\n\n加入购物车\n立即购买",
+  "extracted": {
+    "name": "CUMEE · 时尚个性款仿真祖母绿色糖塔戒指耳钉吊坠套装 · 耳钉",
+    "price": 580,
+    "productSales": 768,
+    "shopName": "CUMEE 库密",
+    "shopSales": 26000,
+    "imageUrl": "https://mall-i8.xhscdn.com/arkgoods/104103ng31dmg2h7510765fkg4arfc0o007joo0ekjbt2m?imageView2/2/w/1180/q/80/format/webp",
+    "category": "珠宝文玩",
+    "categorySource": "rule",
+    "categoryStatus": "rule_only"
+  },
+  "raw_extraction": {
+    "name": "卖家口碑",
+    "price": 580,
+    "salesText": "CUMEE 库密的店卖家口碑4.63粉丝数 4.4万已售 2.6万进店逛逛",
+    "shopName": "CUMEE 库密的店卖家口碑4.63粉丝数 4.4万已售 2.6万进店逛逛",
+    "shopSalesText": "2.6万",
+    "imageUrl": "https://mall-i8.xhscdn.com/arkgoods/104103ng31dmg2h7510765fkg4arfc0o007joo0ekjbt2m?imageView2/2/w/1180/q/80/format/webp",
+    "debug": {
+      "originalPriceText": "¥580已售768",
+      "originalSalesText": "CUMEE 库密的店卖家口碑4.63粉丝数 4.4万已售 2.6万进店逛逛",
+      "originalShopSalesText": "",
+      "pageTextSample": "1/9\n¥\n\n580\n\n已售768\nCUMEE · 时尚个性款仿真祖母绿色糖塔戒指耳钉吊坠套装 · 耳钉\n保障\n退货包运费\n7天无理由退货\n极速退款\n晚发必赔\n已选\n\n耳钉\n\n分期\n享3期免息，每期¥193.33，可省10.44元\n发货\n\n广东深圳\n\n包邮\n\n48小时内发货\n\nCUMEE 库密的店\n\n卖家口碑\n\n4.63\n粉丝数 4.4万\n已售 2.6万\n进店逛逛\n图文详情\n规格参数\n\n商品名称\n\n时尚个性款仿真祖母绿色糖塔戒指耳钉吊坠套装\n\n品牌\n\nCUMEE\n\n适用性别\n\n通用\n\n是否现货\n\n现货\n\n风格\n\n原创\n\n镶嵌材质\n\n镀金镶嵌人工宝石/半宝石\n\n饰品材质\n\n合金/镀银/镀金\n\n价",
+      "extractedInfo": {
+        "name": "CUMEE · 时尚个性款仿真祖母绿色糖塔戒指耳钉吊坠套装 · 耳钉",
+        "price": 580,
+        "sales": "768",
+        "shopName": "CUMEE 库密",
+        "shopSales": "2.6万",
+        "allSalesTokens": [
+          "768",
+          "2.6万"
+        ],
+        "headerSalesTokens": [
+          "768"
+        ],
+        "shopSalesTokens": [
+          "2.6万"
+        ],
+        "priceSalesTokens": [
+          "768"
+        ]
+      }
+    }
+  }
+}

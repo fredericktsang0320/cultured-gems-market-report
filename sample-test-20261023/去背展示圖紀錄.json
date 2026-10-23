@@ -1,0 +1,155 @@
+[
+  {
+    "sku_id": "69ee40fabd8c3500013403d6",
+    "file": "assets/69ee40fabd8c3500013403d6-cutout.png",
+    "sha256": "cb1d675c5a81564a4b9c21165c0ab2b502702b9b0b7efdee40814c6f2e61fba4",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "method": "Built-in image_gen background extraction; display only; original merchant image remains authoritative",
+    "edit_input_url": "https://mall-i8.xhscdn.com/arkgoods/104100ao31vh6f1bm2q06j6r6p0jvc0000000005in8ida?imageView2/2/w/1080/format/webp/q/80&ap=3&sc=STR_DTL",
+    "edit_input_local": "assets/nereus-ring-gallery-2.webp",
+    "edit_input_sha256": "986a32bd058bcaa95322319c8cfa8f43358fc8ee5e57d9d1eb3dcb89a7f104d8"
+  },
+  {
+    "sku_id": "6a4f46a774c2860001a15f04",
+    "file": "assets/6a4f46a774c2860001a15f04-cutout.png",
+    "sha256": "13d8588d6e5706de0ded0833036f2b5760a66dc20825214260124343ac9e189f",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "method": "Built-in image_gen background extraction; display only; original merchant image remains authoritative"
+  },
+  {
+    "sku_id": "658d17e960d1170001953765",
+    "file": "assets/658d17e960d1170001953765-cutout.png",
+    "sha256": "46fe57808f0ae9ce99024a0feae9fd50b7b7f19bb332ae1369bd840ad574c701",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "method": "Built-in image_gen background extraction; display only; original merchant image remains authoritative"
+  },
+  {
+    "sku_id": "6750271beb35d700019e483b",
+    "file": "assets/6750271beb35d700019e483b-cutout.png",
+    "sha256": "ade82b4e5d57433d797dc4c9b8a100beba4ba21ec58eab385299f21a79bbc332",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "method": "Built-in image_gen background extraction; display only; original merchant image remains authoritative"
+  },
+  {
+    "sku_id": "6929084ee4338c00015f809f",
+    "file": "assets/6929084ee4338c00015f809f-cutout.png",
+    "sha256": "bb612c693c8d1565f0ed41dd7d49c215e7e4c6f66f77993ec8a7abb2d9a91ec3",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "method": "Built-in image_gen background extraction; display only; original merchant image remains authoritative"
+  },
+  {
+    "sku_id": "69d7076fb4722c00019b23d2",
+    "file": "assets/69d7076fb4722c00019b23d2-cutout.png",
+    "sha256": "8f5875be8a69e0ff7104e6c512c10c8e6e0c259fbfb93b391e971d5cc2dae44f",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "method": "Built-in image_gen background extraction; display only; original merchant image remains authoritative"
+  },
+  {
+    "sku_id": "69b250be5e5f050001e0584b",
+    "file": "assets/69b250be5e5f050001e0584b-cutout.png",
+    "sha256": "6242bfd4942af5481a7cb92eeec903922bcef63cacdf1cefc32fc6f36dc46468",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "method": "Built-in image_gen background extraction; display only; original merchant image remains authoritative"
+  },
+  {
+    "sku_id": "685d656ad67cc200015cfb3a",
+    "file": "assets/685d656ad67cc200015cfb3a-cutout.png",
+    "sha256": "55d3dac865b6628b0c007b713519748f1522d84b52b5976967ff573c4025a8a2",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "method": "Built-in image_gen background extraction; display only; original merchant image remains authoritative"
+  },
+  {
+    "sku_id": "6ac06f1c018c6a0001c2e0ff",
+    "file": "assets/6ac06f1c018c6a0001c2e0ff-cutout.png",
+    "sha256": "4aeac6ca51eae60e58b183f3804fa6cf1d87eada46fb485f82d019774f3f94ae",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "method": "Built-in image_gen background extraction; display only; original merchant image remains authoritative"
+  },
+  {
+    "sku_id": "688f014b79bc4700012d3d89",
+    "file": "assets/688f014b79bc4700012d3d89-cutout.png",
+    "sha256": "9955db4d94c4b5ff8303905d844568cf221e31e85d4f2783879b1137a432670a",
+    "mode": "RGBA",
+    "size": [
+      1254,
+      1254
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "method": "Built-in image_gen background extraction; display only; original merchant image remains authoritative"
+  }
+]

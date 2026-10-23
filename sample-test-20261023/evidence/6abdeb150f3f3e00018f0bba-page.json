@@ -1,0 +1,50 @@
+{
+  "source_url": "https://www.xiaohongshu.com/goods-detail/6abdeb150f3f3e00018f0bba",
+  "captured_at": "2026-10-23T10:00:39.957Z",
+  "public_page_text": "1/7\n¥\n\n699\n\n已售4\n「星梦」培育蓝宝石戒指 · 2克拉皇家蓝蛋型s925银戒指 · 美码 7 号\n保障\n7天无理由退货\n极速退款\n晚发必赔\n已选\n\n美码 7 号\n\n发货\n\n浙江台州\n\n包邮\n\n付款后6天内发货\n\n极星实验室的店\n\n卖家口碑\n\n4.58\n粉丝数 1805\n已售234\n进店逛逛\n图文详情\n规格参数\n\n商品名称\n\n「星梦」培育蓝宝石戒指 · 2克拉皇家蓝蛋型s925银戒指\n\n材质\n\n925银\n\n镶嵌材质\n\n纯银镶嵌宝石\n\n价格说明\n划线价格: 指商品的专柜价、吊牌价、正品零售价、厂商指导价或该商品的曾经展示过的销售价等，并非原价，仅供参考。\n未划线价格: 指商品的销售价，是您最终决定是否购买商品的依据。\n折扣: 页面显示的“折扣”为非划线价格与划线价格的对比，该对比值仅供您参考，不作为计算非划线价格的依据。\n\n店铺\n\n客服\n\n购物车\n\n加入购物车\n立即购买",
+  "extracted": {
+    "name": "「星梦」培育蓝宝石戒指 · 2克拉皇家蓝蛋型s925银戒指 · 美码 7 号",
+    "price": 699,
+    "productSales": 4,
+    "shopName": "极星实验室",
+    "shopSales": 234,
+    "imageUrl": "https://mall-i8.xhscdn.com/arkgoods/1040g0o0325p508ne58005n63qrhlivgsjjdkteo?imageView2/2/w/1024/q/80/format/webp",
+    "category": "珠宝文玩",
+    "categorySource": "rule",
+    "categoryStatus": "rule_only"
+  },
+  "raw_extraction": {
+    "name": "卖家口碑",
+    "price": 699,
+    "salesText": "极星实验室的店卖家口碑4.58粉丝数 1805已售234进店逛逛",
+    "shopName": "极星实验室的店卖家口碑4.58粉丝数 1805已售234进店逛逛",
+    "shopSalesText": "234",
+    "imageUrl": "https://mall-i8.xhscdn.com/arkgoods/1040g0o0325p508ne58005n63qrhlivgsjjdkteo?imageView2/2/w/1024/q/80/format/webp",
+    "debug": {
+      "originalPriceText": "¥699已售4",
+      "originalSalesText": "极星实验室的店卖家口碑4.58粉丝数 1805已售234进店逛逛",
+      "originalShopSalesText": "",
+      "pageTextSample": "1/7\n¥\n\n699\n\n已售4\n「星梦」培育蓝宝石戒指 · 2克拉皇家蓝蛋型s925银戒指 · 美码 7 号\n保障\n7天无理由退货\n极速退款\n晚发必赔\n已选\n\n美码 7 号\n\n发货\n\n浙江台州\n\n包邮\n\n付款后6天内发货\n\n极星实验室的店\n\n卖家口碑\n\n4.58\n粉丝数 1805\n已售234\n进店逛逛\n图文详情\n规格参数\n\n商品名称\n\n「星梦」培育蓝宝石戒指 · 2克拉皇家蓝蛋型s925银戒指\n\n材质\n\n925银\n\n镶嵌材质\n\n纯银镶嵌宝石\n\n价格说明\n划线价格: 指商品的专柜价、吊牌价、正品零售价、厂商指导价或该商品的曾经展示过的销售价等，并非原价，仅供参考。\n未划线价格: 指商品的销售价，",
+      "extractedInfo": {
+        "name": "「星梦」培育蓝宝石戒指 · 2克拉皇家蓝蛋型s925银戒指 · 美码 7 号",
+        "price": 699,
+        "sales": "4",
+        "shopName": "极星实验室",
+        "shopSales": "234",
+        "allSalesTokens": [
+          "4",
+          "234"
+        ],
+        "headerSalesTokens": [
+          "4"
+        ],
+        "shopSalesTokens": [
+          "234"
+        ],
+        "priceSalesTokens": [
+          "4"
+        ]
+      }
+    }
+  }
+}

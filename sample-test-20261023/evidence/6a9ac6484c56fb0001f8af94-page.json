@@ -1,0 +1,50 @@
+{
+  "source_url": "https://www.xiaohongshu.com/goods-detail/6a9ac6484c56fb0001f8af94",
+  "captured_at": "2026-10-23T10:01:03.517Z",
+  "public_page_text": "1/5\n¥\n\n230\n\n已售136\n特价Nereus帕帕拉恰水滴【培育蓝宝石】7*10mm/2.6ct可代镶可定制 · 特价2.6ct/7*10mm\n保障\n退货包运费\n7天无理由退货\n极速退款\n晚发必赔\n已选\n\n特价2.6ct/7*10mm(备注颜色)\n\n发货\n\n山东潍坊\n\n包邮\n\n付款后7天内发货\n\nNereus Jewelry的店\n\n卖家口碑\n\n4.53\n粉丝数 3285\n已售2317\n进店逛逛\n图文详情\n规格参数\n\n商品名称\n\n特价Nereus帕帕拉恰水滴【培育蓝宝石】7*10mm/2.6ct可代镶可定制\n\n镶嵌材质\n\n未镶嵌\n\n鉴定类别\n\n中国地质大学珠宝检测中心\n\n价格说明\n划线价格: 指商品的专柜价、吊牌价、正品零售价、厂商指导价或该商品的曾经展示过的销售价等，并非原价，仅供参考。\n未划线价格: 指商品的销售价，是您最终决定是否购买商品的依据。\n折扣: 页面显示的“折扣”为非划线价格与划线价格的对比，该对比值仅供您参考，不作为计算非划线价格的依据。\n\n店铺\n\n客服\n\n购物车\n\n加入购物车\n立即购买",
+  "extracted": {
+    "name": "特价Nereus帕帕拉恰水滴【培育蓝宝石】7*10mm/2.6ct可代镶可定制 · 特价2.6ct/7*10mm",
+    "price": 230,
+    "productSales": 136,
+    "shopName": "Nereus Jewelry",
+    "shopSales": 2317,
+    "imageUrl": "https://mall-i8.xhscdn.com/arkgoods/104100ao325226j653i2mj6r6p0jvc000000000012lsi4?imageView2/2/w/2000/q/80/format/webp",
+    "category": "其他",
+    "categorySource": "rule",
+    "categoryStatus": "rule_only"
+  },
+  "raw_extraction": {
+    "name": "卖家口碑",
+    "price": 230,
+    "salesText": "Nereus Jewelry的店卖家口碑4.53粉丝数 3285已售2317进店逛逛",
+    "shopName": "Nereus Jewelry的店卖家口碑4.53粉丝数 3285已售2317进店逛逛",
+    "shopSalesText": "2317",
+    "imageUrl": "https://mall-i8.xhscdn.com/arkgoods/104100ao325226j653i2mj6r6p0jvc000000000012lsi4?imageView2/2/w/2000/q/80/format/webp",
+    "debug": {
+      "originalPriceText": "¥230已售136",
+      "originalSalesText": "Nereus Jewelry的店卖家口碑4.53粉丝数 3285已售2317进店逛逛",
+      "originalShopSalesText": "",
+      "pageTextSample": "1/5\n¥\n\n230\n\n已售136\n特价Nereus帕帕拉恰水滴【培育蓝宝石】7*10mm/2.6ct可代镶可定制 · 特价2.6ct/7*10mm\n保障\n退货包运费\n7天无理由退货\n极速退款\n晚发必赔\n已选\n\n特价2.6ct/7*10mm(备注颜色)\n\n发货\n\n山东潍坊\n\n包邮\n\n付款后7天内发货\n\nNereus Jewelry的店\n\n卖家口碑\n\n4.53\n粉丝数 3285\n已售2317\n进店逛逛\n图文详情\n规格参数\n\n商品名称\n\n特价Nereus帕帕拉恰水滴【培育蓝宝石】7*10mm/2.6ct可代镶可定制\n\n镶嵌材质\n\n未镶嵌\n\n鉴定类别\n\n中国地质大学珠宝检测中心\n\n价格说明\n划线价格",
+      "extractedInfo": {
+        "name": "特价Nereus帕帕拉恰水滴【培育蓝宝石】7*10mm/2.6ct可代镶可定制 · 特价2.6ct/7*10mm",
+        "price": 230,
+        "sales": "136",
+        "shopName": "Nereus Jewelry",
+        "shopSales": "2317",
+        "allSalesTokens": [
+          "136",
+          "2317"
+        ],
+        "headerSalesTokens": [
+          "136"
+        ],
+        "shopSalesTokens": [
+          "2317"
+        ],
+        "priceSalesTokens": [
+          "136"
+        ]
+      }
+    }
+  }
+}

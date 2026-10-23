@@ -1,0 +1,110 @@
+diff --git a/server_simple.js b/server_simple.js
+index 179defe..a4848af 100644
+--- a/server_simple.js
++++ b/server_simple.js
+@@ -1630,10 +1630,53 @@ async function scrapeProductData(url, options = {}) {
+             imageUrl: normalizeImageUrl(data.imageUrl)
+         };
+ 
++        // Some storefronts expose a generic "seller score" label before the
++        // actual title. Fall back to the same item's public product document.
++        let publicDetailEvidence = null;
++        if (result.name === '未知商品' || result.shopName === '未知店铺') {
++            const itemId = (url.match(/goods-detail\/([a-f0-9]{24})/i) || [])[1];
++            if (itemId) {
++                const sourceUrl = 'https://mall.xiaohongshu.com/api/store/jpd/edith/detail/h5/toc?version=0.0.5&item_id=' + itemId;
++                try {
++                    const response = await fetch(sourceUrl, { signal: AbortSignal.timeout(10000) });
++                    if (!response.ok) throw new Error('Public detail HTTP ' + response.status);
++                    const document = await response.json();
++                    const detail = document.success && document.data?.template_data?.[0];
++                    if (detail) {
++                        if (result.name === '未知商品') result.name = choosePreferredValue(
++                            [detail.descriptionH5?.name, detail.descriptionMain?.name], isLikelyProductName, result.name);
++                        if (result.shopName === '未知店铺') result.shopName = choosePreferredValue(
++                            [detail.sellerH5?.name], isLikelyShopName, result.shopName);
++                        publicDetailEvidence = { source_url: sourceUrl, captured_at: new Date().toISOString(), document };
++                    }
++                } catch (error) {
++                    console.warn('Public title fallback unavailable:', error.message);
++                }
++            }
++        }
+         result.category = resolveInitialProductCategory(result.name, result.shopName);
+         result.categorySource = 'rule';
+         result.categoryStatus = hasDoubaoConfig() ? 'queued' : 'rule_only';
+ 
++        // Local test evidence: preserve public page text and extracted values.
++        if (process.env.EVIDENCE_DIR) {
++            const evidenceDir = path.resolve(process.env.EVIDENCE_DIR);
++            fs.mkdirSync(evidenceDir, { recursive: true });
++            const key = (url.match(/goods-detail\/([a-f0-9]{24})/i) || [])[1] || String(Date.now());
++            const evidence = {
++                source_url: url,
++                captured_at: new Date().toISOString(),
++                public_page_text: await page.evaluate(() => document.body.innerText),
++                extracted: result,
++                raw_extraction: data,
++                public_detail_fallback: publicDetailEvidence
++            };
++            fs.writeFileSync(path.join(evidenceDir, key + '.json'), JSON.stringify(evidence, null, 2), 'utf8');
++            if (process.env.CAPTURE_EVIDENCE_SCREENSHOT === 'true') {
++                await page.screenshot({ path: path.join(evidenceDir, key + '.png'), fullPage: true });
++            }
++        }
++
+         console.log('处理后的数据:', result);
+         return result;
+ 
+@@ -2691,11 +2734,12 @@ async function autoRefreshAllProducts() {
+ }
+ 
+ // 设置定时任务：每小时自动刷新所有商品数据
+-cron.schedule('0 * * * *', async () => {
++const scheduledRefresh = cron.schedule('0 * * * *', async () => {
+     console.log('⏰ 定时任务触发：开始自动刷新商品数据...');
+     await autoRefreshAllProducts();
+ }, {
+-    timezone: "Asia/Shanghai"
++    timezone: "Asia/Shanghai",
++    scheduled: process.env.AUTO_REFRESH_ENABLED !== 'false'
+ });
+ 
+ // 健康检查端点
+@@ -2723,7 +2767,7 @@ async function startServer() {
+     await verifyConnection();
+     const products = await listProductsWithMetrics();
+ 
+-    const server = app.listen(PORT, '0.0.0.0', () => {
++    const server = app.listen(PORT, process.env.HOST || '127.0.0.1', () => {
+         console.log(`================================`);
+         console.log(`小红书监控系统已启动`);
+         console.log(`访问地址: http://localhost:${PORT}`);
+@@ -2733,13 +2777,11 @@ async function startServer() {
+         console.log(`数据库文件: ${DB_PATH}`);
+         console.log(`AI类目分类: ${hasDoubaoConfig() ? `${getAiProviderName()} 已启用（后台补分类）` : '未启用，使用本地规则'}`);
+         console.log(`================================`);
+-        console.log('⏰ 自动刷新功能已启用');
+-        console.log('📅 刷新频率: 每小时一次');
+-        console.log('🕐 下次刷新时间: 每小时的0分');
++        console.log(process.env.AUTO_REFRESH_ENABLED === 'false' ? '自动刷新：本次测试已关闭' : '自动刷新：每小时整点');
+         console.log(`================================`);
+ 
+         // 启动后5分钟执行一次初始刷新（可选）
+-        setTimeout(async () => {
++        if (process.env.BOOT_REFRESH_ENABLED !== 'false') setTimeout(async () => {
+             console.log('🚀 执行启动后的初始数据刷新...');
+             await autoRefreshAllProducts();
+         }, 5 * 60 * 1000); // 5分钟后执行
+diff --git a/sqliteStore.js b/sqliteStore.js
+index 31c232d..1cb5a67 100644
+--- a/sqliteStore.js
++++ b/sqliteStore.js
+@@ -447,6 +447,7 @@ function seedInviteCodes(database) {
+ }
+ 
+ function bootstrapFromJsonIfNeeded(database) {
++    if (process.env.SKIP_LEGACY_IMPORT === 'true') return;
+     const productCount = database.prepare('SELECT COUNT(*) AS count FROM products').get().count;
+     const salesCount = database.prepare('SELECT COUNT(*) AS count FROM sales_data').get().count;
+ 

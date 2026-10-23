@@ -1,0 +1,50 @@
+{
+  "source_url": "https://www.xiaohongshu.com/goods-detail/658d17e960d1170001953765",
+  "captured_at": "2026-10-23T10:24:05.359Z",
+  "public_page_text": "1/5\n¥\n\n2278\n\n到手价\n¥2680\n已售43\n限时立减402\n个性时尚款男女同款培育合成蓝宝石手链 · 16cm\n保障\n退货包运费\n7天无理由退货\n极速退款\n晚发必赔\n已选\n\n16cm\n\n分期\n享3期免息，每期¥759.33，可省41元\n发货\n\n广东深圳\n\n包邮\n\n48小时内发货\n\nCUMEE 库密的店\n\n卖家口碑\n\n4.63\n粉丝数 4.4万\n已售 2.6万\n进店逛逛\n图文详情\n规格参数\n\n商品名称\n\n个性时尚款男女同款培育合成蓝宝石手链\n\n材质\n\n合成宝石\n\n风格\n\n新中式\n\n镶嵌材质\n\n镀金镶嵌人工宝石/半宝石\n\n价格说明\n划线价格: 指商品的专柜价、吊牌价、正品零售价、厂商指导价或该商品的曾经展示过的销售价等，并非原价，仅供参考。\n未划线价格: 指商品的销售价，是您最终决定是否购买商品的依据。\n折扣: 页面显示的“折扣”为非划线价格与划线价格的对比，该对比值仅供您参考，不作为计算非划线价格的依据。\n\n店铺\n\n客服\n\n购物车\n\n加入购物车\n立即购买",
+  "extracted": {
+    "name": "个性时尚款男女同款培育合成蓝宝石手链 · 16cm",
+    "price": 2278,
+    "productSales": 43,
+    "shopName": "CUMEE 库密",
+    "shopSales": 26000,
+    "imageUrl": "https://mall-i8.xhscdn.com/arkgoods/104100ao30t7farejju0m5fkg4arfc0o007joo0cu75o0c?imageView2/2/w/2462/q/80/format/webp",
+    "category": "珠宝文玩",
+    "categorySource": "rule",
+    "categoryStatus": "rule_only"
+  },
+  "raw_extraction": {
+    "name": "卖家口碑",
+    "price": 2278,
+    "salesText": "CUMEE 库密的店卖家口碑4.63粉丝数 4.4万已售 2.6万进店逛逛",
+    "shopName": "CUMEE 库密的店卖家口碑4.63粉丝数 4.4万已售 2.6万进店逛逛",
+    "shopSalesText": "2.6万",
+    "imageUrl": "https://mall-i8.xhscdn.com/arkgoods/104100ao30t7farejju0m5fkg4arfc0o007joo0cu75o0c?imageView2/2/w/2462/q/80/format/webp",
+    "debug": {
+      "originalPriceText": "¥2278到手价¥2680已售43",
+      "originalSalesText": "CUMEE 库密的店卖家口碑4.63粉丝数 4.4万已售 2.6万进店逛逛",
+      "originalShopSalesText": "",
+      "pageTextSample": "1/5\n¥\n\n2278\n\n到手价\n¥2680\n已售43\n限时立减402\n个性时尚款男女同款培育合成蓝宝石手链 · 16cm\n保障\n退货包运费\n7天无理由退货\n极速退款\n晚发必赔\n已选\n\n16cm\n\n分期\n享3期免息，每期¥759.33，可省41元\n发货\n\n广东深圳\n\n包邮\n\n48小时内发货\n\nCUMEE 库密的店\n\n卖家口碑\n\n4.63\n粉丝数 4.4万\n已售 2.6万\n进店逛逛\n图文详情\n规格参数\n\n商品名称\n\n个性时尚款男女同款培育合成蓝宝石手链\n\n材质\n\n合成宝石\n\n风格\n\n新中式\n\n镶嵌材质\n\n镀金镶嵌人工宝石/半宝石\n\n价格说明\n划线价格: 指商品的专柜价、吊牌价、正品零售价、厂商指",
+      "extractedInfo": {
+        "name": "个性时尚款男女同款培育合成蓝宝石手链 · 16cm",
+        "price": 2278,
+        "sales": "43",
+        "shopName": "CUMEE 库密",
+        "shopSales": "2.6万",
+        "allSalesTokens": [
+          "43",
+          "2.6万"
+        ],
+        "headerSalesTokens": [
+          "43"
+        ],
+        "shopSalesTokens": [
+          "2.6万"
+        ],
+        "priceSalesTokens": [
+          "43"
+        ]
+      }
+    }
+  }
+}

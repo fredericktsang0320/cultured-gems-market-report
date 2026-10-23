@@ -1,0 +1,50 @@
+{
+  "source_url": "https://www.xiaohongshu.com/goods-detail/69b250be5e5f050001e0584b",
+  "captured_at": "2026-10-23T10:25:08.920Z",
+  "public_page_text": "1/6\n¥\n\n720\n\n已售11\nAUSTIN翱森· 原创设计 八芒星印章戒 培育蓝宝石 S925银厚镀金 · 镀18K白金 定制11-16号（7-10天）\n保障\n退货包运费\n7天无理由退货\n极速退款\n晚发必赔\n已选\n\n镀18K白金 定制11-16号（7-10天）\n\n发货\n\n广东深圳\n\n包邮\n\n付款后7天内发货\n\nAURCEN | 翱森的店\n\n粉丝数 7932\n已售1457\n进店逛逛\n图文详情\n规格参数\n\n商品名称\n\nAUSTIN翱森· 原创设计 八芒星印章戒 培育蓝宝石 S925银厚镀金\n\n适用性别\n\n男性\n\n风格\n\n生活休闲\n\n镶嵌材质\n\n镀金镶嵌人工宝石/半宝石\n\n饰品材质\n\n银饰\n\n价格说明\n划线价格: 指商品的专柜价、吊牌价、正品零售价、厂商指导价或该商品的曾经展示过的销售价等，并非原价，仅供参考。\n未划线价格: 指商品的销售价，是您最终决定是否购买商品的依据。\n折扣: 页面显示的“折扣”为非划线价格与划线价格的对比，该对比值仅供您参考，不作为计算非划线价格的依据。\n\n店铺\n\n客服\n\n购物车\n\n加入购物车\n立即购买",
+  "extracted": {
+    "name": "AUSTIN翱森· 原创设计 八芒星印章戒 培育蓝宝石 S925银厚镀金 · 镀18K白金 定制11-16号（7-10天）",
+    "price": 720,
+    "productSales": 11,
+    "shopName": "AURCEN | 翱森",
+    "shopSales": 1457,
+    "imageUrl": "https://mall-i8.xhscdn.com/arkgoods/1040g3no31tc8kabdme005p216c2ah5c81a9p9s8?imageView2/2/w/1280/q/80/format/webp",
+    "category": "其他",
+    "categorySource": "rule",
+    "categoryStatus": "rule_only"
+  },
+  "raw_extraction": {
+    "name": "粉丝数 7932",
+    "price": 720,
+    "salesText": "AURCEN | 翱森的店粉丝数 7932已售1457进店逛逛",
+    "shopName": "AURCEN | 翱森的店粉丝数 7932已售1457进店逛逛",
+    "shopSalesText": "1457",
+    "imageUrl": "https://mall-i8.xhscdn.com/arkgoods/1040g3no31tc8kabdme005p216c2ah5c81a9p9s8?imageView2/2/w/1280/q/80/format/webp",
+    "debug": {
+      "originalPriceText": "¥720已售11",
+      "originalSalesText": "AURCEN | 翱森的店粉丝数 7932已售1457进店逛逛",
+      "originalShopSalesText": "",
+      "pageTextSample": "1/6\n¥\n\n720\n\n已售11\nAUSTIN翱森· 原创设计 八芒星印章戒 培育蓝宝石 S925银厚镀金 · 镀18K白金 定制11-16号（7-10天）\n保障\n退货包运费\n7天无理由退货\n极速退款\n晚发必赔\n已选\n\n镀18K白金 定制11-16号（7-10天）\n\n发货\n\n广东深圳\n\n包邮\n\n付款后7天内发货\n\nAURCEN | 翱森的店\n\n粉丝数 7932\n已售1457\n进店逛逛\n图文详情\n规格参数\n\n商品名称\n\nAUSTIN翱森· 原创设计 八芒星印章戒 培育蓝宝石 S925银厚镀金\n\n适用性别\n\n男性\n\n风格\n\n生活休闲\n\n镶嵌材质\n\n镀金镶嵌人工宝石/半宝石\n\n饰品材质\n\n银饰\n\n价",
+      "extractedInfo": {
+        "name": "AUSTIN翱森· 原创设计 八芒星印章戒 培育蓝宝石 S925银厚镀金 · 镀18K白金 定制11-16号（7-10天）",
+        "price": 720,
+        "sales": "11",
+        "shopName": "AURCEN | 翱森",
+        "shopSales": "1457",
+        "allSalesTokens": [
+          "11",
+          "1457"
+        ],
+        "headerSalesTokens": [
+          "11"
+        ],
+        "shopSalesTokens": [
+          "1457"
+        ],
+        "priceSalesTokens": [
+          "11"
+        ]
+      }
+    }
+  }
+}

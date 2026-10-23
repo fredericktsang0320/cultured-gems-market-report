@@ -1,0 +1,50 @@
+{
+  "source_url": "https://www.xiaohongshu.com/goods-detail/6ac7e08134911400015b7dcb",
+  "captured_at": "2026-10-23T10:24:33.785Z",
+  "public_page_text": "1/1\n¥\n\n1\n\n已售467\n培育拉贡色 薄荷色 金绿色彩色蓝宝石裸石 · 直播彩宝专拍链接1元\n保障\n大促价保\n7天无理由退货\n极速退款\n晚发必赔\n已选\n\n直播彩宝专拍链接1元\n\n发货\n\n河南洛阳\n\n包邮\n\n48小时内发货\n\n鹿玖丨LUJOR JEWELRY的店\n\n卖家口碑\n\n4.54\n粉丝数 425\n已售7930\n进店逛逛\n图文详情\n本店出售的所有裸石均为纯手工精切，非机器切割，异形切及常规切形均可定制，也可来料（不接天然），需求请联系店铺客服。\n\n培育蓝宝：刚玉，化学式为 Al₂O₃，摩氏硬度9、折射率1.762–1.770。\n培育尖晶：镁铝氧化物，化学式为 MgAl₂O₄，摩氏硬度8，折射率1.718。\n培育祖母绿：绿柱石，化学公式为铍铝硅酸盐 Be₃Al₂Si₆O₁₈，摩氏硬度7.5–8，折射率1.577–1.583。\n钇铝榴石：简称为 YAG，化学式为Y₃Al₅O₁₂，莫氏硬度 8-8.5，折射率约 1.83。\n\n此链接颜色原料生产方式包含：泡生法，温梯法，导模法；售卖不分生产方式，介意勿拍。\n规格参数\n\n商品名称\n\n培育拉贡色 薄荷色 金绿色彩色蓝宝石裸石\n\n价格说明\n划线价格: 指商品的专柜价、吊牌价、正品零售价、厂商指导价或该商品的曾经展示过的销售价等，并非原价，仅供参考。\n未划线价格: 指商品的销售价，是您最终决定是否购买商品的依据。\n折扣: 页面显示的“折扣”为非划线价格与划线价格的对比，该对比值仅供您参考，不作为计算非划线价格的依据。\n\n店铺\n\n客服\n\n购物车\n\n加入购物车\n立即购买",
+  "extracted": {
+    "name": "培育拉贡色 薄荷色 金绿色彩色蓝宝石裸石 · 直播彩宝专拍链接1元",
+    "price": 1,
+    "productSales": 467,
+    "shopName": "鹿玖丨LUJOR JEWELRY",
+    "shopSales": 7930,
+    "imageUrl": "https://mall-i8.xhscdn.com/arkgoods/1040g3no3263r8orh4a205ooa8crkg9ppb215ujg?imageView2/2/w/3024/q/80/format/webp",
+    "category": "其他",
+    "categorySource": "rule",
+    "categoryStatus": "rule_only"
+  },
+  "raw_extraction": {
+    "name": "卖家口碑",
+    "price": 1,
+    "salesText": "鹿玖丨LUJOR JEWELRY的店卖家口碑4.54粉丝数 425已售7930进店逛逛",
+    "shopName": "鹿玖丨LUJOR JEWELRY的店卖家口碑4.54粉丝数 425已售7930进店逛逛",
+    "shopSalesText": "7930",
+    "imageUrl": "https://mall-i8.xhscdn.com/arkgoods/1040g3no3263r8orh4a205ooa8crkg9ppb215ujg?imageView2/2/w/3024/q/80/format/webp",
+    "debug": {
+      "originalPriceText": "¥1已售467",
+      "originalSalesText": "鹿玖丨LUJOR JEWELRY的店卖家口碑4.54粉丝数 425已售7930进店逛逛",
+      "originalShopSalesText": "",
+      "pageTextSample": "1/1\n¥\n\n1\n\n已售467\n培育拉贡色 薄荷色 金绿色彩色蓝宝石裸石 · 直播彩宝专拍链接1元\n保障\n大促价保\n7天无理由退货\n极速退款\n晚发必赔\n已选\n\n直播彩宝专拍链接1元\n\n发货\n\n河南洛阳\n\n包邮\n\n48小时内发货\n\n鹿玖丨LUJOR JEWELRY的店\n\n卖家口碑\n\n4.54\n粉丝数 425\n已售7930\n进店逛逛\n图文详情\n本店出售的所有裸石均为纯手工精切，非机器切割，异形切及常规切形均可定制，也可来料（不接天然），需求请联系店铺客服。\n\n培育蓝宝：刚玉，化学式为 Al₂O₃，摩氏硬度9、折射率1.762–1.770。\n培育尖晶：镁铝氧化物，化学式为 MgAl₂O₄，摩氏硬度8",
+      "extractedInfo": {
+        "name": "培育拉贡色 薄荷色 金绿色彩色蓝宝石裸石 · 直播彩宝专拍链接1元",
+        "price": 1,
+        "sales": "467",
+        "shopName": "鹿玖丨LUJOR JEWELRY",
+        "shopSales": "7930",
+        "allSalesTokens": [
+          "467",
+          "7930"
+        ],
+        "headerSalesTokens": [
+          "467"
+        ],
+        "shopSalesTokens": [
+          "7930"
+        ],
+        "priceSalesTokens": [
+          "467"
+        ]
+      }
+    }
+  }
+}
